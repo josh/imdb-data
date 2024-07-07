@@ -4,11 +4,13 @@ import logging
 import pickle
 from datetime import datetime, timedelta
 from time import sleep
-from typing import Any, Literal
+from typing import Any, Literal, NewType
 
 import click
 import requests
 from parsel import Selector
+
+_EPOCH: datetime = datetime(1970, 1, 1)
 
 _IMDB_DEFAULT_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
@@ -78,11 +80,161 @@ def save_cookies(cookie: str, output: io.BufferedWriter) -> None:
     pickle.dump(jar, output)
 
 
+ListID = NewType("ListID", str)
+ExportID = Literal["watchlist", "ratings"] | ListID
+Status = Literal["NOT_FOUND", "READY", "PROCESSING"]
+
+_EXPORTS_URL = "https://www.imdb.com/exports/"
+
+
+def parse_export_id(value: str) -> ExportID | None:
+    if value.startswith("ls"):
+        return ListID(value)
+    elif value == "watchlist":
+        return "watchlist"
+    elif value == "ratings":
+        return "ratings"
+    else:
+        return None
+
+
+def get_export_text(
+    jar: requests.cookies.RequestsCookieJar,
+    export_id: ExportID | None = None,
+    started_after: datetime = _EPOCH,
+    max_time: timedelta = timedelta(minutes=5),
+) -> str | None:
+    if url := get_export_url(
+        jar=jar,
+        export_id=export_id,
+        started_after=started_after,
+        max_time=max_time,
+    ):
+        r = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, allow_redirects=True)
+        r.raise_for_status()
+        return r.content.decode("utf-8")
+    else:
+        return None
+
+
+def get_export_url(
+    jar: requests.cookies.RequestsCookieJar,
+    export_id: ExportID | None = None,
+    started_after: datetime = _EPOCH,
+    max_time: timedelta = timedelta(minutes=5),
+) -> str | None:
+    started_at = datetime.now()
+    status, url = get_export_status(
+        jar=jar,
+        export_id=export_id,
+        started_after=started_after,
+    )
+    if status == "READY":
+        return url
+    elif status == "NOT_FOUND":
+        return None
+    elif status == "PROCESSING":
+        wait = 1
+        while datetime.now() - started_at < max_time:
+            logger.warning("Export is in progress, waiting %d seconds...", wait)
+            sleep(wait)
+            status, url = get_export_status(
+                jar=jar,
+                export_id=export_id,
+                started_after=started_after,
+            )
+            if status == "READY":
+                return url
+            wait *= 2
+
+        logger.error("Export is still processing, but timed out")
+        return None
+
+
+def get_export_status(
+    jar: requests.cookies.RequestsCookieJar,
+    export_id: ExportID | None = None,
+    started_after: datetime = _EPOCH,
+) -> tuple[Status, str]:
+    response = requests.get(_EXPORTS_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response.raise_for_status()
+
+    selector = Selector(response.text)
+
+    next_data: dict[str, Any] = {}
+    for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
+        next_data = json.loads(script_el.get())
+    assert next_data, "Could not find __NEXT_DATA__"
+
+    data = next_data["props"]["pageProps"]["mainColumnData"]
+
+    nodes = [edge["node"] for edge in data["getExports"]["edges"]]
+    logger.debug("Found %d exports", len(nodes))
+
+    if export_id is None:
+        pass
+    elif export_id == "watchlist":
+        nodes = [
+            node
+            for node in nodes
+            if node["exportType"] == "LIST"
+            and node["listExportMetadata"]["name"] == "WATCHLIST"
+        ]
+    elif export_id == "ratings":
+        nodes = [node for node in nodes if node["exportType"] == "RATINGS"]
+    elif export_id.startswith("ls"):
+        nodes = [
+            node
+            for node in nodes
+            if node["exportType"] == "LIST"
+            and node["listExportMetadata"]["id"] == export_id
+        ]
+    else:
+        raise ValueError(f"Unknown export ID: {export_id}")
+
+    nodes = [
+        node
+        for node in nodes
+        if datetime.strptime(node["startedOn"], "%Y-%m-%dT%H:%M:%S.%fZ") > started_after
+    ]
+    logger.debug("Found %d matching exports", len(nodes))
+
+    node = nodes[0] if nodes else None
+    if not node:
+        logger.debug("No matching exports found")
+        return ("NOT_FOUND", "")
+
+    if node["status"]["id"] == "PROCESSING":
+        return ("PROCESSING", "")
+
+    assert node["status"]["id"] == "READY"
+
+    url = node["resultUrl"]
+    assert isinstance(url, str), "Expected resultUrl to be a string"
+    assert url.startswith(
+        "https://userdataexport-dataexportsbucket-prod.s3.amazonaws.com"
+    )
+    return ("READY", url)
+
+
+class ExportIDParam(click.ParamType):
+    name = "export_id"
+
+    def convert(
+        self,
+        value: str,
+        param: click.Parameter | None,
+        ctx: click.Context | None,
+    ) -> ExportID:
+        return parse_export_id(value) or self.fail(
+            f"Invalid export ID: {value}", param, ctx
+        )
+
+
 @main.command()
-@click.option(
-    "-t",
-    "--type",
-    type=click.Choice(["watchlist", "ratings"]),
+@click.argument(
+    "export_id",
+    type=ExportIDParam(),
     required=True,
 )
 @click.option(
@@ -108,78 +260,24 @@ def save_cookies(cookie: str, output: io.BufferedWriter) -> None:
     help="Seconds since last export",
 )
 def download_export(
-    type: Literal["watchlist", "ratings"],
+    export_id: ExportID,
     cookie_file: io.BufferedReader,
     output: io.TextIOWrapper,
     since: int,
 ) -> int:
     jar = _load_cookies(cookie_file)
     started_after = datetime.now() - timedelta(seconds=since)
-    if export_url := _get_export_url(type=type, started_after=started_after, jar=jar):
-        r = requests.get(export_url, headers=_IMDB_DEFAULT_HEADERS)
-        r.raise_for_status()
-        output.write(r.text)
+
+    if export_text := get_export_text(
+        export_id=export_id,
+        started_after=started_after,
+        jar=jar,
+    ):
+        output.write(export_text)
         return 0
     else:
-        logger.error("No export found")
+        click.echo("No export found", err=True)
         return 1
-
-
-def _get_export_url(
-    type: Literal["watchlist", "ratings"],
-    started_after: datetime,
-    jar: requests.cookies.RequestsCookieJar,
-) -> str | None:
-    url = "https://www.imdb.com/exports/"
-    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
-    response.raise_for_status()
-
-    selector = Selector(response.text)
-
-    next_data: dict[str, Any] = {}
-    for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
-        next_data = json.loads(script_el.get())
-    assert next_data, "Could not find __NEXT_DATA__"
-
-    data = next_data["props"]["pageProps"]["mainColumnData"]
-
-    nodes = [edge["node"] for edge in data["getExports"]["edges"]]
-
-    if type == "watchlist":
-        nodes = [
-            node
-            for node in nodes
-            if node["exportType"] == "LIST"
-            and node["listExportMetadata"]["name"] == "WATCHLIST"
-        ]
-    elif type == "ratings":
-        nodes = [node for node in nodes if node["exportType"] == "RATINGS"]
-    else:
-        raise ValueError(f"Unknown export type: {type}")
-
-    nodes = [
-        node
-        for node in nodes
-        if datetime.strptime(node["startedOn"], "%Y-%m-%dT%H:%M:%S.%fZ") > started_after
-    ]
-
-    node = nodes[0] if nodes else None
-    if not node:
-        return None
-
-    if node["status"]["id"] == "PROCESSING":
-        sleep(30)
-        logger.warning("Export is in progress...")
-        return _get_export_url(type=type, started_after=started_after, jar=jar)
-
-    assert node["status"]["id"] == "READY"
-
-    url = node["resultUrl"]
-    assert isinstance(url, str), "Expected resultUrl to be a string"
-    assert url.startswith(
-        "https://userdataexport-dataexportsbucket-prod.s3.amazonaws.com"
-    )
-    return url
 
 
 if __name__ == "__main__":
