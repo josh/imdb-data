@@ -38,14 +38,28 @@ logger = logging.getLogger("imdb-data")
 
 @click.group()
 @click.option(
+    "-c",
+    "--cookie-file",
+    type=click.File("rb+"),
+    required=True,
+    help="imdb.com Cookie Jar file",
+    envvar="IMDB_COOKIE_FILE",
+)
+@click.option(
     "--verbose",
     "-v",
     is_flag=True,
     help="Enable verbose logging",
     envvar="ACTIONS_RUNNER_DEBUG",
 )
-def main(verbose: bool) -> None:
+@click.pass_context
+def main(
+    ctx: click.Context,
+    cookie_file: io.BufferedRandom,
+    verbose: bool,
+) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
+    ctx.obj = ctx.with_resource(_open_cookie_jar(cookie_file))
 
 
 @contextmanager
@@ -396,14 +410,6 @@ def queue_export(
     required=True,
 )
 @click.option(
-    "-c",
-    "--cookie-file",
-    type=click.File("rb+"),
-    required=True,
-    help="imdb.com Cookie Jar file",
-    envvar="IMDB_COOKIE_FILE",
-)
-@click.option(
     "-o",
     "--output",
     type=click.File("w"),
@@ -417,25 +423,25 @@ def queue_export(
     default=3600,
     help="Seconds since last export",
 )
+@click.pass_obj
 def download_export(
+    jar: requests.cookies.RequestsCookieJar,
     export_id: ExportID,
-    cookie_file: io.BufferedRandom,
     output: io.TextIOWrapper,
     since: int,
 ) -> int:
-    with _open_cookie_jar(cookie_file) as jar:
-        started_after = datetime.now() - timedelta(seconds=since)
+    started_after = datetime.now() - timedelta(seconds=since)
 
-        if export_text := get_export_text(
-            export_id=export_id,
-            started_after=started_after,
-            jar=jar,
-        ):
-            output.write(export_text)
-            return 0
-        else:
-            click.echo("No export found", err=True)
-            return 1
+    if export_text := get_export_text(
+        export_id=export_id,
+        started_after=started_after,
+        jar=jar,
+    ):
+        output.write(export_text)
+        return 0
+    else:
+        click.echo("No export found", err=True)
+        return 1
 
 
 _WATCHLIST_URL = "https://www.imdb.com/list/watchlist"
@@ -476,18 +482,10 @@ def get_ratings_info(
 
 
 @main.command()
-@click.option(
-    "-c",
-    "--cookie-file",
-    type=click.File("rb+"),
-    required=True,
-    help="imdb.com Cookie Jar file",
-    envvar="IMDB_COOKIE_FILE",
-)
-def watchlist_id(cookie_file: io.BufferedRandom) -> None:
-    with _open_cookie_jar(cookie_file) as jar:
-        id, _ = get_watchlist_info(jar=jar)
-        click.echo(id)
+@click.pass_obj
+def watchlist_id(jar: requests.cookies.RequestsCookieJar) -> None:
+    id, _ = get_watchlist_info(jar=jar)
+    click.echo(id)
 
 
 if __name__ == "__main__":
