@@ -18,6 +18,18 @@ _IMDB_DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15",
 }
 
+_IMDB_GRAPHQL_URL = "https://api.graphql.imdb.com/"
+
+_IMDB_GRAPHQL_DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+    "Accept": "application/graphql+json, application/json",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Content-Type": "application/json",
+    "x-imdb-client-name": "imdb-web-next-localized",
+    "x-imdb-user-language": "en-US",
+    "x-imdb-user-country": "US",
+}
+
 logger = logging.getLogger("imdb-data")
 
 
@@ -132,7 +144,17 @@ def get_export_url(
     if status == "READY":
         return url
     elif status == "NOT_FOUND":
-        return None
+        if not export_id:
+            return None
+        logger.warning("Export not found, enqueuing...")
+        queue_export(jar=jar, export_id=export_id)
+        sleep(1)
+        return get_export_url(
+            jar=jar,
+            export_id=export_id,
+            started_after=started_after,
+            max_time=max_time,
+        )
     elif status == "PROCESSING":
         wait = 1
         while datetime.now() - started_at < max_time:
@@ -229,6 +251,52 @@ class ExportIDParam(click.ParamType):
         return parse_export_id(value) or self.fail(
             f"Invalid export ID: {value}", param, ctx
         )
+
+
+_START_LIST_EXPORT_QUERY = """
+mutation StartListExport($listId: ID!) {
+  createListExport(input: {listId: $listId}) {
+    status {
+      id
+    }
+  }
+}
+"""
+
+
+def queue_export(
+    jar: requests.cookies.RequestsCookieJar,
+    export_id: ExportID,
+) -> None:
+    post_data: dict[str, Any] = {}
+
+    if export_id == "ratings":
+        raise NotImplementedError("Ratings export not supported")
+    elif export_id == "watchlist":
+        raise NotImplementedError("Watchlist export not supported")
+    elif export_id.startswith("ls"):
+        post_data = {
+            "query": _START_LIST_EXPORT_QUERY,
+            "operationName": "StartListExport",
+            "variables": {"listId": export_id},
+        }
+    else:
+        raise ValueError(f"Unknown export ID: {export_id}")
+
+    headers = _IMDB_GRAPHQL_DEFAULT_HEADERS.copy()
+    if session_id := jar.get("session-id"):
+        headers["x-amzn-sessionid"] = session_id
+
+    r = requests.post(
+        _IMDB_GRAPHQL_URL,
+        headers=_IMDB_GRAPHQL_DEFAULT_HEADERS,
+        cookies=jar,
+        json=post_data,
+    )
+    r.raise_for_status()
+    data = r.json()
+    assert data["data"]["createListExport"]["status"]["id"] == "PROCESSING"
+    return None
 
 
 @main.command()
