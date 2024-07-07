@@ -2,9 +2,11 @@ import io
 import json
 import logging
 import pickle
+from collections.abc import Generator
+from contextlib import contextmanager
 from datetime import datetime, timedelta
 from time import sleep
-from typing import Any, Literal, NewType
+from typing import Any, Literal, NewType, TypedDict, cast
 
 import click
 import requests
@@ -24,10 +26,11 @@ _IMDB_GRAPHQL_DEFAULT_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
     "Accept": "application/graphql+json, application/json",
     "Accept-Language": "en-US,en;q=0.5",
-    "Content-Type": "application/json",
+    "content-type": "application/json",
+    "x-amzn-sessionid": "",
     "x-imdb-client-name": "imdb-web-next-localized",
-    "x-imdb-user-language": "en-US",
     "x-imdb-user-country": "US",
+    "x-imdb-user-language": "en-US",
 }
 
 logger = logging.getLogger("imdb-data")
@@ -45,17 +48,33 @@ def main(verbose: bool) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
 
 
-def _load_cookies(cookie_file: io.BufferedReader) -> requests.cookies.RequestsCookieJar:
-    if _is_pickle(cookie_file):
-        logger.debug("Loading cookie jar from pickle")
-        jar = pickle.load(cookie_file)
-        assert isinstance(
-            jar, requests.cookies.RequestsCookieJar
-        ), "Expected cookie jar"
-        return jar
-    else:
-        logger.debug("Loading cookie jar from text")
-        return _parse_cookie_header(cookie_file.read().decode("utf-8"))
+@contextmanager
+def _open_cookie_jar(
+    cookie_file: io.BufferedRandom,
+) -> Generator[requests.cookies.RequestsCookieJar, None, None]:
+    cookies = pickle.load(cookie_file)
+    assert isinstance(cookies, requests.cookies.RequestsCookieJar)
+
+    old_cookies = cookies.copy()
+    new_cookies = cookies.copy()
+
+    try:
+        yield new_cookies
+    finally:
+        did_change = False
+        for new_cookie in new_cookies:
+            old_cookie_value = old_cookies.get(
+                name=new_cookie.name,
+                domain=new_cookie.domain,
+            )
+            if old_cookie_value != new_cookie.value:
+                logger.debug("Cookie %s changed", new_cookie.name)
+                did_change = True
+
+        if did_change:
+            cookie_file.truncate(0)
+            cookie_file.seek(0)
+            pickle.dump(new_cookies, cookie_file)
 
 
 def _parse_cookie_header(cookie: str) -> requests.cookies.RequestsCookieJar:
@@ -66,10 +85,13 @@ def _parse_cookie_header(cookie: str) -> requests.cookies.RequestsCookieJar:
     return jar
 
 
-def _is_pickle(file: io.BufferedReader) -> bool:
-    return file.peek().startswith(
-        (b"\x80", b"\x00", b"\x01", b"\x02", b"\x03", b"\x04")
-    )
+def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
+    selector = Selector(response.text)
+    for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
+        json_text = script_el.get()
+        data = json.loads(json_text)
+        return cast(dict[str, Any], data)
+    raise ValueError("Could not find __NEXT_DATA__")
 
 
 @main.command()
@@ -173,24 +195,78 @@ def get_export_url(
         return None
 
 
+class _ExportNodeStatus(TypedDict):
+    id: Literal["READY", "PROCESSING"]
+
+
+class _ListExportMetadata(TypedDict):
+    id: str
+    listClassId: Literal["LIST", "WATCH_LIST"]
+    listType: Literal["TITLES"]
+    name: str
+
+
+class _ExportDetail(TypedDict):
+    startedOn: str
+    totalExportedObjects: int
+    status: _ExportNodeStatus
+    resultUrl: str
+    expiresOn: str
+    exportType: Literal["LIST", "RATINGS"]
+    listExportMetadata: _ListExportMetadata
+
+
+_YOUR_EXPORTS_VARIABLES = {
+    "first": 2,
+    "locale": "en-US",
+}
+_YOUR_EXPORTS_EXTENSIONS = {
+    "persistedQuery": {
+        "sha256Hash": "5470e249d72b3078b1ec2c2adc0a4a74ecd822e3333d22182fc71fb78588dcb6",
+        "version": 1,
+    }
+}
+_YOUR_EXPORTS_PARAMS = {
+    "operationName": "YourExports",
+    "variables": json.dumps(_YOUR_EXPORTS_VARIABLES, separators=(",", ":")),
+    "extensions": json.dumps(_YOUR_EXPORTS_EXTENSIONS, separators=(",", ":")),
+}
+
+
+def _get_export_nodes_graphql(
+    jar: requests.cookies.RequestsCookieJar,
+) -> list[_ExportDetail]:
+    headers = _IMDB_GRAPHQL_DEFAULT_HEADERS.copy()
+    if session_id := jar.get("session-id"):
+        headers["x-amzn-sessionid"] = session_id
+    response = requests.get(
+        _IMDB_GRAPHQL_URL,
+        headers=headers,
+        cookies=jar,
+        params=_YOUR_EXPORTS_PARAMS,
+        allow_redirects=False,
+    )
+    response.raise_for_status()
+    data = response.json()["data"]
+    return [edge["node"] for edge in data["getExports"]["edges"]]
+
+
+def _get_export_nodes_html(
+    jar: requests.cookies.RequestsCookieJar,
+) -> list[_ExportDetail]:
+    response = requests.get(_EXPORTS_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response.raise_for_status()
+    next_data = _get_nextjs_data(response)
+    data = next_data["props"]["pageProps"]["mainColumnData"]
+    return [edge["node"] for edge in data["getExports"]["edges"]]
+
+
 def get_export_status(
     jar: requests.cookies.RequestsCookieJar,
     export_id: ExportID | None = None,
     started_after: datetime = _EPOCH,
 ) -> tuple[Status, str]:
-    response = requests.get(_EXPORTS_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
-    response.raise_for_status()
-
-    selector = Selector(response.text)
-
-    next_data: dict[str, Any] = {}
-    for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
-        next_data = json.loads(script_el.get())
-    assert next_data, "Could not find __NEXT_DATA__"
-
-    data = next_data["props"]["pageProps"]["mainColumnData"]
-
-    nodes = [edge["node"] for edge in data["getExports"]["edges"]]
+    nodes = _get_export_nodes_html(jar=jar)
     logger.debug("Found %d exports", len(nodes))
 
     if export_id is None:
@@ -263,6 +339,16 @@ mutation StartListExport($listId: ID!) {
 }
 """
 
+_START_RATINGS_EXPORT_QUERY = """
+mutation StartRatingsExport {
+  createRatingsExport {
+    status {
+      id
+    }
+  }
+}
+"""
+
 
 def queue_export(
     jar: requests.cookies.RequestsCookieJar,
@@ -271,7 +357,11 @@ def queue_export(
     post_data: dict[str, Any] = {}
 
     if export_id == "ratings":
-        raise NotImplementedError("Ratings export not supported")
+        post_data = {
+            "query": _START_RATINGS_EXPORT_QUERY,
+            "operationName": "StartRatingsExport",
+            "variables": {"listId": "RATINGS"},
+        }
     elif export_id == "watchlist":
         raise NotImplementedError("Watchlist export not supported")
     elif export_id.startswith("ls"):
@@ -308,7 +398,7 @@ def queue_export(
 @click.option(
     "-c",
     "--cookie-file",
-    type=click.File("rb"),
+    type=click.File("rb+"),
     required=True,
     help="imdb.com Cookie Jar file",
     envvar="IMDB_COOKIE_FILE",
@@ -329,23 +419,75 @@ def queue_export(
 )
 def download_export(
     export_id: ExportID,
-    cookie_file: io.BufferedReader,
+    cookie_file: io.BufferedRandom,
     output: io.TextIOWrapper,
     since: int,
 ) -> int:
-    jar = _load_cookies(cookie_file)
-    started_after = datetime.now() - timedelta(seconds=since)
+    with _open_cookie_jar(cookie_file) as jar:
+        started_after = datetime.now() - timedelta(seconds=since)
 
-    if export_text := get_export_text(
-        export_id=export_id,
-        started_after=started_after,
-        jar=jar,
-    ):
-        output.write(export_text)
-        return 0
-    else:
-        click.echo("No export found", err=True)
-        return 1
+        if export_text := get_export_text(
+            export_id=export_id,
+            started_after=started_after,
+            jar=jar,
+        ):
+            output.write(export_text)
+            return 0
+        else:
+            click.echo("No export found", err=True)
+            return 1
+
+
+_WATCHLIST_URL = "https://www.imdb.com/list/watchlist"
+_RATINGS_URL = "https://www.imdb.com/list/ratings"
+
+
+def get_watchlist_info(
+    jar: requests.cookies.RequestsCookieJar,
+) -> tuple[str, datetime]:
+    response = requests.get(_WATCHLIST_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response.raise_for_status()
+    next_data = _get_nextjs_data(response)
+    data = next_data["props"]["pageProps"]["mainColumnData"]
+    watchlist = data["predefinedList"]
+    watchlist_id = watchlist["id"]
+    last_modified_datetime = datetime.strptime(
+        watchlist["lastModifiedDate"], "%Y-%m-%dT%H:%M:%SZ"
+    )
+    return (watchlist_id, last_modified_datetime)
+
+
+def get_ratings_info(
+    jar: requests.cookies.RequestsCookieJar,
+) -> tuple[str, list[str]]:
+    response = requests.get(_RATINGS_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response.raise_for_status()
+    next_data = _get_nextjs_data(response)
+    data = next_data["props"]["pageProps"]
+
+    user_id = data["aboveTheFoldData"]["authorId"]
+    assert user_id.startswith("ur"), "Expected user ID"
+
+    recently_rated_title_ids: list[str] = [
+        edge["node"]["title"]["id"]
+        for edge in data["mainColumnData"]["advancedTitleSearch"]["edges"]
+    ]
+    return (user_id, recently_rated_title_ids)
+
+
+@main.command()
+@click.option(
+    "-c",
+    "--cookie-file",
+    type=click.File("rb+"),
+    required=True,
+    help="imdb.com Cookie Jar file",
+    envvar="IMDB_COOKIE_FILE",
+)
+def watchlist_id(cookie_file: io.BufferedRandom) -> None:
+    with _open_cookie_jar(cookie_file) as jar:
+        id, _ = get_watchlist_info(jar=jar)
+        click.echo(id)
 
 
 if __name__ == "__main__":
