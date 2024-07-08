@@ -75,12 +75,12 @@ jobs:
         run: |
           imdb-data --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
 
-      - name: Sync watchlist
+      - name: Export watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
           imdb-data --verbose download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
 
-      - name: Sync ratings
+      - name: Export ratings
         if: ${{ steps.check-ratings.outputs.outdated == 'true' }}
         run: |
           imdb-data --verbose download-export ratings --output data/ratings.csv
