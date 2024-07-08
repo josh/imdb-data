@@ -116,14 +116,6 @@ def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
     help="imdb.com Cookie header",
     envvar="IMDB_COOKIE",
 )
-@click.option(
-    "-o",
-    "--output",
-    type=click.File("wb"),
-    default="cookies.pickle",
-    help="imdb.com Cookie Jar file",
-    envvar="IMDB_COOKIE_FILE",
-)
 @click.pass_obj
 def import_cookies(jar: requests.cookies.RequestsCookieJar, cookie: str) -> None:
     for c in cookie.strip().split("; "):
