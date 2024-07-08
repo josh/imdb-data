@@ -509,5 +509,20 @@ def watchlist_quicksync(
         click.echo(f"{output} is up-to-date", err=True)
 
 
+@main.command()
+@click.argument(
+    "csv_path",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+)
+@click.pass_obj
+def check_watchlist(jar: requests.cookies.RequestsCookieJar, csv_path: Path) -> None:
+    csv_mtime: datetime = datetime.fromtimestamp(csv_path.stat().st_mtime)
+    watchlist_id, imdb_last_modified = get_watchlist_info(jar=jar)
+    if csv_mtime <= imdb_last_modified:
+        click.echo("outdated=true")
+    else:
+        click.echo("outdated=false")
+
+
 if __name__ == "__main__":
     main()

@@ -61,7 +61,15 @@ jobs:
           IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
+      - name: Check watchlist
+        id: check-watchlist
+        run: |
+          python3 imdb.py --verbose check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
+        env:
+          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
+
       - name: Sync watchlist
+        if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
           python3 imdb.py --verbose watchlist-quicksync --output data/watchlist.csv
         env:
