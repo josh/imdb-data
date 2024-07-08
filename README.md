@@ -12,8 +12,43 @@ Then set up GitHub Action Repository secrets for the following:
 
 ## CLI Usage
 
-TK
+Not officially published on Python Package Index (PyPI), but you can install it directly from GitHub:
+
+```
+$ pip install git+https://github.com/josh/imdb-data.git
+```
+
+```
+$ imdb-data
+Usage: imdb-data [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  -c, --cookie-file FILE  imdb.com Cookie Jar file  [required]
+  -v, --verbose           Enable verbose logging
+  --help                  Show this message and exit.
+
+Commands:
+  check-ratings
+  check-watchlist
+  download-export
+  dump-cookies
+  import-cookies
+  watchlist-quicksync
+```
 
 ## Lib Usage
 
-TK
+**requirements.txt**
+
+```
+imdb-data @ git+https://github.com/josh/imdb-data@main
+```
+
+```python
+import imdb_data
+import requests
+
+jar: requests.cookies.RequestsCookieJar = pickle.load(open("cookies.pickle", "rb"))
+csvtext = get_export_text(jar, "watchlist")
+print(csvtext)
+```
