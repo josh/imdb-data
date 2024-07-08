@@ -63,7 +63,7 @@ jobs:
 
       - name: Sync watchlist
         run: |
-          echo TODO
+          python3 imdb.py --verbose watchlist-quicksync --output data/watchlist.csv
         env:
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
