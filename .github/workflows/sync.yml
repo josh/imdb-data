@@ -80,6 +80,11 @@ jobs:
         run: |
           imdb-data --verbose download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
 
+      - name: Sync ratings
+        if: ${{ steps.check-ratings.outputs.outdated == 'true' }}
+        run: |
+          imdb-data --verbose download-export ratings --output data/ratings.csv
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

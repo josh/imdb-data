@@ -451,7 +451,12 @@ def queue_export(
             "variables": {"listId": "RATINGS"},
         }
     elif export_id == "watchlist":
-        raise NotImplementedError("Watchlist export not supported")
+        _, watchlist_id = get_user_and_watchlist_id(jar)
+        post_data = {
+            "query": _START_LIST_EXPORT_QUERY,
+            "operationName": "StartListExport",
+            "variables": {"listId": watchlist_id},
+        }
     elif export_id.startswith("ls"):
         post_data = {
             "query": _START_LIST_EXPORT_QUERY,
@@ -473,7 +478,9 @@ def queue_export(
     )
     r.raise_for_status()
     data = r.json()
-    assert data["data"]["createListExport"]["status"]["id"] == "PROCESSING"
+
+    operation_name = post_data["operationName"]
+    assert data["data"][operation_name]["status"]["id"] == "PROCESSING"
     return None
 
 
