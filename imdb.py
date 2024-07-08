@@ -41,7 +41,7 @@ logger = logging.getLogger("imdb-data")
 @click.option(
     "-c",
     "--cookie-file",
-    type=click.File("rb+"),
+    type=click.Path(file_okay=True, dir_okay=False, writable=True, path_type=Path),
     required=True,
     help="imdb.com Cookie Jar file",
     envvar="IMDB_COOKIE_FILE",
@@ -56,7 +56,7 @@ logger = logging.getLogger("imdb-data")
 @click.pass_context
 def main(
     ctx: click.Context,
-    cookie_file: io.BufferedRandom,
+    cookie_file: Path,
     verbose: bool,
 ) -> None:
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
@@ -65,10 +65,17 @@ def main(
 
 @contextmanager
 def _open_cookie_jar(
-    cookie_file: io.BufferedRandom,
+    cookie_file: Path,
 ) -> Generator[requests.cookies.RequestsCookieJar, None, None]:
-    cookies = pickle.load(cookie_file)
-    assert isinstance(cookies, requests.cookies.RequestsCookieJar)
+    did_change = False
+
+    if cookie_file.exists():
+        cookies = pickle.load(cookie_file.open("rb"))
+        assert isinstance(cookies, requests.cookies.RequestsCookieJar)
+    else:
+        cookie_file.parent.mkdir(parents=True, exist_ok=True)
+        cookies = requests.cookies.RequestsCookieJar()
+        did_change = True
 
     old_cookies = cookies.copy()
     new_cookies = cookies.copy()
@@ -76,7 +83,6 @@ def _open_cookie_jar(
     try:
         yield new_cookies
     finally:
-        did_change = False
         for new_cookie in new_cookies:
             old_cookie_value = old_cookies.get(
                 name=new_cookie.name,
@@ -87,9 +93,10 @@ def _open_cookie_jar(
                 did_change = True
 
         if did_change:
-            cookie_file.truncate(0)
-            cookie_file.seek(0)
-            pickle.dump(new_cookies, cookie_file)
+            logger.info("Saving cookies")
+            pickle.dump(new_cookies, cookie_file.open("wb"))
+        else:
+            logger.debug("No changes to cookies")
 
 
 def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
