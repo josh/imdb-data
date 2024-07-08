@@ -68,6 +68,13 @@ jobs:
         env:
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
+      - name: Check ratings
+        id: check-ratings
+        run: |
+          python3 imdb.py --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
+        env:
+          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
+
       - name: Sync watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |

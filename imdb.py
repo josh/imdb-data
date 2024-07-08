@@ -1,3 +1,4 @@
+import csv
 import io
 import json
 import logging
@@ -522,6 +523,27 @@ def check_watchlist(jar: requests.cookies.RequestsCookieJar, csv_path: Path) -> 
         click.echo("outdated=true")
     else:
         click.echo("outdated=false")
+
+
+@main.command()
+@click.argument(
+    "csv_path",
+    type=click.Path(exists=True, dir_okay=False, path_type=Path),
+)
+@click.pass_obj
+def check_ratings(jar: requests.cookies.RequestsCookieJar, csv_path: Path) -> None:
+    csv_title_ids: set[str] = set(
+        row["Const"] for row in csv.DictReader(csv_path.open("r"))
+    )
+
+    _, recently_rated_title_ids = get_ratings_info(jar=jar)
+    for title_id in recently_rated_title_ids:
+        if title_id not in csv_title_ids:
+            click.echo("outdated=true")
+            return
+
+    click.echo("outdated=false")
+    return
 
 
 if __name__ == "__main__":
