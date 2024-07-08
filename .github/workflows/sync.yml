@@ -1,0 +1,79 @@
+name: Sync
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    concurrency: sync
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: "data"
+          path: "data"
+
+      - name: Restore git mtimes
+        run: |
+          git ls-tree --name-only HEAD | while read -r path; do
+              commit_date=$(git log -1 --format="%ad" --date=raw -- "$path" | cut -d' ' -f1)
+              touch -d "@$commit_date" "$path"
+              echo "Set '$path' mtime to $(date -d "@$commit_date")"
+          done
+        working-directory: data/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version-file: "pyproject.toml"
+
+      - name: Install uv
+        run: pipx install uv
+
+      - name: Install dependencies
+        run: |
+          uv pip install --system --requirement requirements.txt
+
+      - name: Load cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/
+          key: cache-${{ github.run_id }}
+          restore-keys: |
+            cache-
+
+      - name: Import cookies
+        if: ${{ env.IMDB_COOKIE != '' }}
+        run: |
+          python3 imdb.py --verbose import-cookies
+        env:
+          IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
+          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
+
+      - name: Sync watchlist
+        run: |
+          echo TODO
+        env:
+          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --message "Update data" || true
+        working-directory: data/
+
+      - name: Push changes
+        run: git push origin refs/heads/data
+        working-directory: data/

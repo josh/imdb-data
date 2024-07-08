@@ -92,14 +92,6 @@ def _open_cookie_jar(
             pickle.dump(new_cookies, cookie_file)
 
 
-def _parse_cookie_header(cookie: str) -> requests.cookies.RequestsCookieJar:
-    jar = requests.cookies.RequestsCookieJar()
-    for c in cookie.strip().split("; "):
-        key, value = c.strip().split("=", 1)
-        jar.set(key, value)
-    return jar
-
-
 def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
     selector = Selector(response.text)
     for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
@@ -115,6 +107,7 @@ def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
     prompt=True,
     required=True,
     help="imdb.com Cookie header",
+    envvar="IMDB_COOKIE",
 )
 @click.option(
     "-o",
@@ -124,9 +117,17 @@ def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
     help="imdb.com Cookie Jar file",
     envvar="IMDB_COOKIE_FILE",
 )
-def save_cookies(cookie: str, output: io.BufferedWriter) -> None:
-    jar = _parse_cookie_header(cookie)
-    pickle.dump(jar, output)
+@click.pass_obj
+def import_cookies(jar: requests.cookies.RequestsCookieJar, cookie: str) -> None:
+    for c in cookie.strip().split("; "):
+        key, value = c.strip().split("=", 1)
+        jar.set(key, value)
+
+
+@main.command()
+@click.pass_obj
+def dump_cookies(jar: requests.cookies.RequestsCookieJar) -> None:
+    print("; ".join(f"{cookie.name}={cookie.value}" for cookie in jar))
 
 
 ListID = NewType("ListID", str)
