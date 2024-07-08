@@ -43,7 +43,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          uv pip install --system --requirement requirements.txt
+          uv pip install --system --constraint requirements.txt --system '.'
 
       - name: Load cache
         uses: actions/cache@v4
@@ -56,7 +56,7 @@ jobs:
       - name: Import cookies
         if: ${{ env.IMDB_COOKIE != '' }}
         run: |
-          python3 imdb.py --verbose import-cookies
+          imdb-data --verbose import-cookies
         env:
           IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
@@ -64,21 +64,21 @@ jobs:
       - name: Check watchlist
         id: check-watchlist
         run: |
-          python3 imdb.py --verbose check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
+          imdb-data --verbose check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
       - name: Check ratings
         id: check-ratings
         run: |
-          python3 imdb.py --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
+          imdb-data --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
       - name: Sync watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
-          python3 imdb.py --verbose watchlist-quicksync --output data/watchlist.csv
+          imdb-data --verbose watchlist-quicksync --output data/watchlist.csv
         env:
           IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
