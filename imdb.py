@@ -5,6 +5,7 @@ import pickle
 from collections.abc import Generator
 from contextlib import contextmanager
 from datetime import datetime, timedelta
+from pathlib import Path
 from time import sleep
 from typing import Any, Literal, NewType, TypedDict, cast
 
@@ -148,29 +149,28 @@ def parse_export_id(value: str) -> ExportID | None:
 
 def get_export_text(
     jar: requests.cookies.RequestsCookieJar,
-    export_id: ExportID | None = None,
+    export_id: ExportID,
     started_after: datetime = _EPOCH,
     max_time: timedelta = timedelta(minutes=5),
 ) -> str | None:
-    if url := get_export_url(
+    url = get_export_url(
         jar=jar,
         export_id=export_id,
         started_after=started_after,
         max_time=max_time,
-    ):
-        r = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, allow_redirects=True)
-        r.raise_for_status()
-        return r.content.decode("utf-8")
-    else:
-        return None
+    )
+    assert url, "Failed to get export URL"
+    r = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, allow_redirects=True)
+    r.raise_for_status()
+    return r.content.decode("utf-8")
 
 
 def get_export_url(
     jar: requests.cookies.RequestsCookieJar,
-    export_id: ExportID | None = None,
+    export_id: ExportID,
     started_after: datetime = _EPOCH,
     max_time: timedelta = timedelta(minutes=5),
-) -> str | None:
+) -> str:
     started_at = datetime.now()
     status, url = get_export_status(
         jar=jar,
@@ -180,8 +180,6 @@ def get_export_url(
     if status == "READY":
         return url
     elif status == "NOT_FOUND":
-        if not export_id:
-            return None
         logger.warning("Export not found, enqueuing...")
         queue_export(jar=jar, export_id=export_id)
         sleep(1)
@@ -206,7 +204,7 @@ def get_export_url(
             wait *= 2
 
         logger.error("Export is still processing, but timed out")
-        return None
+        raise TimeoutError("Export timed out")
 
 
 class _ExportNodeStatus(TypedDict):
@@ -457,10 +455,10 @@ def get_watchlist_info(
     data = next_data["props"]["pageProps"]["mainColumnData"]
     watchlist = data["predefinedList"]
     watchlist_id = watchlist["id"]
-    last_modified_datetime = datetime.strptime(
+    last_modified = datetime.strptime(
         watchlist["lastModifiedDate"], "%Y-%m-%dT%H:%M:%SZ"
     )
-    return (watchlist_id, last_modified_datetime)
+    return (watchlist_id, last_modified)
 
 
 def get_ratings_info(
@@ -482,10 +480,33 @@ def get_ratings_info(
 
 
 @main.command()
+@click.option(
+    "-o",
+    "--output",
+    type=click.Path(
+        exists=True,
+        dir_okay=False,
+        writable=True,
+        path_type=Path,
+    ),
+    help="CSV watchlist file",
+)
 @click.pass_obj
-def watchlist_id(jar: requests.cookies.RequestsCookieJar) -> None:
-    id, _ = get_watchlist_info(jar=jar)
-    click.echo(id)
+def watchlist_quicksync(
+    jar: requests.cookies.RequestsCookieJar,
+    output: Path,
+) -> None:
+    csv_mtime: datetime = datetime.fromtimestamp(output.stat().st_mtime)
+    watchlist_id, imdb_last_modified = get_watchlist_info(jar=jar)
+
+    if csv_mtime <= imdb_last_modified:
+        click.echo("Exporting latest watchlist...", err=True)
+        text = get_export_text(jar=jar, export_id=ListID(watchlist_id))
+        assert text, "csv output was empty"
+        click.open_file(str(output), "w").write(text)
+
+    else:
+        click.echo(f"{output} is up-to-date", err=True)
 
 
 if __name__ == "__main__":
