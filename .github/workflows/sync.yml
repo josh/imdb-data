@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: sync
 
+    env:
+      IMDB_COOKIE_FILE: ".cache/cookies.pickle"
+      IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
+      IMDB_WATCHLIST_ID: ${{ secrets.IMDB_WATCHLIST_ID }}
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
@@ -59,28 +64,21 @@ jobs:
           imdb-data --verbose import-cookies
         env:
           IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
       - name: Check watchlist
         id: check-watchlist
         run: |
           imdb-data --verbose check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
-        env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
       - name: Check ratings
         id: check-ratings
         run: |
           imdb-data --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
-        env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
       - name: Sync watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
-          imdb-data --verbose watchlist-quicksync --output data/watchlist.csv
-        env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
+          imdb-data --verbose download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
 
       - name: Commit changes
         run: |

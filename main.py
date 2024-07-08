@@ -35,33 +35,63 @@ _IMDB_GRAPHQL_DEFAULT_HEADERS = {
     "x-imdb-user-language": "en-US",
 }
 
+_WATCHLIST_URL = "https://www.imdb.com/list/watchlist"
+_WATCHLIST_TEMPLATE_URL = "https://www.imdb.com/user/{user_id}/watchlist/"
+_RATINGS_URL = "https://www.imdb.com/list/ratings"
+_RATINGS_TEMPLATE_URL = "https://www.imdb.com/user/{user_id}/ratings/"
+_EXPORTS_URL = "https://www.imdb.com/exports/"
+
+UserID = NewType("UserID", str)
+ListID = NewType("ListID", str)
+ExportID = Literal["watchlist", "ratings"] | ListID
+Status = Literal["NOT_FOUND", "READY", "PROCESSING"]
+
+
+class ExportIDParam(click.ParamType):
+    name = "export_id"
+
+    def convert(
+        self,
+        value: str,
+        param: click.Parameter | None,
+        ctx: click.Context | None,
+    ) -> ExportID:
+        return parse_export_id(value) or self.fail(
+            f"Invalid export ID: {value}", param, ctx
+        )
+
+
+class ListIDParam(click.ParamType):
+    name = "list_id"
+
+    def convert(
+        self,
+        value: str,
+        param: click.Parameter | None,
+        ctx: click.Context | None,
+    ) -> ListID:
+        if value.startswith("ls"):
+            return ListID(value)
+        else:
+            return self.fail(f"Invalid list ID: {value}", param, ctx)
+
+
+class UserIDParam(click.ParamType):
+    name = "user_id"
+
+    def convert(
+        self,
+        value: str,
+        param: click.Parameter | None,
+        ctx: click.Context | None,
+    ) -> UserID:
+        if value.startswith("ur"):
+            return UserID(value)
+        else:
+            return self.fail(f"Invalid user ID: {value}", param, ctx)
+
+
 logger = logging.getLogger("imdb-data")
-
-
-@click.group()
-@click.option(
-    "-c",
-    "--cookie-file",
-    type=click.Path(file_okay=True, dir_okay=False, writable=True, path_type=Path),
-    required=True,
-    help="imdb.com Cookie Jar file",
-    envvar="IMDB_COOKIE_FILE",
-)
-@click.option(
-    "--verbose",
-    "-v",
-    is_flag=True,
-    help="Enable verbose logging",
-    envvar="ACTIONS_RUNNER_DEBUG",
-)
-@click.pass_context
-def main(
-    ctx: click.Context,
-    cookie_file: Path,
-    verbose: bool,
-) -> None:
-    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
-    ctx.obj = ctx.with_resource(_open_cookie_jar(cookie_file))
 
 
 @contextmanager
@@ -100,6 +130,46 @@ def _open_cookie_jar(
             logger.debug("No changes to cookies")
 
 
+def watchlist_url(user_id: UserID | None = None) -> str:
+    if user_id:
+        return _WATCHLIST_TEMPLATE_URL.format(user_id=user_id)
+    else:
+        return _WATCHLIST_URL
+
+
+def ratings_url(user_id: UserID | None = None) -> str:
+    if user_id:
+        return _RATINGS_TEMPLATE_URL.format(user_id=user_id)
+    else:
+        return _RATINGS_URL
+
+
+@click.group()
+@click.option(
+    "-c",
+    "--cookie-file",
+    type=click.Path(file_okay=True, dir_okay=False, writable=True, path_type=Path),
+    required=True,
+    help="imdb.com Cookie Jar file",
+    envvar="IMDB_COOKIE_FILE",
+)
+@click.option(
+    "--verbose",
+    "-v",
+    is_flag=True,
+    help="Enable verbose logging",
+    envvar="ACTIONS_RUNNER_DEBUG",
+)
+@click.pass_context
+def main(
+    ctx: click.Context,
+    cookie_file: Path,
+    verbose: bool,
+) -> None:
+    logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO)
+    ctx.obj = ctx.with_resource(_open_cookie_jar(cookie_file))
+
+
 def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
     selector = Selector(response.text)
     for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
@@ -130,11 +200,30 @@ def dump_cookies(jar: requests.cookies.RequestsCookieJar) -> None:
     print("; ".join(f"{cookie.name}={cookie.value}" for cookie in jar))
 
 
-ListID = NewType("ListID", str)
-ExportID = Literal["watchlist", "ratings"] | ListID
-Status = Literal["NOT_FOUND", "READY", "PROCESSING"]
+def get_user_and_watchlist_id(
+    jar: requests.cookies.RequestsCookieJar,
+    user_id: UserID | None = None,
+) -> tuple[str, str]:
+    url = watchlist_url(user_id=user_id)
+    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response.raise_for_status()
+    next_data = _get_nextjs_data(response)
+    data = next_data["props"]["pageProps"]["aboveTheFoldData"]
+    return (data["authorId"], data["listId"])
 
-_EXPORTS_URL = "https://www.imdb.com/exports/"
+
+@main.command()
+@click.pass_obj
+def user_id(jar: requests.cookies.RequestsCookieJar) -> None:
+    user_id, _ = get_user_and_watchlist_id(jar)
+    click.echo(user_id)
+
+
+@main.command()
+@click.pass_obj
+def watchlist_id(jar: requests.cookies.RequestsCookieJar) -> None:
+    _, watchlist_id = get_user_and_watchlist_id(jar)
+    click.echo(watchlist_id)
 
 
 def parse_export_id(value: str) -> ExportID | None:
@@ -328,20 +417,6 @@ def get_export_status(
     return ("READY", url)
 
 
-class ExportIDParam(click.ParamType):
-    name = "export_id"
-
-    def convert(
-        self,
-        value: str,
-        param: click.Parameter | None,
-        ctx: click.Context | None,
-    ) -> ExportID:
-        return parse_export_id(value) or self.fail(
-            f"Invalid export ID: {value}", param, ctx
-        )
-
-
 _START_LIST_EXPORT_QUERY = """
 mutation StartListExport($listId: ID!) {
   createListExport(input: {listId: $listId}) {
@@ -443,71 +518,37 @@ def download_export(
         return 1
 
 
-_WATCHLIST_URL = "https://www.imdb.com/list/watchlist"
-_RATINGS_URL = "https://www.imdb.com/list/ratings"
-
-
-def get_watchlist_info(
+def get_watchlist_last_modified(
     jar: requests.cookies.RequestsCookieJar,
-) -> tuple[str, datetime]:
-    response = requests.get(_WATCHLIST_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    user_id: UserID | None = None,
+) -> datetime:
+    url = watchlist_url(user_id=user_id)
+    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
     response.raise_for_status()
     next_data = _get_nextjs_data(response)
     data = next_data["props"]["pageProps"]["mainColumnData"]
     watchlist = data["predefinedList"]
-    watchlist_id = watchlist["id"]
     last_modified = datetime.strptime(
         watchlist["lastModifiedDate"], "%Y-%m-%dT%H:%M:%SZ"
     )
-    return (watchlist_id, last_modified)
+    return last_modified
 
 
-def get_ratings_info(
+def get_recently_rated_ids(
     jar: requests.cookies.RequestsCookieJar,
-) -> tuple[str, list[str]]:
-    response = requests.get(_RATINGS_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    user_id: UserID | None = None,
+) -> list[str]:
+    url = ratings_url(user_id=user_id)
+    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
     response.raise_for_status()
     next_data = _get_nextjs_data(response)
     data = next_data["props"]["pageProps"]
-
-    user_id = data["aboveTheFoldData"]["authorId"]
-    assert user_id.startswith("ur"), "Expected user ID"
 
     recently_rated_title_ids: list[str] = [
         edge["node"]["title"]["id"]
         for edge in data["mainColumnData"]["advancedTitleSearch"]["edges"]
     ]
-    return (user_id, recently_rated_title_ids)
-
-
-@main.command()
-@click.option(
-    "-o",
-    "--output",
-    type=click.Path(
-        exists=True,
-        dir_okay=False,
-        writable=True,
-        path_type=Path,
-    ),
-    help="CSV watchlist file",
-)
-@click.pass_obj
-def watchlist_quicksync(
-    jar: requests.cookies.RequestsCookieJar,
-    output: Path,
-) -> None:
-    csv_mtime: datetime = datetime.fromtimestamp(output.stat().st_mtime)
-    watchlist_id, imdb_last_modified = get_watchlist_info(jar=jar)
-
-    if csv_mtime <= imdb_last_modified:
-        click.echo("Exporting latest watchlist...", err=True)
-        text = get_export_text(jar=jar, export_id=ListID(watchlist_id))
-        assert text, "csv output was empty"
-        click.open_file(str(output), "w").write(text)
-
-    else:
-        click.echo(f"{output} is up-to-date", err=True)
+    return recently_rated_title_ids
 
 
 @main.command()
@@ -515,10 +556,21 @@ def watchlist_quicksync(
     "csv_path",
     type=click.Path(exists=True, dir_okay=False, path_type=Path),
 )
+@click.option(
+    "-u",
+    "--user-id",
+    type=UserIDParam(),
+    help="IMDB User ID",
+    envvar="IMDB_USER_ID",
+)
 @click.pass_obj
-def check_watchlist(jar: requests.cookies.RequestsCookieJar, csv_path: Path) -> None:
+def check_watchlist(
+    jar: requests.cookies.RequestsCookieJar,
+    csv_path: Path,
+    user_id: UserID | None,
+) -> None:
     csv_mtime: datetime = datetime.fromtimestamp(csv_path.stat().st_mtime)
-    watchlist_id, imdb_last_modified = get_watchlist_info(jar=jar)
+    imdb_last_modified = get_watchlist_last_modified(jar=jar, user_id=user_id)
     if csv_mtime <= imdb_last_modified:
         click.echo("outdated=true")
     else:
@@ -530,14 +582,25 @@ def check_watchlist(jar: requests.cookies.RequestsCookieJar, csv_path: Path) -> 
     "csv_path",
     type=click.Path(exists=True, dir_okay=False, path_type=Path),
 )
+@click.option(
+    "-u",
+    "--user-id",
+    type=UserIDParam(),
+    help="IMDB User ID",
+    envvar="IMDB_USER_ID",
+)
 @click.pass_obj
-def check_ratings(jar: requests.cookies.RequestsCookieJar, csv_path: Path) -> None:
+def check_ratings(
+    jar: requests.cookies.RequestsCookieJar,
+    csv_path: Path,
+    user_id: UserID | None,
+) -> None:
     csv_title_ids: set[str] = set(
         row["Const"] for row in csv.DictReader(csv_path.open("r"))
     )
 
-    _, recently_rated_title_ids = get_ratings_info(jar=jar)
-    for title_id in recently_rated_title_ids:
+    recently_rated_ids = get_recently_rated_ids(jar=jar, user_id=user_id)
+    for title_id in recently_rated_ids:
         if title_id not in csv_title_ids:
             click.echo("outdated=true")
             return

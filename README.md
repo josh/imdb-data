@@ -10,6 +10,11 @@ Then set up GitHub Action Repository secrets for the following:
 
 - `IMDB_COOKIE`: The `Cookie` header value after you've logged in
 
+Click "Watchlist" and see the URL bar for `https://www.imdb.com/user/ur***/watchlist`, then Edit for `https://www.imdb.com/list/ls**/edit`
+
+- `IMDB_USER_ID`: The ID that starts with `ur`
+- `IMDB_WATCHLIST_ID`: The ID that starts with `ls`
+
 ## CLI Usage
 
 Not officially published on Python Package Index (PyPI), but you can install it directly from GitHub:
