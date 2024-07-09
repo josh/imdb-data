@@ -53,6 +53,21 @@ jobs:
           restore-keys: |
             cache-
 
+      - name: Load cookie jar
+        uses: actions/cache@v4
+        with:
+          path: cookies.pickle
+          key: cookies-${{ github.run_id }}
+          restore-keys: |
+            cookies-
+
+      - name: Migrate cookie file
+        run: |
+          if [ ! -f cookies.pickle ]; then
+              echo "Using cached cookies.pickle"
+              cp .cache/cookies.pickle cookies.pickle
+          fi
+
       - name: Import cookies
         if: ${{ env.IMDB_COOKIE != '' }}
         run: |
