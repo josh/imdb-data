@@ -13,6 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     concurrency: sync
 
+    env:
+      IMDB_COOKIE_FILE: cookies.pickle
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
@@ -45,14 +48,6 @@ jobs:
         run: |
           uv pip install --system --constraint requirements.txt '.'
 
-      - name: Load cache
-        uses: actions/cache@v4
-        with:
-          path: .cache/
-          key: cache-${{ github.run_id }}
-          restore-keys: |
-            cache-
-
       - name: Load cookie jar
         uses: actions/cache@v4
         with:
@@ -61,19 +56,11 @@ jobs:
           restore-keys: |
             cookies-
 
-      - name: Migrate cookie file
-        run: |
-          if [ ! -f cookies.pickle ]; then
-              echo "Using cached cookies.pickle"
-              cp .cache/cookies.pickle cookies.pickle
-          fi
-
       - name: Import cookies
         if: ${{ env.IMDB_COOKIE != '' }}
         run: |
           imdb-data --verbose import-cookies
         env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
           IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
 
       - name: Check watchlist
@@ -81,7 +68,6 @@ jobs:
         run: |
           imdb-data --verbose check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
         env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
 
       - name: Check ratings
@@ -89,7 +75,6 @@ jobs:
         run: |
           imdb-data --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
         env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
 
       - name: Export watchlist
@@ -97,15 +82,12 @@ jobs:
         run: |
           imdb-data --verbose download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
         env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
           IMDB_WATCHLIST_ID: ${{ secrets.IMDB_WATCHLIST_ID }}
 
       - name: Export ratings
         if: ${{ steps.check-ratings.outputs.outdated == 'true' }}
         run: |
           imdb-data --verbose download-export ratings --output data/ratings.csv
-        env:
-          IMDB_COOKIE_FILE: ".cache/cookies.pickle"
 
       - name: Commit changes
         id: commit
