@@ -443,14 +443,17 @@ def queue_export(
     export_id: ExportID,
 ) -> None:
     post_data: dict[str, Any] = {}
+    mutation_name: Literal["createListExport", "createRatingsExport"]
 
     if export_id == "ratings":
+        mutation_name = "createRatingsExport"
         post_data = {
             "query": _START_RATINGS_EXPORT_QUERY,
             "operationName": "StartRatingsExport",
             "variables": {"listId": "RATINGS"},
         }
     elif export_id == "watchlist":
+        mutation_name = "createListExport"
         _, watchlist_id = get_user_and_watchlist_id(jar)
         post_data = {
             "query": _START_LIST_EXPORT_QUERY,
@@ -458,6 +461,7 @@ def queue_export(
             "variables": {"listId": watchlist_id},
         }
     elif export_id.startswith("ls"):
+        mutation_name = "createListExport"
         post_data = {
             "query": _START_LIST_EXPORT_QUERY,
             "operationName": "StartListExport",
@@ -479,8 +483,7 @@ def queue_export(
     r.raise_for_status()
     data = r.json()
 
-    operation_name = post_data["operationName"]
-    assert data["data"][operation_name]["status"]["id"] == "PROCESSING"
+    assert data["data"][mutation_name]["status"]["id"] == "PROCESSING"
     return None
 
 
