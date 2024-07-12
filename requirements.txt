@@ -28,7 +28,7 @@ ruff==0.5.1
     # via imdb-data (pyproject.toml)
 tomli==2.0.1
     # via mypy
-types-requests==2.32.0.20240622
+types-requests==2.32.0.20240712
     # via imdb-data (pyproject.toml)
 typing-extensions==4.12.2
     # via mypy
