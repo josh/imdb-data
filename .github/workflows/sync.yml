@@ -59,35 +59,35 @@ jobs:
       - name: Import cookies
         if: ${{ env.IMDB_COOKIE != '' }}
         run: |
-          imdb-data --verbose import-cookies
+          imdb-data import-cookies
         env:
           IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
 
       - name: Check watchlist
         id: check-watchlist
         run: |
-          imdb-data --verbose check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
+          imdb-data check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
 
       - name: Check ratings
         id: check-ratings
         run: |
-          imdb-data --verbose check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
+          imdb-data check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
 
       - name: Export watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
-          imdb-data --verbose download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
+          imdb-data download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
         env:
           IMDB_WATCHLIST_ID: ${{ secrets.IMDB_WATCHLIST_ID }}
 
       - name: Export ratings
         if: ${{ steps.check-ratings.outputs.outdated == 'true' }}
         run: |
-          imdb-data --verbose download-export ratings --output data/ratings.csv
+          imdb-data download-export ratings --output data/ratings.csv
 
       - name: Commit changes
         id: commit
