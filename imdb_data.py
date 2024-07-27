@@ -3,7 +3,7 @@ import io
 import json
 import logging
 import pickle
-from collections.abc import Generator
+from collections.abc import Generator, Iterable
 from contextlib import contextmanager
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -507,12 +507,20 @@ def queue_export(
     default=3600,
     help="Seconds since last export",
 )
+@click.option(
+    "--drop-column",
+    "drop_columns",
+    type=str,
+    multiple=True,
+    help="Columns to drop",
+)
 @click.pass_obj
 def download_export(
     jar: requests.cookies.RequestsCookieJar,
     export_id: ExportID,
     output: io.TextIOWrapper,
     since: int,
+    drop_columns: list[str],
 ) -> int:
     started_after = datetime.now() - timedelta(seconds=since)
 
@@ -521,7 +529,14 @@ def download_export(
         started_after=started_after,
         jar=jar,
     ):
-        output.write(export_text)
+        if drop_columns:
+            _drop_csv_columns(
+                input=io.StringIO(export_text),
+                output=output,
+                columns=drop_columns,
+            )
+        else:
+            output.write(export_text)
         return 0
     else:
         click.echo("No export found", err=True)
@@ -617,6 +632,52 @@ def check_ratings(
 
     click.echo("outdated=false")
     return
+
+
+@main.command()
+@click.option(
+    "--input",
+    "-i",
+    default="-",
+    type=click.File(mode="r", encoding="utf-8"),
+    help="Input CSV file",
+)
+@click.option(
+    "--output",
+    "-o",
+    default="-",
+    type=click.File(mode="w", encoding="utf-8"),
+    help="Output CSV file",
+)
+@click.option(
+    "--column",
+    "-c",
+    "columns",
+    type=str,
+    multiple=True,
+    help="Columns to drop",
+)
+def drop_csv_columns(
+    input: io.TextIOWrapper,
+    output: io.TextIOWrapper,
+    columns: list[str],
+) -> None:
+    _drop_csv_columns(input, output, columns)
+
+
+def _drop_csv_columns(
+    input: Iterable[str],
+    output: io.TextIOWrapper,
+    columns: list[str],
+) -> None:
+    reader = csv.DictReader(input)
+    fieldnames = [col for col in (reader.fieldnames or []) if col not in columns]
+    writer = csv.DictWriter(output, fieldnames=fieldnames)
+    writer.writeheader()
+    for row in reader:
+        for col in columns:
+            row.pop(col, None)
+        writer.writerow(row)
 
 
 if __name__ == "__main__":
