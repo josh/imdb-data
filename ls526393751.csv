@@ -1,11 +1,11 @@
-Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Num Votes,Release Date,Directors,Your Rating,Date Rated
-1,tt2209418,2023-12-01,2023-12-01,,"Before Midnight","Before Midnight",https://www.imdb.com/title/tt2209418/,Movie,7.9,109,2013,"Drama, Romance",173404,2013-06-14,"Richard Linklater",9,2014-02-26
-2,tt0993846,2023-12-01,2023-12-01,,"The Wolf of Wall Street","The Wolf of Wall Street",https://www.imdb.com/title/tt0993846/,Movie,8.2,180,2013,"Biography, Comedy, Crime, Drama",1599985,2013-12-25,"Martin Scorsese",9,2014-02-26
-3,tt1800241,2023-12-01,2023-12-01,,"American Hustle","American Hustle",https://www.imdb.com/title/tt1800241/,Movie,7.2,138,2013,"Crime, Drama",502034,2013-12-20,"David O. Russell",9,2022-11-02
-4,tt1454468,2023-12-01,2023-12-01,,"Gravity","Gravity",https://www.imdb.com/title/tt1454468/,Movie,7.7,91,2013,"Drama, Sci-Fi, Thriller",866449,2013-10-04,"Alfonso Cuarón",10,2014-05-04
-5,tt2024544,2023-12-01,2023-12-01,,"12 Years a Slave","12 Years a Slave",https://www.imdb.com/title/tt2024544/,Movie,8.1,134,2013,"Biography, Drama, History",744881,2013-11-08,"Steve McQueen",9,2014-05-04
-6,tt1798709,2023-12-01,2023-12-01,,"Her","Her",https://www.imdb.com/title/tt1798709/,Movie,8.0,126,2013,"Drama, Romance, Sci-Fi",676088,2014-01-10,"Spike Jonze",9,2014-05-04
-7,tt2334873,2023-12-01,2023-12-01,,"Blue Jasmine","Blue Jasmine",https://www.imdb.com/title/tt2334873/,Movie,7.3,98,2013,"Comedy, Drama, Romance",213245,2013-08-23,"Woody Allen",8,2014-02-26
-8,tt0790636,2023-12-01,2023-12-01,,"Dallas Buyers Club","Dallas Buyers Club",https://www.imdb.com/title/tt0790636/,Movie,7.9,117,2013,"Biography, Drama",522214,2013-11-22,"Jean-Marc Vallée",8,2020-05-11
-9,tt1535109,2023-12-01,2023-12-01,,"Captain Phillips","Captain Phillips",https://www.imdb.com/title/tt1535109/,Movie,7.8,134,2013,"Action, Biography, Crime, Drama, Thriller",495276,2013-10-11,"Paul Greengrass",8,2018-12-18
-10,tt1206543,2023-12-01,2023-12-01,,"Out of the Furnace","Out of the Furnace",https://www.imdb.com/title/tt1206543/,Movie,6.7,116,2013,"Action, Crime, Drama, Thriller",125721,2013-12-06,"Scott Cooper",7,2014-02-26
+Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors,Your Rating,Date Rated
+1,tt2209418,2023-12-01,2023-12-01,,Before Midnight,Before Midnight,https://www.imdb.com/title/tt2209418/,Movie,7.9,109,2013,"Drama, Romance",2013-06-14,Richard Linklater,9,2014-02-26
+2,tt0993846,2023-12-01,2023-12-01,,The Wolf of Wall Street,The Wolf of Wall Street,https://www.imdb.com/title/tt0993846/,Movie,8.2,180,2013,"Biography, Comedy, Crime, Drama",2013-12-25,Martin Scorsese,9,2014-02-26
+3,tt1800241,2023-12-01,2023-12-01,,American Hustle,American Hustle,https://www.imdb.com/title/tt1800241/,Movie,7.2,138,2013,"Crime, Drama",2013-12-20,David O. Russell,9,2022-11-02
+4,tt1454468,2023-12-01,2023-12-01,,Gravity,Gravity,https://www.imdb.com/title/tt1454468/,Movie,7.7,91,2013,"Drama, Sci-Fi, Thriller",2013-10-04,Alfonso Cuarón,10,2014-05-04
+5,tt2024544,2023-12-01,2023-12-01,,12 Years a Slave,12 Years a Slave,https://www.imdb.com/title/tt2024544/,Movie,8.1,134,2013,"Biography, Drama, History",2013-11-08,Steve McQueen,9,2014-05-04
+6,tt1798709,2023-12-01,2023-12-01,,Her,Her,https://www.imdb.com/title/tt1798709/,Movie,8.0,126,2013,"Drama, Romance, Sci-Fi",2014-01-10,Spike Jonze,9,2014-05-04
+7,tt2334873,2023-12-01,2023-12-01,,Blue Jasmine,Blue Jasmine,https://www.imdb.com/title/tt2334873/,Movie,7.3,98,2013,"Comedy, Drama, Romance",2013-08-23,Woody Allen,8,2014-02-26
+8,tt0790636,2023-12-01,2023-12-01,,Dallas Buyers Club,Dallas Buyers Club,https://www.imdb.com/title/tt0790636/,Movie,7.9,117,2013,"Biography, Drama",2013-11-22,Jean-Marc Vallée,8,2020-05-11
+9,tt1535109,2023-12-01,2023-12-01,,Captain Phillips,Captain Phillips,https://www.imdb.com/title/tt1535109/,Movie,7.8,134,2013,"Action, Biography, Crime, Drama, Thriller",2013-10-11,Paul Greengrass,8,2018-12-18
+10,tt1206543,2023-12-01,2023-12-01,,Out of the Furnace,Out of the Furnace,https://www.imdb.com/title/tt1206543/,Movie,6.7,116,2013,"Action, Crime, Drama, Thriller",2013-12-06,Scott Cooper,7,2014-02-26

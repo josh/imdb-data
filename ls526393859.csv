@@ -1,11 +1,11 @@
-Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Num Votes,Release Date,Directors,Your Rating,Date Rated
-1,tt6723592,2023-12-01,2023-12-01,,"Tenet","Tenet",https://www.imdb.com/title/tt6723592/,Movie,7.3,150,2020,"Action, Sci-Fi, Thriller",599621,2020-09-03,"Christopher Nolan",9,2024-02-26
-2,tt9484998,2023-12-01,2023-12-01,,"Palm Springs","Palm Springs",https://www.imdb.com/title/tt9484998/,Movie,7.4,90,2020,"Comedy, Fantasy, Mystery, Romance",185373,2020-07-10,"Max Barbakow",8,2020-01-31
-3,tt5363618,2023-12-01,2023-12-01,,"Sound of Metal","Sound of Metal",https://www.imdb.com/title/tt5363618/,Movie,7.7,120,2019,"Drama, Music",152110,2020-12-04,"Darius Marder",8,2020-12-07
-4,tt2948372,2023-12-01,2023-12-01,,"Soul","Soul",https://www.imdb.com/title/tt2948372/,Movie,8.0,100,2020,"Animation, Adventure, Comedy, Drama, Family, Fantasy, Music",384912,2020-12-25,"Pete Docter, Kemp Powers",8,2020-12-26
-5,tt8338762,2023-12-01,2023-12-01,,"The Nest","The Nest",https://www.imdb.com/title/tt8338762/,Movie,6.3,107,2020,"Drama, Romance, Thriller",18834,2020-09-18,"Sean Durkin",8,2020-11-30
-6,tt7873348,2023-12-01,2023-12-01,,"Save Yourselves!","Save Yourselves!",https://www.imdb.com/title/tt7873348/,Movie,5.8,93,2020,"Adventure, Comedy, Sci-Fi",8582,2020-10-02,"Alex Huston Fischer, Eleanor Wilson",8,2020-01-29
-7,tt5918982,2023-12-01,2023-12-01,,"Possessor","Possessor",https://www.imdb.com/title/tt5918982/,Movie,6.5,103,2020,"Horror, Mystery, Sci-Fi, Thriller",46548,2020-10-02,"Brandon Cronenberg",8,2020-11-16
-8,tt8206668,2023-12-01,2023-12-01,,"Bad Education","Bad Education",https://www.imdb.com/title/tt8206668/,Movie,7.1,108,2019,"Biography, Comedy, Crime, Drama",43747,2020-04-25,"Cory Finley",8,2020-04-30
-9,tt9601220,2023-12-01,2023-12-01,,"Black Bear","Black Bear",https://www.imdb.com/title/tt9601220/,Movie,6.5,104,2020,"Comedy, Drama",16157,2020-12-04,"Lawrence Michael Levine",8,2020-01-30
-10,tt9777644,2023-12-01,2023-12-01,,"Da 5 Bloods","Da 5 Bloods",https://www.imdb.com/title/tt9777644/,Movie,6.5,154,2020,"Adventure, Drama, War",55379,2020-06-12,"Spike Lee",7,2020-06-14
+Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors,Your Rating,Date Rated
+1,tt6723592,2023-12-01,2023-12-01,,Tenet,Tenet,https://www.imdb.com/title/tt6723592/,Movie,7.3,150,2020,"Action, Sci-Fi, Thriller",2020-09-03,Christopher Nolan,9,2024-02-26
+2,tt9484998,2023-12-01,2023-12-01,,Palm Springs,Palm Springs,https://www.imdb.com/title/tt9484998/,Movie,7.4,90,2020,"Comedy, Fantasy, Mystery, Romance",2020-07-10,Max Barbakow,8,2020-01-31
+3,tt5363618,2023-12-01,2023-12-01,,Sound of Metal,Sound of Metal,https://www.imdb.com/title/tt5363618/,Movie,7.7,120,2019,"Drama, Music",2020-12-04,Darius Marder,8,2020-12-07
+4,tt2948372,2023-12-01,2023-12-01,,Soul,Soul,https://www.imdb.com/title/tt2948372/,Movie,8.0,100,2020,"Animation, Adventure, Comedy, Drama, Family, Fantasy, Music",2020-12-25,"Pete Docter, Kemp Powers",8,2020-12-26
+5,tt8338762,2023-12-01,2023-12-01,,The Nest,The Nest,https://www.imdb.com/title/tt8338762/,Movie,6.3,107,2020,"Drama, Romance, Thriller",2020-09-18,Sean Durkin,8,2020-11-30
+6,tt7873348,2023-12-01,2023-12-01,,Save Yourselves!,Save Yourselves!,https://www.imdb.com/title/tt7873348/,Movie,5.8,93,2020,"Adventure, Comedy, Sci-Fi",2020-10-02,"Alex Huston Fischer, Eleanor Wilson",8,2020-01-29
+7,tt5918982,2023-12-01,2023-12-01,,Possessor,Possessor,https://www.imdb.com/title/tt5918982/,Movie,6.5,103,2020,"Horror, Mystery, Sci-Fi, Thriller",2020-10-02,Brandon Cronenberg,8,2020-11-16
+8,tt8206668,2023-12-01,2023-12-01,,Bad Education,Bad Education,https://www.imdb.com/title/tt8206668/,Movie,7.1,108,2019,"Biography, Comedy, Crime, Drama",2020-04-25,Cory Finley,8,2020-04-30
+9,tt9601220,2023-12-01,2023-12-01,,Black Bear,Black Bear,https://www.imdb.com/title/tt9601220/,Movie,6.5,104,2020,"Comedy, Drama",2020-12-04,Lawrence Michael Levine,8,2020-01-30
+10,tt9777644,2023-12-01,2023-12-01,,Da 5 Bloods,Da 5 Bloods,https://www.imdb.com/title/tt9777644/,Movie,6.5,154,2020,"Adventure, Drama, War",2020-06-12,Spike Lee,7,2020-06-14

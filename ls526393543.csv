@@ -1,11 +1,11 @@
-Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Num Votes,Release Date,Directors,Your Rating,Date Rated
-1,tt1276104,2023-12-01,2023-12-01,,"Looper","Looper",https://www.imdb.com/title/tt1276104/,Movie,7.4,119,2012,"Action, Drama, Sci-Fi, Thriller",605794,2012-09-28,"Rian Johnson",10,2014-02-26
-2,tt1074638,2023-12-01,2023-12-01,,"Skyfall","Skyfall",https://www.imdb.com/title/tt1074638/,Movie,7.8,143,2012,"Action, Adventure, Thriller",734473,2012-11-09,"Sam Mendes",10,2014-02-26
-3,tt1024648,2023-12-01,2023-12-01,,"Argo","Argo",https://www.imdb.com/title/tt1024648/,Movie,7.7,120,2012,"Biography, Drama, History, Thriller",641478,2012-10-12,"Ben Affleck",9,2014-02-26
-4,tt1853728,2023-12-01,2023-12-01,,"Django Unchained","Django Unchained",https://www.imdb.com/title/tt1853728/,Movie,8.5,165,2012,"Comedy, Drama, Western",1710522,2012-12-25,"Quentin Tarantino",9,2014-05-04
-5,tt1446714,2023-12-01,2023-12-01,,"Prometheus","Prometheus",https://www.imdb.com/title/tt1446714/,Movie,7.0,124,2012,"Adventure, Mystery, Sci-Fi",647946,2012-06-08,"Ridley Scott",8,2014-02-26
-6,tt1345836,2023-12-01,2023-12-01,,"The Dark Knight Rises","The Dark Knight Rises",https://www.imdb.com/title/tt1345836/,Movie,8.4,164,2012,"Action, Drama, Thriller",1840924,2012-07-20,"Christopher Nolan",9,2014-02-26
-7,tt1560747,2023-12-01,2023-12-01,,"The Master","The Master",https://www.imdb.com/title/tt1560747/,Movie,7.1,138,2012,"Drama, History",187186,2012-09-21,"Paul Thomas Anderson",8,2014-05-04
-8,tt1045658,2023-12-01,2023-12-01,,"Silver Linings Playbook","Silver Linings Playbook",https://www.imdb.com/title/tt1045658/,Movie,7.7,122,2012,"Comedy, Drama, Romance",745929,2012-12-25,"David O. Russell",8,2019-02-17
-9,tt1931533,2023-12-01,2023-12-01,,"Seven Psychopaths","Seven Psychopaths",https://www.imdb.com/title/tt1931533/,Movie,7.1,110,2012,"Comedy, Crime",275160,2012-10-12,"Martin McDonagh",8,2014-02-26
-10,tt0848228,2023-12-01,2023-12-01,,"The Avengers","The Avengers",https://www.imdb.com/title/tt0848228/,Movie,8.0,143,2012,"Action, Sci-Fi",1466896,2012-05-04,"Joss Whedon",7,2014-02-26
+Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors,Your Rating,Date Rated
+1,tt1276104,2023-12-01,2023-12-01,,Looper,Looper,https://www.imdb.com/title/tt1276104/,Movie,7.4,119,2012,"Action, Drama, Sci-Fi, Thriller",2012-09-28,Rian Johnson,10,2014-02-26
+2,tt1074638,2023-12-01,2023-12-01,,Skyfall,Skyfall,https://www.imdb.com/title/tt1074638/,Movie,7.8,143,2012,"Action, Adventure, Thriller",2012-11-09,Sam Mendes,10,2014-02-26
+3,tt1024648,2023-12-01,2023-12-01,,Argo,Argo,https://www.imdb.com/title/tt1024648/,Movie,7.7,120,2012,"Biography, Drama, History, Thriller",2012-10-12,Ben Affleck,9,2014-02-26
+4,tt1853728,2023-12-01,2023-12-01,,Django Unchained,Django Unchained,https://www.imdb.com/title/tt1853728/,Movie,8.5,165,2012,"Comedy, Drama, Western",2012-12-25,Quentin Tarantino,9,2014-05-04
+5,tt1446714,2023-12-01,2023-12-01,,Prometheus,Prometheus,https://www.imdb.com/title/tt1446714/,Movie,7.0,124,2012,"Adventure, Mystery, Sci-Fi",2012-06-08,Ridley Scott,8,2014-02-26
+6,tt1345836,2023-12-01,2023-12-01,,The Dark Knight Rises,The Dark Knight Rises,https://www.imdb.com/title/tt1345836/,Movie,8.4,164,2012,"Action, Drama, Thriller",2012-07-20,Christopher Nolan,9,2014-02-26
+7,tt1560747,2023-12-01,2023-12-01,,The Master,The Master,https://www.imdb.com/title/tt1560747/,Movie,7.1,138,2012,"Drama, History",2012-09-21,Paul Thomas Anderson,8,2014-05-04
+8,tt1045658,2023-12-01,2023-12-01,,Silver Linings Playbook,Silver Linings Playbook,https://www.imdb.com/title/tt1045658/,Movie,7.7,122,2012,"Comedy, Drama, Romance",2012-12-25,David O. Russell,8,2019-02-17
+9,tt1931533,2023-12-01,2023-12-01,,Seven Psychopaths,Seven Psychopaths,https://www.imdb.com/title/tt1931533/,Movie,7.1,110,2012,"Comedy, Crime",2012-10-12,Martin McDonagh,8,2014-02-26
+10,tt0848228,2023-12-01,2023-12-01,,The Avengers,The Avengers,https://www.imdb.com/title/tt0848228/,Movie,8.0,143,2012,"Action, Sci-Fi",2012-05-04,Joss Whedon,7,2014-02-26

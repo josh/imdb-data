@@ -1,11 +1,11 @@
-Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Num Votes,Release Date,Directors,Your Rating,Date Rated
-1,tt3799694,2023-12-01,2023-12-01,,"The Nice Guys","The Nice Guys",https://www.imdb.com/title/tt3799694/,Movie,7.4,116,2016,"Action, Comedy, Crime, Thriller",378024,2016-05-20,"Shane Black",9,2016-08-15
-2,tt2543164,2023-12-01,2023-12-01,,"Arrival","Arrival",https://www.imdb.com/title/tt2543164/,Movie,7.9,116,2016,"Drama, Mystery, Sci-Fi",779987,2016-11-11,"Denis Villeneuve",9,2017-01-05
-3,tt4016934,2023-12-01,2023-12-01,,"The Handmaiden","Ah-ga-ssi",https://www.imdb.com/title/tt4016934/,Movie,8.1,145,2016,"Drama, Romance, Thriller",175295,2017-09-02,"Park Chan-wook",8,2016-12-07
-4,tt3498820,2023-12-01,2023-12-01,,"Captain America: Civil War","Captain America: Civil War",https://www.imdb.com/title/tt3498820/,Movie,7.8,147,2016,"Action, Sci-Fi",856489,2016-05-06,"Anthony Russo, Joe Russo",8,2016-05-07
-5,tt4034228,2023-12-01,2023-12-01,,"Manchester by the Sea","Manchester by the Sea",https://www.imdb.com/title/tt4034228/,Movie,7.8,137,2016,"Drama",316803,2016-12-16,"Kenneth Lonergan",9,2016-12-17
-6,tt2582782,2023-12-01,2023-12-01,,"Hell or High Water","Hell or High Water",https://www.imdb.com/title/tt2582782/,Movie,7.6,102,2016,"Crime, Drama, Thriller, Western",254417,2016-08-26,"David Mackenzie",8,2017-01-05
-7,tt3783958,2023-12-01,2023-12-01,,"La La Land","La La Land",https://www.imdb.com/title/tt3783958/,Movie,8.0,128,2016,"Comedy, Drama, Music, Musical, Romance",680192,2016-12-25,"Damien Chazelle",8,2016-12-19
-8,tt1179933,2023-12-01,2023-12-01,,"10 Cloverfield Lane","10 Cloverfield Lane",https://www.imdb.com/title/tt1179933/,Movie,7.2,103,2016,"Drama, Horror, Mystery, Sci-Fi, Thriller",357760,2016-03-11,"Dan Trachtenberg",8,2017-01-05
-9,tt3748528,2023-12-01,2023-12-01,,"Rogue One: A Star Wars Story","Rogue One",https://www.imdb.com/title/tt3748528/,Movie,7.8,133,2016,"Action, Adventure, Sci-Fi",692349,2016-12-16,"Gareth Edwards",8,2016-12-17
-10,tt1974419,2023-12-01,2023-12-01,,"The Neon Demon","The Neon Demon",https://www.imdb.com/title/tt1974419/,Movie,6.1,117,2016,"Horror, Thriller",104547,2016-06-24,"Nicolas Winding Refn",8,2017-01-05
+Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors,Your Rating,Date Rated
+1,tt3799694,2023-12-01,2023-12-01,,The Nice Guys,The Nice Guys,https://www.imdb.com/title/tt3799694/,Movie,7.4,116,2016,"Action, Comedy, Crime, Thriller",2016-05-20,Shane Black,9,2016-08-15
+2,tt2543164,2023-12-01,2023-12-01,,Arrival,Arrival,https://www.imdb.com/title/tt2543164/,Movie,7.9,116,2016,"Drama, Mystery, Sci-Fi",2016-11-11,Denis Villeneuve,9,2017-01-05
+3,tt4016934,2023-12-01,2023-12-01,,The Handmaiden,Ah-ga-ssi,https://www.imdb.com/title/tt4016934/,Movie,8.1,145,2016,"Drama, Romance, Thriller",2017-09-02,Park Chan-wook,8,2016-12-07
+4,tt3498820,2023-12-01,2023-12-01,,Captain America: Civil War,Captain America: Civil War,https://www.imdb.com/title/tt3498820/,Movie,7.8,147,2016,"Action, Sci-Fi",2016-05-06,"Anthony Russo, Joe Russo",8,2016-05-07
+5,tt4034228,2023-12-01,2023-12-01,,Manchester by the Sea,Manchester by the Sea,https://www.imdb.com/title/tt4034228/,Movie,7.8,137,2016,Drama,2016-12-16,Kenneth Lonergan,9,2016-12-17
+6,tt2582782,2023-12-01,2023-12-01,,Hell or High Water,Hell or High Water,https://www.imdb.com/title/tt2582782/,Movie,7.6,102,2016,"Crime, Drama, Thriller, Western",2016-08-26,David Mackenzie,8,2017-01-05
+7,tt3783958,2023-12-01,2023-12-01,,La La Land,La La Land,https://www.imdb.com/title/tt3783958/,Movie,8.0,128,2016,"Comedy, Drama, Music, Musical, Romance",2016-12-25,Damien Chazelle,8,2016-12-19
+8,tt1179933,2023-12-01,2023-12-01,,10 Cloverfield Lane,10 Cloverfield Lane,https://www.imdb.com/title/tt1179933/,Movie,7.2,103,2016,"Drama, Horror, Mystery, Sci-Fi, Thriller",2016-03-11,Dan Trachtenberg,8,2017-01-05
+9,tt3748528,2023-12-01,2023-12-01,,Rogue One: A Star Wars Story,Rogue One,https://www.imdb.com/title/tt3748528/,Movie,7.8,133,2016,"Action, Adventure, Sci-Fi",2016-12-16,Gareth Edwards,8,2016-12-17
+10,tt1974419,2023-12-01,2023-12-01,,The Neon Demon,The Neon Demon,https://www.imdb.com/title/tt1974419/,Movie,6.1,117,2016,"Horror, Thriller",2016-06-24,Nicolas Winding Refn,8,2017-01-05

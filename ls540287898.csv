@@ -1,14 +1,14 @@
-Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Num Votes,Release Date,Directors,Your Rating,Date Rated
-1,tt22022452,2024-04-30,2024-04-30,,"Inside Out 2","Inside Out 2",https://www.imdb.com/title/tt22022452/,Movie,7.9,96,2024,"Animation, Adventure, Comedy, Drama, Family, Fantasy",62967,2024-06-14,"Kelsey Mann",7,2024-06-16
-2,tt7510222,2024-04-30,2024-04-30,,"Despicable Me 4","Despicable Me 4",https://www.imdb.com/title/tt7510222/,Movie,6.4,95,2024,"Animation, Adventure, Comedy, Family, Sci-Fi",5440,2024-07-03,"Chris Renaud, Patrick Delage",,
-3,tt6263850,2024-04-30,2024-04-30,,"Deadpool & Wolverine","Deadpool & Wolverine",https://www.imdb.com/title/tt6263850/,Movie,,127,2024,"Action, Comedy, Sci-Fi",0,2024-07-26,"Shawn Levy",,
-4,tt4919268,2024-04-30,2024-04-30,,"Bad Boys: Ride or Die","Bad Boys: Ride or Die",https://www.imdb.com/title/tt4919268/,Movie,7.0,115,2024,"Action, Adventure, Comedy, Crime, Thriller",29518,2024-06-07,"Adil El Arbi, Bilall Fallah",,
-5,tt12037194,2024-04-30,2024-04-30,,"Furiosa: A Mad Max Saga","Furiosa: A Mad Max Saga",https://www.imdb.com/title/tt12037194/,Movie,7.7,148,2024,"Action, Adventure, Sci-Fi, Thriller",121671,2024-05-24,"George Miller",8,2024-05-29
-6,tt11389872,2024-04-30,2024-04-30,,"Kingdom of the Planet of the Apes","Kingdom of the Planet of the Apes",https://www.imdb.com/title/tt11389872/,Movie,7.2,145,2024,"Action, Adventure, Drama, Sci-Fi, Thriller",56911,2024-05-10,"Wes Ball",,
-7,tt12584954,2024-04-30,2024-04-30,,"Twisters","Twisters",https://www.imdb.com/title/tt12584954/,Movie,,122,2024,"Action, Adventure, Thriller",0,2024-07-19,"Lee Isaac Chung",,
-8,tt1684562,2024-04-30,2024-04-30,,"The Fall Guy","The Fall Guy",https://www.imdb.com/title/tt1684562/,Movie,7.0,126,2024,"Action, Comedy, Drama, Romance",115591,2024-05-03,"David Leitch",8,2024-05-02
-9,tt13433802,2024-04-30,2024-04-30,,"A Quiet Place: Day One","A Quiet Place: Day One",https://www.imdb.com/title/tt13433802/,Movie,6.8,99,2024,"Drama, Horror, Sci-Fi, Thriller",26384,2024-06-28,"Michael Sarnoski",,
-10,tt17505010,2024-04-30,2024-04-30,,"Horizon: An American Saga - Chapter 1","Horizon: An American Saga - Chapter 1",https://www.imdb.com/title/tt17505010/,Movie,7.1,181,2024,"Drama, Western",6451,2024-06-28,"Kevin Costner",,
-11,tt11152168,2024-04-30,2024-04-30,,"IF","IF",https://www.imdb.com/title/tt11152168/,Movie,6.5,104,2024,"Animation, Comedy, Drama, Family, Fantasy",24452,2024-05-17,"John Krasinski",6,2024-06-18
-12,tt18412256,2024-04-30,2024-04-30,,"Alien: Romulus","Alien: Romulus",https://www.imdb.com/title/tt18412256/,Movie,,,2024,"Horror, Sci-Fi, Thriller",0,2024-08-16,"Fede Alvarez",,
-13,tt4978420,2024-04-30,2024-04-30,,"Borderlands","Borderlands",https://www.imdb.com/title/tt4978420/,Movie,,102,2024,"Action, Adventure, Comedy, Sci-Fi, Thriller",0,2024-08-09,"Eli Roth",,
+Position,Const,Created,Modified,Description,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors,Your Rating,Date Rated
+1,tt22022452,2024-04-30,2024-04-30,,Inside Out 2,Inside Out 2,https://www.imdb.com/title/tt22022452/,Movie,7.9,96,2024,"Animation, Adventure, Comedy, Drama, Family, Fantasy",2024-06-14,Kelsey Mann,7,2024-06-16
+2,tt7510222,2024-04-30,2024-04-30,,Despicable Me 4,Despicable Me 4,https://www.imdb.com/title/tt7510222/,Movie,6.4,95,2024,"Animation, Adventure, Comedy, Family, Sci-Fi",2024-07-03,"Chris Renaud, Patrick Delage",,
+3,tt6263850,2024-04-30,2024-04-30,,Deadpool & Wolverine,Deadpool & Wolverine,https://www.imdb.com/title/tt6263850/,Movie,,127,2024,"Action, Comedy, Sci-Fi",2024-07-26,Shawn Levy,,
+4,tt4919268,2024-04-30,2024-04-30,,Bad Boys: Ride or Die,Bad Boys: Ride or Die,https://www.imdb.com/title/tt4919268/,Movie,7.0,115,2024,"Action, Adventure, Comedy, Crime, Thriller",2024-06-07,"Adil El Arbi, Bilall Fallah",,
+5,tt12037194,2024-04-30,2024-04-30,,Furiosa: A Mad Max Saga,Furiosa: A Mad Max Saga,https://www.imdb.com/title/tt12037194/,Movie,7.7,148,2024,"Action, Adventure, Sci-Fi, Thriller",2024-05-24,George Miller,8,2024-05-29
+6,tt11389872,2024-04-30,2024-04-30,,Kingdom of the Planet of the Apes,Kingdom of the Planet of the Apes,https://www.imdb.com/title/tt11389872/,Movie,7.2,145,2024,"Action, Adventure, Drama, Sci-Fi, Thriller",2024-05-10,Wes Ball,,
+7,tt12584954,2024-04-30,2024-04-30,,Twisters,Twisters,https://www.imdb.com/title/tt12584954/,Movie,,122,2024,"Action, Adventure, Thriller",2024-07-19,Lee Isaac Chung,,
+8,tt1684562,2024-04-30,2024-04-30,,The Fall Guy,The Fall Guy,https://www.imdb.com/title/tt1684562/,Movie,7.0,126,2024,"Action, Comedy, Drama, Romance",2024-05-03,David Leitch,8,2024-05-02
+9,tt13433802,2024-04-30,2024-04-30,,A Quiet Place: Day One,A Quiet Place: Day One,https://www.imdb.com/title/tt13433802/,Movie,6.8,99,2024,"Drama, Horror, Sci-Fi, Thriller",2024-06-28,Michael Sarnoski,,
+10,tt17505010,2024-04-30,2024-04-30,,Horizon: An American Saga - Chapter 1,Horizon: An American Saga - Chapter 1,https://www.imdb.com/title/tt17505010/,Movie,7.1,181,2024,"Drama, Western",2024-06-28,Kevin Costner,,
+11,tt11152168,2024-04-30,2024-04-30,,IF,IF,https://www.imdb.com/title/tt11152168/,Movie,6.5,104,2024,"Animation, Comedy, Drama, Family, Fantasy",2024-05-17,John Krasinski,6,2024-06-18
+12,tt18412256,2024-04-30,2024-04-30,,Alien: Romulus,Alien: Romulus,https://www.imdb.com/title/tt18412256/,Movie,,,2024,"Horror, Sci-Fi, Thriller",2024-08-16,Fede Alvarez,,
+13,tt4978420,2024-04-30,2024-04-30,,Borderlands,Borderlands,https://www.imdb.com/title/tt4978420/,Movie,,102,2024,"Action, Adventure, Comedy, Sci-Fi, Thriller",2024-08-09,Eli Roth,,
