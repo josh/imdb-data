@@ -80,14 +80,18 @@ jobs:
       - name: Export watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
-          imdb-data download-export "$IMDB_WATCHLIST_ID" --output data/watchlist.csv
+          imdb-data download-export "$IMDB_WATCHLIST_ID" \
+            --drop-column "Num Votes" \
+            --output data/watchlist.csv
         env:
           IMDB_WATCHLIST_ID: ${{ secrets.IMDB_WATCHLIST_ID }}
 
       - name: Export ratings
         if: ${{ steps.check-ratings.outputs.outdated == 'true' }}
         run: |
-          imdb-data download-export ratings --output data/ratings.csv
+          imdb-data download-export ratings \
+            --drop-column "Num Votes" \
+            --output data/ratings.csv
 
       - name: Commit changes
         id: commit
