@@ -81,6 +81,7 @@ jobs:
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
           imdb-data download-export "$IMDB_WATCHLIST_ID" \
+            --drop-column "Position" \
             --drop-column "Num Votes" \
             --output data/watchlist.csv
         env:
