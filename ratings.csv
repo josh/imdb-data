@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt24169886,7,2024-08-09,The Instigators,The Instigators,https://www.imdb.com/title/tt24169886,Movie,6.1,101,2024,"Crime, Drama, Mystery, Thriller, Action, Comedy",2024-08-09,Doug Liman
 tt14682800,6,2024-08-09,Tuesday,Tuesday,https://www.imdb.com/title/tt14682800,Movie,6.4,110,2024,"Fantasy, Drama",2024-06-14,Daina Oniunas-Pusic
 tt31254554,4,2024-08-07,Wonderland,Wonderland,https://www.imdb.com/title/tt31254554,Movie,6.2,113,2024,"Drama, Sci-Fi",2024-07-26,Kim Tae-yong
 tt26753003,5,2024-08-04,Trap,Trap,https://www.imdb.com/title/tt26753003,Movie,6.2,105,2024,"Thriller, Mystery, Crime, Horror",2024-08-02,M. Night Shyamalan
@@ -14,9 +15,9 @@ tt4919268,6,2024-07-27,Bad Boys: Ride or Die,Bad Boys: Ride or Die,https://www.i
 tt6263850,8,2024-07-26,Deadpool & Wolverine,Deadpool & Wolverine,https://www.imdb.com/title/tt6263850,Movie,8.1,128,2024,"Action, Comedy, Sci-Fi, Adventure",2024-07-26,Shawn Levy
 tt22773644,5,2024-07-26,The Dead Don't Hurt,The Dead Don't Hurt,https://www.imdb.com/title/tt22773644,Movie,6.5,129,2024,"Western, Drama",2024-05-31,Viggo Mortensen
 tt21469794,3,2024-07-22,Space Cadet,Space Cadet,https://www.imdb.com/title/tt21469794,Movie,4.9,110,2024,Comedy,2024-07-04,Liz W. Garcia
-tt26442871,5,2024-07-21,Wildcat,Wildcat,https://www.imdb.com/title/tt26442871,Movie,5.8,103,2024,"Biography, Drama",2024-07-12,Ethan Hawke
+tt26442871,5,2024-07-21,Wildcat,Wildcat,https://www.imdb.com/title/tt26442871,Movie,5.9,103,2024,"Biography, Drama",2024-07-12,Ethan Hawke
 tt19864802,5,2024-07-21,Land of Bad,Land of Bad,https://www.imdb.com/title/tt19864802,Movie,6.6,113,2024,"Action, Thriller",2024-02-16,William Eubank
-tt23468450,7,2024-07-20,Longlegs,Longlegs,https://www.imdb.com/title/tt23468450,Movie,7.1,101,2024,"Horror, Thriller, Crime",2024-07-12,Oz Perkins
+tt23468450,7,2024-07-20,Longlegs,Longlegs,https://www.imdb.com/title/tt23468450,Movie,7.1,101,2024,"Horror, Thriller, Crime",2024-07-12,Osgood Perkins
 tt17505010,4,2024-07-19,Horizon: An American Saga - Chapter 1,Horizon: An American Saga - Chapter 1,https://www.imdb.com/title/tt17505010,Movie,6.8,181,2024,"Western, Drama",2024-06-28,Kevin Costner
 tt12584954,6,2024-07-19,Twisters,Twisters,https://www.imdb.com/title/tt12584954,Movie,7.1,122,2024,"Action, Adventure, Thriller",2024-07-19,Lee Isaac Chung
 tt18077924,5,2024-07-18,Poolman,Poolman,https://www.imdb.com/title/tt18077924,Movie,4.0,100,2024,"Comedy, Mystery",2024-05-09,Chris Pine
@@ -56,7 +57,7 @@ tt0328832,5,2024-05-14,The Animatrix,The Animatrix,https://www.imdb.com/title/tt
 tt23747062,6,2024-05-14,Who Killed Santa? A Murderville Murder Mystery,Who Killed Santa? A Murderville Murder Mystery,https://www.imdb.com/title/tt23747062,TV Special,6.5,52,2022,"Comedy, Crime, Mystery",2022-12-15,Laura Murphy
 tt23571908,6,2024-05-14,Chris Rock: Selective Outrage,Chris Rock: Selective Outrage,https://www.imdb.com/title/tt23571908,Movie,6.8,69,2023,"Documentary, Comedy",2023-03-04,Joel Gallen
 tt26739529,6,2024-05-14,Money Shot: The Pornhub Story,Money Shot: The Pornhub Story,https://www.imdb.com/title/tt26739529,Movie,5.4,94,2023,Documentary,2023-03-15,Suzanne Hillinger
-tt0088178,7,2024-05-14,Stop Making Sense,Stop Making Sense,https://www.imdb.com/title/tt0088178,Movie,8.7,88,2023,"Documentary, Music",2023-09-22,Jonathan Demme
+tt0088178,7,2024-05-14,Stop Making Sense,Stop Making Sense,https://www.imdb.com/title/tt0088178,Movie,8.7,88,1984,"Documentary, Music",1984-11-16,Jonathan Demme
 tt28814949,7,2024-05-14,Taylor Swift: The Eras Tour,Taylor Swift: The Eras Tour,https://www.imdb.com/title/tt28814949,Movie,8.0,169,2023,"Documentary, Music",2023-10-12,Sam Wrench
 tt28363850,5,2024-05-14,Postcard from Earth,Postcard from Earth,https://www.imdb.com/title/tt28363850,Movie,7.6,55,2023,"Documentary, Sci-Fi",2023-10-06,Darren Aronofsky
 tt27489557,6,2024-05-14,Abigail,Abigail,https://www.imdb.com/title/tt27489557,Movie,6.6,109,2024,"Thriller, Horror",2024-04-19,"Matt Bettinelli-Olpin,Tyler Gillett"
@@ -82,7 +83,7 @@ tt10669888,5,2024-04-23,Blood for Dust,Blood for Dust,https://www.imdb.com/title
 tt15078804,5,2024-04-23,Problemista,Problemista,https://www.imdb.com/title/tt15078804,Movie,6.8,104,2024,Comedy,2024-03-22,Julio Torres
 tt14966898,5,2024-04-22,Late Night with the Devil,Late Night with the Devil,https://www.imdb.com/title/tt14966898,Movie,7.0,93,2024,Horror,2024-03-22,"Cameron Cairnes,Colin Cairnes"
 tt9663896,4,2024-04-21,Asphalt City,Asphalt City,https://www.imdb.com/title/tt9663896,Movie,6.1,125,2024,"Drama, Thriller",2024-03-29,Jean-Stéphane Sauvaire
-tt12818328,4,2024-04-21,Hundreds of Beavers,Hundreds of Beavers,https://www.imdb.com/title/tt12818328,Movie,7.8,108,2024,"Comedy, Action, Adventure",2024-04-15,Mike Cheslik
+tt12818328,4,2024-04-21,Hundreds of Beavers,Hundreds of Beavers,https://www.imdb.com/title/tt12818328,Movie,7.7,108,2024,"Comedy, Action, Adventure",2024-04-15,Mike Cheslik
 tt5177120,8,2024-04-19,The Ministry of Ungentlemanly Warfare,The Ministry of Ungentlemanly Warfare,https://www.imdb.com/title/tt5177120,Movie,6.8,120,2024,"War, Action, Comedy",2024-04-19,Guy Ritchie
 tt8542964,4,2024-04-18,Sleeping Dogs,Sleeping Dogs,https://www.imdb.com/title/tt8542964,Movie,6.1,110,2024,"Thriller, Crime, Mystery",2024-03-22,Adam Cooper
 tt0104743,5,2024-04-17,Live Wire,Live Wire,https://www.imdb.com/title/tt0104743,Movie,5.6,85,1992,"Drama, Thriller, Action",1992-09-24,Christian Duguay
@@ -2208,7 +2209,7 @@ tt1401143,4,2014-05-04,Rare Exports,Rare Exports,https://www.imdb.com/title/tt14
 tt1578275,4,2014-05-04,The Dilemma,The Dilemma,https://www.imdb.com/title/tt1578275,Movie,5.3,111,2011,"Comedy, Drama",2011-01-14,Ron Howard
 tt1694015,6,2014-05-04,Cool It,Cool It,https://www.imdb.com/title/tt1694015,Movie,7.0,87,2011,Documentary,2011-06-01,Ondi Timoner
 tt1116184,6,2014-05-04,Jackass 3D,Jackass 3D,https://www.imdb.com/title/tt1116184,Movie,7.0,94,2010,"Documentary, Comedy, Action",2010-10-15,Jeff Tremaine
-tt1588170,4,2014-05-04,I Saw the Devil,Angmareul boatda,https://www.imdb.com/title/tt1588170,Movie,7.8,144,2010,"Thriller, Action, Crime",2010-08-12,Kim Jee-woon
+tt1588170,4,2014-05-04,I Saw the Devil,Akmareul boatda,https://www.imdb.com/title/tt1588170,Movie,7.8,144,2010,"Thriller, Action, Crime",2010-08-12,Kim Jee-woon
 tt1133985,6,2014-05-04,Green Lantern,Green Lantern,https://www.imdb.com/title/tt1133985,Movie,5.5,114,2011,"Action, Sci-Fi, Adventure",2011-06-17,Martin Campbell
 tt0401729,4,2014-05-04,John Carter,John Carter,https://www.imdb.com/title/tt0401729,Movie,6.6,132,2012,"Sci-Fi, Action, Adventure",2012-03-09,Andrew Stanton
 tt1297919,4,2014-05-04,Blitz,Blitz,https://www.imdb.com/title/tt1297919,Movie,6.1,97,2011,"Thriller, Crime, Action, Adventure, Mystery",2011-05-20,Elliott Lester
