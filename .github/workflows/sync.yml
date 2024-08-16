@@ -66,6 +66,7 @@ jobs:
       - name: Check watchlist
         id: check-watchlist
         run: |
+          set -o pipefail
           imdb-data check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
@@ -73,6 +74,7 @@ jobs:
       - name: Check ratings
         id: check-ratings
         run: |
+          set -o pipefail
           imdb-data check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
