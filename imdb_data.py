@@ -553,10 +553,16 @@ def get_watchlist_last_modified(
     next_data = _get_nextjs_data(response)
     data = next_data["props"]["pageProps"]["mainColumnData"]
     watchlist = data["predefinedList"]
-    last_modified = datetime.strptime(
-        watchlist["lastModifiedDate"], "%Y-%m-%dT%H:%M:%SZ"
-    )
+    last_modified = _parse_modified_date(watchlist["lastModifiedDate"])
     return last_modified
+
+
+def _parse_modified_date(date_str: str) -> datetime:
+    try:
+        return datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        # Sometimes seeing dates like "2024-08-15T02:26Z"
+        return datetime.strptime(date_str, "%Y-%m-%dT%H:%MZ")
 
 
 def get_recently_rated_ids(
