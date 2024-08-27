@@ -8,7 +8,7 @@ click==8.1.7
     # via imdb-data (pyproject.toml)
 cssselect==1.2.0
     # via parsel
-idna==3.7
+idna==3.8
     # via requests
 jmespath==1.0.1
     # via parsel
