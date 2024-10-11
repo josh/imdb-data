@@ -26,7 +26,7 @@ requests==2.32.3
     # via imdb-data (pyproject.toml)
 ruff==0.6.8
     # via imdb-data (pyproject.toml)
-tomli==2.0.1
+tomli==2.0.2
     # via mypy
 types-requests==2.32.0.20240712
     # via imdb-data (pyproject.toml)
