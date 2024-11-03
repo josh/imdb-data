@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt28349451,5,2024-11-03,The Shadow Strays,The Shadow Strays,https://www.imdb.com/title/tt28349451,Movie,6.5,144,2024,"Action, Thriller, Crime",2024-10-17,Timo Tjahjanto
 tt8368368,6,2024-11-02,The Apprentice,The Apprentice,https://www.imdb.com/title/tt8368368,Movie,7.2,122,2024,"Biography, Drama, History",2024-10-11,Ali Abbasi
 tt33323522,3,2024-10-29,Hasan Minhaj: Off with His Head,Hasan Minhaj: Off with His Head,https://www.imdb.com/title/tt33323522,TV Movie,6.9,61,2024,"Documentary, Comedy",2024-10-22,Tyler Babin
 tt19811010,7,2024-10-29,The Remarkable Life of Ibelin,Ibelin,https://www.imdb.com/title/tt19811010,Movie,8.4,106,2024,"Animation, Documentary, Biography",2024-10-25,Benjamin Ree
@@ -14,7 +15,7 @@ tt27729779,4,2024-10-08,The Platform 2,El hoyo 2,https://www.imdb.com/title/tt27
 tt0327785,3,2024-10-05,The Killer's Game,The Killer's Game,https://www.imdb.com/title/tt0327785,Movie,5.7,104,2024,"Thriller, Action, Comedy",2024-09-13,J.J. Perry
 tt12616480,4,2024-10-05,Slingshot,Slingshot,https://www.imdb.com/title/tt12616480,Movie,5.7,108,2024,"Sci-Fi, Thriller",2024-08-30,Mikael Håfström
 tt27534307,6,2024-10-05,Speak No Evil,Speak No Evil,https://www.imdb.com/title/tt27534307,Movie,6.9,110,2024,"Thriller, Horror, Drama",2024-09-13,James Watkins
-tt22375054,4,2024-10-05,Strange Darling,Strange Darling,https://www.imdb.com/title/tt22375054,Movie,7.2,97,2023,"Thriller, Horror",2024-08-23,JT Mollner
+tt22375054,4,2024-10-05,Strange Darling,Strange Darling,https://www.imdb.com/title/tt22375054,Movie,7.1,97,2023,"Thriller, Horror",2024-08-23,JT Mollner
 tt12349832,4,2024-10-05,Cuckoo,Cuckoo,https://www.imdb.com/title/tt12349832,Movie,5.8,102,2024,"Horror, Mystery, Thriller",2024-08-09,Tilman Singer
 tt27419292,3,2024-10-03,Killer Heat,Killer Heat,https://www.imdb.com/title/tt27419292,Movie,5.6,97,2024,"Drama, Romance, Crime, Mystery, Thriller",2024-09-26,Philippe Lacôte
 tt27367464,5,2024-10-03,Kneecap,Kneecap,https://www.imdb.com/title/tt27367464,Movie,7.6,105,2024,"Drama, Comedy",2024-08-02,Rich Peppiatt
@@ -277,7 +278,7 @@ tt1136617,7,2023-10-27,The Killer,The Killer,https://www.imdb.com/title/tt113661
 tt0080139,4,2023-10-25,Winter Kills,Winter Kills,https://www.imdb.com/title/tt0080139,Movie,6.2,97,1979,"Thriller, Comedy, Mystery, Drama",1979-05-11,William Richert
 tt24249946,5,2023-10-25,The Caine Mutiny Court-Martial,The Caine Mutiny Court-Martial,https://www.imdb.com/title/tt24249946,Movie,6.8,108,2023,"War, Drama",2023-10-06,William Friedkin
 tt17009710,7,2023-10-23,Anatomy of a Fall,Anatomie d'une chute,https://www.imdb.com/title/tt17009710,Movie,7.7,151,2023,"Drama, Thriller, Crime",2024-03-22,Justine Triet
-tt5648882,4,2023-10-22,The Burial,The Burial,https://www.imdb.com/title/tt5648882,Movie,7.1,126,2023,Drama,2023-10-13,Maggie Betts
+tt5648882,4,2023-10-22,The Burial,The Burial,https://www.imdb.com/title/tt5648882,Movie,7.0,126,2023,Drama,2023-10-13,Maggie Betts
 tt11426232,6,2023-10-22,Totally Killer,Totally Killer,https://www.imdb.com/title/tt11426232,Movie,6.5,106,2023,"Comedy, Horror, Sci-Fi",2023-10-06,Nahnatchka Khan
 tt5537002,6,2023-10-20,Killers of the Flower Moon,Killers of the Flower Moon,https://www.imdb.com/title/tt5537002,Movie,7.6,206,2023,"Drama, Crime, History, Western, Mystery, Romance",2023-10-20,Martin Scorsese
 tt5535276,8,2023-10-16,Maestro,Maestro,https://www.imdb.com/title/tt5535276,Movie,6.5,129,2023,"Biography, Drama, Music, Romance, History",2023-12-20,Bradley Cooper
@@ -571,7 +572,7 @@ tt13223398,6,2022-09-11,Beast,Beast,https://www.imdb.com/title/tt13223398,Movie,
 tt4593060,5,2022-09-11,Pinocchio,Pinocchio,https://www.imdb.com/title/tt4593060,Movie,5.1,105,2022,"Musical, Family, Comedy, Drama, Fantasy, Adventure",2022-09-08,Robert Zemeckis
 tt9411972,6,2022-09-07,Where the Crawdads Sing,Where the Crawdads Sing,https://www.imdb.com/title/tt9411972,Movie,7.2,125,2022,"Drama, Mystery, Thriller, Romance",2022-07-15,Olivia Newman
 tt16491324,5,2022-09-05,Honor Society,Honor Society,https://www.imdb.com/title/tt16491324,Movie,6.5,98,2022,"Comedy, Romance",2022-07-29,Oran Zegman
-tt15339456,5,2022-09-04,Marcel the Shell with Shoes On,Marcel the Shell with Shoes On,https://www.imdb.com/title/tt15339456,Movie,7.7,90,2021,"Animation, Comedy, Family, Fantasy, Drama",2022-07-15,Dean Fleischer Camp
+tt15339456,5,2022-09-04,Marcel the Shell with Shoes On,Marcel the Shell with Shoes On,https://www.imdb.com/title/tt15339456,Movie,7.6,90,2021,"Animation, Comedy, Family, Fantasy, Drama",2022-07-15,Dean Fleischer Camp
 tt8174412,3,2022-08-31,Funny Pages,Funny Pages,https://www.imdb.com/title/tt8174412,Movie,6.2,86,2022,Comedy,2022-08-26,Owen Kline
 tt9198364,5,2022-08-31,Three Thousand Years of Longing,Three Thousand Years of Longing,https://www.imdb.com/title/tt9198364,Movie,6.7,108,2022,"Drama, Fantasy, Romance",2022-08-26,George Miller
 tt10954984,5,2022-08-30,Nope,Nope,https://www.imdb.com/title/tt10954984,Movie,6.8,130,2022,"Horror, Sci-Fi, Mystery, Thriller",2022-07-22,Jordan Peele
@@ -797,7 +798,7 @@ tt10696784,5,2021-11-09,The Harder They Fall,The Harder They Fall,https://www.im
 tt9115530,6,2021-11-09,The Eyes of Tammy Faye,The Eyes of Tammy Faye,https://www.imdb.com/title/tt9115530,Movie,6.6,126,2021,"Drama, Biography, Romance",2021-09-17,Michael Showalter
 tt11738830,6,2021-11-08,The Beta Test,The Beta Test,https://www.imdb.com/title/tt11738830,Movie,6.1,93,2021,"Thriller, Comedy, Drama, Mystery",2021-10-15,"Jim Cummings,PJ McCabe"
 tt10687506,6,2021-11-07,The Electrical Life of Louis Wain,The Electrical Life of Louis Wain,https://www.imdb.com/title/tt10687506,Movie,6.8,111,2021,"Biography, Drama, History",2021-11-05,Will Sharpe
-tt6910282,5,2021-11-07,Bergman Island,Bergman Island,https://www.imdb.com/title/tt6910282,Movie,6.7,112,2021,"Drama, Romance, Comedy",2021-07-14,Mia Hansen-Løve
+tt6910282,5,2021-11-07,Bergman Island,Bergman Island,https://www.imdb.com/title/tt6910282,Movie,6.6,112,2021,"Drama, Romance, Comedy",2021-07-14,Mia Hansen-Løve
 tt9032400,4,2021-11-06,Eternals,Eternals,https://www.imdb.com/title/tt9032400,Movie,6.3,156,2021,"Action, Fantasy, Sci-Fi, Adventure",2021-11-05,Chloé Zhao
 tt13024674,5,2021-11-05,Army of Thieves,Army of Thieves,https://www.imdb.com/title/tt13024674,Movie,6.4,127,2021,"Action, Crime, Thriller, Comedy",2021-10-29,Matthias Schweighöfer
 tt10574558,5,2021-11-04,Midnight Mass,Midnight Mass,https://www.imdb.com/title/tt10574558,TV Mini Series,7.7,60,2021,"Horror, Drama, Mystery, Fantasy",2021-09-24,
@@ -2348,7 +2349,7 @@ tt1103275,6,2014-05-04,Two Lovers,Two Lovers,https://www.imdb.com/title/tt110327
 tt0959337,6,2014-05-04,Revolutionary Road,Revolutionary Road,https://www.imdb.com/title/tt0959337,Movie,7.3,119,2008,"Drama, Romance",2009-01-23,Sam Mendes
 tt0421715,6,2014-05-04,The Curious Case of Benjamin Button,The Curious Case of Benjamin Button,https://www.imdb.com/title/tt0421715,Movie,7.8,166,2008,"Romance, Drama, Fantasy",2008-12-25,David Fincher
 tt1013753,6,2014-05-04,Milk,Milk,https://www.imdb.com/title/tt1013753,Movie,7.5,128,2008,"Biography, Drama, History",2009-01-30,Gus Van Sant
-tt0870111,8,2014-05-04,Frost/Nixon,Frost/Nixon,https://www.imdb.com/title/tt0870111,Movie,7.7,122,2008,"Drama, Biography, History",2009-01-23,Ron Howard
+tt0870111,8,2014-05-04,Frost/Nixon,Frost/Nixon,https://www.imdb.com/title/tt0870111,Movie,7.6,122,2008,"Drama, Biography, History",2009-01-23,Ron Howard
 tt0947802,8,2014-05-04,Lakeview Terrace,Lakeview Terrace,https://www.imdb.com/title/tt0947802,Movie,6.2,110,2008,"Drama, Thriller, Crime",2008-09-19,Neil LaBute
 tt0076584,4,2014-05-04,The Inglorious Bastards,Quel maledetto treno blindato,https://www.imdb.com/title/tt0076584,Movie,6.5,99,1978,"Adventure, War, Action",1978-02-08,Enzo G. Castellari
 tt0452608,4,2014-05-04,Death Race,Death Race,https://www.imdb.com/title/tt0452608,Movie,6.4,105,2008,"Action, Thriller, Sci-Fi",2008-08-22,Paul W.S. Anderson
