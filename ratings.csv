@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt12573480,5,2024-11-04,Hold Your Breath,Hold Your Breath,https://www.imdb.com/title/tt12573480,Movie,5.3,94,2024,"Drama, Horror, Thriller",2024-10-03,"Karrie Crouse,William Joines"
 tt24807110,6,2024-11-04,Don't Move,Don't Move,https://www.imdb.com/title/tt24807110,Movie,5.8,92,2024,"Horror, Thriller",2024-10-25,"Brian Netto,Adam Schindler"
 tt11315808,5,2024-11-04,Joker: Folie à Deux,Joker: Folie à Deux,https://www.imdb.com/title/tt11315808,Movie,5.3,138,2024,"Musical, Crime, Drama, Thriller",2024-10-04,Todd Phillips
 tt27987046,5,2024-11-03,Uprising,"Jeon, Ran",https://www.imdb.com/title/tt27987046,Movie,6.6,126,2024,"Action, Drama, History, War, Thriller",2024-10-11,Sang-man Kim
@@ -10,10 +11,10 @@ tt19811010,7,2024-10-29,The Remarkable Life of Ibelin,Ibelin,https://www.imdb.co
 tt7737800,5,2024-10-27,Woman of the Hour,Woman of the Hour,https://www.imdb.com/title/tt7737800,Movie,6.6,95,2023,"Crime, Drama, Mystery",2024-10-18,Anna Kendrick
 tt0477080,8,2024-10-26,Unstoppable,Unstoppable,https://www.imdb.com/title/tt0477080,Movie,6.8,98,2010,"Action, Thriller",2010-11-12,Tony Scott
 tt8864596,5,2024-10-23,Transformers One,Transformers One,https://www.imdb.com/title/tt8864596,Movie,7.7,104,2024,"Animation, Action, Adventure, Fantasy, Sci-Fi, Family",2024-09-20,Josh Cooley
-tt22874848,5,2024-10-21,The Silent Hour,The Silent Hour,https://www.imdb.com/title/tt22874848,Movie,6.0,99,2024,"Crime, Thriller",2024-10-11,Brad Anderson
+tt22874848,5,2024-10-21,The Silent Hour,The Silent Hour,https://www.imdb.com/title/tt22874848,Movie,6.0,99,2024,"Crime, Thriller, Action",2024-10-11,Brad Anderson
 tt18412256,7,2024-10-20,Alien: Romulus,Alien: Romulus,https://www.imdb.com/title/tt18412256,Movie,7.2,119,2024,"Horror, Sci-Fi, Thriller",2024-08-16,Fede Alvarez
 tt11301886,9,2024-10-20,Rebel Ridge,Rebel Ridge,https://www.imdb.com/title/tt11301886,Movie,6.8,131,2024,"Thriller, Action, Crime, Drama",2024-09-06,Jeremy Saulnier
-tt17717416,5,2024-10-17,Bad Genius,Bad Genius,https://www.imdb.com/title/tt17717416,Movie,5.9,96,2024,Thriller,2024-10-11,J.C. Lee
+tt17717416,5,2024-10-17,Bad Genius,Bad Genius,https://www.imdb.com/title/tt17717416,Movie,6.0,96,2024,Thriller,2024-10-11,J.C. Lee
 tt29623480,5,2024-10-17,The Wild Robot,The Wild Robot,https://www.imdb.com/title/tt29623480,Movie,8.3,102,2024,"Animation, Sci-Fi",2024-09-27,Chris Sanders
 tt27729779,4,2024-10-08,The Platform 2,El hoyo 2,https://www.imdb.com/title/tt27729779,Movie,5.0,99,2024,"Horror, Sci-Fi, Thriller",2024-10-04,Galder Gaztelu-Urrutia
 tt0327785,3,2024-10-05,The Killer's Game,The Killer's Game,https://www.imdb.com/title/tt0327785,Movie,5.7,104,2024,"Thriller, Action, Comedy",2024-09-13,J.J. Perry
@@ -708,7 +709,7 @@ tt8595016,6,2022-01-26,My Old School,My Old School,https://www.imdb.com/title/tt
 tt12655436,5,2022-01-26,Honk for Jesus. Save Your Soul.,Honk for Jesus. Save Your Soul.,https://www.imdb.com/title/tt12655436,Movie,5.3,106,2022,Comedy,2022-09-02,Adamma Ebo
 tt11818818,6,2022-01-26,God's Country,God's Country,https://www.imdb.com/title/tt11818818,Movie,5.6,102,2022,Thriller,2022-09-16,Julian Higgins
 tt14376344,6,2022-01-26,Cha Cha Real Smooth,Cha Cha Real Smooth,https://www.imdb.com/title/tt14376344,Movie,7.3,107,2022,"Drama, Comedy",2022-06-17,Cooper Raiff
-tt16378396,5,2022-01-25,Every Day in Kaimuki,Every Day in Kaimuki,https://www.imdb.com/title/tt16378396,Movie,5.7,81,2022,"Drama, Music",2022-10-21,Alika Tengan
+tt16378396,5,2022-01-25,Every Day in Kaimuki,Every Day in Kaimuki,https://www.imdb.com/title/tt16378396,Movie,5.4,81,2022,"Drama, Music",2022-10-21,Alika Tengan
 tt9358052,4,2022-01-25,Knock Down the House,Knock Down the House,https://www.imdb.com/title/tt9358052,Movie,7.4,87,2019,Documentary,2019-05-01,Rachel Lears
 tt16378064,2,2022-01-25,To the End,To the End,https://www.imdb.com/title/tt16378064,Movie,3.4,94,2022,Documentary,2022-12-09,Rachel Lears
 tt16378298,6,2022-01-25,Meet Me in the Bathroom,Meet Me in the Bathroom,https://www.imdb.com/title/tt16378298,Movie,6.7,105,2022,"Documentary, Music",2022-11-25,"Will Lovelace,Dylan Southern,Andrew Cross,Vivienne Perry,Sam Rice-Edwards"
@@ -865,7 +866,7 @@ tt12312250,5,2021-08-01,Jeffrey Epstein: Filthy Rich,Jeffrey Epstein: Filthy Ric
 tt5618256,7,2021-08-01,Manhunt,Manhunt,https://www.imdb.com/title/tt5618256,TV Series,8.1,,2017,"Crime, Drama, Biography, Thriller",2017-08-01,
 tt10122474,5,2021-08-01,Dummy,Dummy,https://www.imdb.com/title/tt10122474,TV Series,6.7,6,2020,"Short, Comedy, Drama, Romance, Fantasy",2020-04-20,
 tt11041046,5,2021-08-01,Survive,Survive,https://www.imdb.com/title/tt11041046,TV Mini Series,5.9,7,2020,"Short, Thriller, Adventure, Drama",2020-04-06,
-tt12001410,5,2021-08-01,I Promise,I Promise,https://www.imdb.com/title/tt12001410,TV Series,6.5,,2020,Documentary,2020-04-06,
+tt12001410,5,2021-08-01,I Promise,I Promise,https://www.imdb.com/title/tt12001410,TV Series,6.4,,2020,Documentary,2020-04-06,
 tt9425132,6,2021-08-01,Conversations with a Killer: The Ted Bundy Tapes,Conversations with a Killer: The Ted Bundy Tapes,https://www.imdb.com/title/tt9425132,TV Mini Series,7.7,60,2019,"Documentary, Crime, History, Biography",2019-01-24,
 tt12759384,6,2021-08-01,(Un)Well,(Un)Well,https://www.imdb.com/title/tt12759384,TV Series,6.4,,2020,Documentary,2020-08-12,
 tt8425310,5,2021-08-01,The Case Against Adnan Syed,The Case Against Adnan Syed,https://www.imdb.com/title/tt8425310,TV Mini Series,6.7,67,2019,"Documentary, Crime",2019-03-10,
@@ -2913,7 +2914,7 @@ tt0369441,6,2014-05-04,Fun with Dick and Jane,Fun with Dick and Jane,https://www
 tt0390521,6,2014-05-04,Super Size Me,Super Size Me,https://www.imdb.com/title/tt0390521,Movie,7.2,100,2004,Documentary,2004-06-11,Morgan Spurlock
 tt0081573,6,2014-05-04,Superman II,Superman II,https://www.imdb.com/title/tt0081573,Movie,6.8,127,1980,"Action, Adventure, Sci-Fi",1981-06-19,"Richard Lester,Richard Donner"
 tt0053285,6,2014-05-04,Sleeping Beauty,Sleeping Beauty,https://www.imdb.com/title/tt0053285,Movie,7.2,75,1959,"Animation, Musical, Adventure, Romance, Family, Fantasy",1959-01-29,"Les Clark,Clyde Geronimi,Eric Larson,Wolfgang Reitherman,Hamilton Luske"
-tt0031867,2,2014-05-04,The Roaring Twenties,The Roaring Twenties,https://www.imdb.com/title/tt0031867,Movie,7.9,106,1939,"Film-Noir, Crime, Drama, Thriller",1939-10-28,Raoul Walsh
+tt0031867,2,2014-05-04,The Roaring Twenties,The Roaring Twenties,https://www.imdb.com/title/tt0031867,Movie,7.9,106,1939,"Crime, Drama, Thriller",1939-10-28,Raoul Walsh
 tt0264616,6,2014-05-04,Frailty,Frailty,https://www.imdb.com/title/tt0264616,Movie,7.2,100,2001,"Drama, Crime, Thriller",2002-04-12,Bill Paxton
 tt0087553,4,2014-05-04,The Killing Fields,The Killing Fields,https://www.imdb.com/title/tt0087553,Movie,7.8,141,1984,"History, Biography, Drama, War",1985-02-01,Roland Joffé
 tt0247638,2,2014-05-04,The Princess Diaries,The Princess Diaries,https://www.imdb.com/title/tt0247638,Movie,6.4,115,2001,"Romance, Comedy, Family",2001-08-03,Garry Marshall
