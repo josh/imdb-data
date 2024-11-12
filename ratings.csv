@@ -1,5 +1,8 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt11687002,5,2024-11-10,The Outrun,The Outrun,https://www.imdb.com/title/tt11687002,Movie,7.1,118,2024,Drama,2024-10-04,Nora Fingscheidt
+tt21614420,4,2024-11-12,The Franchise,The Franchise,https://www.imdb.com/title/tt21614420,TV Series,6.2,,2024,Comedy,2024-10-06,
+tt10128846,4,2024-11-12,Megalopolis,Megalopolis,https://www.imdb.com/title/tt10128846,Movie,5.1,138,2024,"Drama, Sci-Fi, Fantasy",2024-09-27,Francis Ford Coppola
+tt31064841,5,2024-11-12,Piece by Piece,Piece by Piece,https://www.imdb.com/title/tt31064841,Movie,6.9,93,2024,"Animation, Musical, Biography, Comedy, Family",2024-10-11,Morgan Neville
+tt11687002,5,2024-11-10,The Outrun,The Outrun,https://www.imdb.com/title/tt11687002,Movie,7.0,118,2024,Drama,2024-10-04,Nora Fingscheidt
 tt20215234,8,2024-11-10,Conclave,Conclave,https://www.imdb.com/title/tt20215234,Movie,7.7,120,2024,"Thriller, Drama",2024-10-25,Edward Berger
 tt17526714,5,2024-11-10,The Substance,The Substance,https://www.imdb.com/title/tt17526714,Movie,7.5,141,2024,"Drama, Horror",2024-09-20,Coralie Fargeat
 tt28607951,7,2024-11-09,Anora,Anora,https://www.imdb.com/title/tt28607951,Movie,8.2,139,2024,"Drama, Comedy, Romance",2024-10-17,Sean Baker
@@ -13,9 +16,9 @@ tt11315808,5,2024-11-04,Joker: Folie à Deux,Joker: Folie à Deux,https://www.im
 tt27987046,5,2024-11-03,Uprising,"Jeon, Ran",https://www.imdb.com/title/tt27987046,Movie,6.6,126,2024,"Action, Drama, History, War, Thriller",2024-10-11,Sang-man Kim
 tt9860566,4,2024-11-03,Brothers,Brothers,https://www.imdb.com/title/tt9860566,Movie,5.4,89,2024,"Comedy, Action, Crime",2024-10-17,Max Barbakow
 tt28349451,5,2024-11-03,The Shadow Strays,The Shadow Strays,https://www.imdb.com/title/tt28349451,Movie,6.5,144,2024,"Action, Thriller, Crime",2024-10-17,Timo Tjahjanto
-tt8368368,6,2024-11-02,The Apprentice,The Apprentice,https://www.imdb.com/title/tt8368368,Movie,7.2,122,2024,"Biography, Drama, History",2024-10-11,Ali Abbasi
+tt8368368,6,2024-11-02,The Apprentice,The Apprentice,https://www.imdb.com/title/tt8368368,Movie,7.1,122,2024,"Biography, Drama, History",2024-10-11,Ali Abbasi
 tt33323522,3,2024-10-29,Hasan Minhaj: Off with His Head,Hasan Minhaj: Off with His Head,https://www.imdb.com/title/tt33323522,TV Movie,6.9,61,2024,"Documentary, Comedy",2024-10-22,Tyler Babin
-tt19811010,7,2024-10-29,The Remarkable Life of Ibelin,Ibelin,https://www.imdb.com/title/tt19811010,Movie,8.4,106,2024,"Animation, Documentary, Biography",2024-10-25,Benjamin Ree
+tt19811010,7,2024-10-29,The Remarkable Life of Ibelin,Ibelin,https://www.imdb.com/title/tt19811010,Movie,8.3,106,2024,"Animation, Documentary, Biography",2024-10-25,Benjamin Ree
 tt7737800,5,2024-10-27,Woman of the Hour,Woman of the Hour,https://www.imdb.com/title/tt7737800,Movie,6.6,95,2023,"Crime, Drama, Mystery",2024-10-18,Anna Kendrick
 tt0477080,8,2024-10-26,Unstoppable,Unstoppable,https://www.imdb.com/title/tt0477080,Movie,6.8,98,2010,"Action, Thriller",2010-11-12,Tony Scott
 tt8864596,5,2024-10-23,Transformers One,Transformers One,https://www.imdb.com/title/tt8864596,Movie,7.7,104,2024,"Animation, Action, Adventure, Fantasy, Sci-Fi, Family",2024-09-20,Josh Cooley
@@ -57,7 +60,7 @@ tt24169886,6,2024-08-11,The Instigators,The Instigators,https://www.imdb.com/tit
 tt7510222,3,2024-08-11,Despicable Me 4,Despicable Me 4,https://www.imdb.com/title/tt7510222,Movie,6.2,94,2024,"Animation, Adventure, Comedy, Family, Sci-Fi, Crime",2024-07-03,"Chris Renaud,Patrick Delage"
 tt30321095,7,2024-08-10,Ghostlight,Ghostlight,https://www.imdb.com/title/tt30321095,Movie,7.5,115,2024,"Comedy, Drama",2024-06-14,"Kelly O'Sullivan,Alex Thompson"
 tt14682800,6,2024-08-09,Tuesday,Tuesday,https://www.imdb.com/title/tt14682800,Movie,6.3,110,2023,"Fantasy, Drama",2024-06-14,Daina Oniunas-Pusic
-tt31254554,4,2024-08-07,Wonderland,Wonderland,https://www.imdb.com/title/tt31254554,Movie,6.2,113,2024,"Drama, Sci-Fi",2024-07-26,Kim Tae-yong
+tt31254554,4,2024-08-07,Wonderland,Wonderland,https://www.imdb.com/title/tt31254554,Movie,6.2,113,2024,"Drama, Sci-Fi",2024-07-26,"Kim Tae-yong,Sharon S. Park"
 tt26753003,5,2024-08-04,Trap,Trap,https://www.imdb.com/title/tt26753003,Movie,5.9,105,2024,"Thriller, Mystery, Crime, Horror",2024-08-02,M. Night Shyamalan
 tt22048412,6,2024-08-03,MaXXXine,MaXXXine,https://www.imdb.com/title/tt22048412,Movie,6.3,103,2024,"Horror, Crime",2024-07-05,Ti West
 tt14833464,4,2024-08-02,Players,Players,https://www.imdb.com/title/tt14833464,Movie,5.7,105,2024,"Comedy, Romance",2024-02-14,Trish Sie
@@ -68,7 +71,7 @@ tt3716530,6,2024-07-27,Elle,Elle,https://www.imdb.com/title/tt3716530,Movie,7.1,
 tt2756032,6,2024-07-27,The One I Love,The One I Love,https://www.imdb.com/title/tt2756032,Movie,7.0,91,2014,"Drama, Sci-Fi, Comedy, Romance, Thriller, Fantasy, Mystery",2014-08-08,Charlie McDowell
 tt5649144,5,2024-07-27,The Florida Project,The Florida Project,https://www.imdb.com/title/tt5649144,Movie,7.6,111,2017,Drama,2017-11-10,Sean Baker
 tt4919268,6,2024-07-27,Bad Boys: Ride or Die,Bad Boys: Ride or Die,https://www.imdb.com/title/tt4919268,Movie,6.6,115,2024,"Action, Comedy, Adventure, Crime, Thriller",2024-06-07,"Adil El Arbi,Bilall Fallah"
-tt6263850,8,2024-07-26,Deadpool & Wolverine,Deadpool & Wolverine,https://www.imdb.com/title/tt6263850,Movie,7.8,128,2024,"Action, Comedy, Sci-Fi, Adventure",2024-07-26,Shawn Levy
+tt6263850,8,2024-07-26,Deadpool & Wolverine,Deadpool & Wolverine,https://www.imdb.com/title/tt6263850,Movie,7.7,128,2024,"Action, Comedy, Sci-Fi, Adventure",2024-07-26,Shawn Levy
 tt22773644,5,2024-07-26,The Dead Don't Hurt,The Dead Don't Hurt,https://www.imdb.com/title/tt22773644,Movie,6.4,129,2023,"Western, Drama",2024-05-31,Viggo Mortensen
 tt21469794,3,2024-07-22,Space Cadet,Space Cadet,https://www.imdb.com/title/tt21469794,Movie,4.9,110,2024,Comedy,2024-07-04,Liz W. Garcia
 tt26442871,5,2024-07-21,Wildcat,Wildcat,https://www.imdb.com/title/tt26442871,Movie,5.8,103,2023,"Biography, Drama",2024-07-12,Ethan Hawke
@@ -84,7 +87,7 @@ tt0109254,5,2024-07-13,Beverly Hills Cop III,Beverly Hills Cop III,https://www.i
 tt0092644,7,2024-07-12,Beverly Hills Cop II,Beverly Hills Cop II,https://www.imdb.com/title/tt0092644,Movie,6.6,103,1987,"Crime, Thriller, Comedy, Action",1987-05-20,Tony Scott
 tt21051906,4,2024-07-05,A Family Affair,A Family Affair,https://www.imdb.com/title/tt21051906,Movie,5.3,111,2024,"Comedy, Romance, Drama",2024-06-28,Richard LaGravenese
 tt18925334,6,2024-07-01,Pearl,Pearl,https://www.imdb.com/title/tt18925334,Movie,7.0,103,2022,"Horror, Drama, Thriller",2022-09-16,Ti West
-tt20315818,5,2024-06-29,Ezra,Ezra,https://www.imdb.com/title/tt20315818,Movie,6.5,101,2023,"Comedy, Drama",2024-05-30,Tony Goldwyn
+tt20315818,5,2024-06-29,Ezra,Ezra,https://www.imdb.com/title/tt20315818,Movie,6.4,101,2023,"Comedy, Drama",2024-05-30,Tony Goldwyn
 tt22408160,7,2024-06-28,Kinds of Kindness,Kinds of Kindness,https://www.imdb.com/title/tt22408160,Movie,6.5,164,2024,"Comedy, Drama, Horror",2024-06-28,Yorgos Lanthimos
 tt15574270,3,2024-06-24,I Saw the TV Glow,I Saw the TV Glow,https://www.imdb.com/title/tt15574270,Movie,5.8,100,2024,"Drama, Horror",2024-05-17,Jane Schoenbrun
 tt0210075,5,2024-06-22,Girlfight,Girlfight,https://www.imdb.com/title/tt0210075,Movie,6.7,110,2000,"Sport, Drama",2000-10-06,Karyn Kusama
@@ -209,7 +212,7 @@ tt14827638,4,2024-01-27,The Retirement Plan,The Retirement Plan,https://www.imdb
 tt26006472,2,2024-01-27,Veni Vidi Vici,Veni Vidi Vici,https://www.imdb.com/title/tt26006472,Movie,5.9,86,2024,"Drama, Comedy",2024-09-13,"Daniel Hoesl,Julia Niemann"
 tt30319830,1,2024-01-27,Skywalkers: A Love Story,Skywalkers: A Love Story,https://www.imdb.com/title/tt30319830,Movie,7.1,100,2024,Documentary,2024-07-19,"Jeff Zimbalist,Maria Bukhonina"
 tt27722375,4,2024-01-26,Between the Temples,Between the Temples,https://www.imdb.com/title/tt27722375,Movie,6.3,111,2024,Comedy,2024-08-23,Nathan Silver
-tt26681810,2,2024-01-26,War Game,War Game,https://www.imdb.com/title/tt26681810,Movie,5.6,94,2024,"Documentary, Thriller",2024-08-09,"Tony Gerber,Jesse Moss"
+tt26681810,2,2024-01-26,War Game,War Game,https://www.imdb.com/title/tt26681810,Movie,5.5,94,2024,"Documentary, Thriller",2024-08-09,"Tony Gerber,Jesse Moss"
 tt18363072,5,2024-01-26,The Royal Hotel,The Royal Hotel,https://www.imdb.com/title/tt18363072,Movie,5.8,91,2023,Thriller,2023-10-06,Kitty Green
 tt28249919,5,2024-01-26,Presence,Presence,https://www.imdb.com/title/tt28249919,Movie,6.8,85,2024,"Thriller, Horror",2025-01-24,Steven Soderbergh
 tt30227076,5,2024-01-25,Black Box Diaries,Black Box Diaries,https://www.imdb.com/title/tt30227076,Movie,7.9,102,2024,Documentary,2024,Shiori Itô
@@ -217,9 +220,9 @@ tt21375602,2,2024-01-25,Love Me,Love Me,https://www.imdb.com/title/tt21375602,Mo
 tt21740488,3,2024-01-25,Little Death,Little Death,https://www.imdb.com/title/tt21740488,Movie,5.5,110,2024,"Drama, Comedy",2024-01-19,Jack Begert
 tt0165798,6,2024-01-25,Ghost Dog: The Way of the Samurai,Ghost Dog: The Way of the Samurai,https://www.imdb.com/title/tt0165798,Movie,7.5,116,1999,"Crime, Drama",2000-03-24,Jim Jarmusch
 tt8258502,4,2024-01-25,Foe,Foe,https://www.imdb.com/title/tt8258502,Movie,5.4,110,2023,"Thriller, Sci-Fi, Drama, Romance",2023-11-07,Garth Davis
-tt21823606,5,2024-01-25,A Real Pain,A Real Pain,https://www.imdb.com/title/tt21823606,Movie,7.5,90,2024,"Comedy, Drama",2024-11-08,Jesse Eisenberg
+tt21823606,5,2024-01-25,A Real Pain,A Real Pain,https://www.imdb.com/title/tt21823606,Movie,7.5,90,2024,"Comedy, Drama",2024-11-01,Jesse Eisenberg
 tt3758542,5,2024-01-24,Ferrari,Ferrari,https://www.imdb.com/title/tt3758542,Movie,6.4,130,2023,"Biography, Drama, History, Sport",2023-12-25,Michael Mann
-tt18559464,4,2024-01-24,My Old Ass,My Old Ass,https://www.imdb.com/title/tt18559464,Movie,7.2,89,2024,"Comedy, Drama, Romance",2024-09-13,Megan Park
+tt18559464,4,2024-01-24,My Old Ass,My Old Ass,https://www.imdb.com/title/tt18559464,Movie,7.1,89,2024,"Comedy, Drama, Romance",2024-11-07,Megan Park
 tt11433906,6,2024-01-24,Winner,Winner,https://www.imdb.com/title/tt11433906,Movie,6.3,103,2024,"Biography, Comedy",2024-09-13,Susanna Fogel
 tt23778968,6,2024-01-23,Thelma,Thelma,https://www.imdb.com/title/tt23778968,Movie,7.0,98,2024,"Comedy, Action",2024-06-21,Josh Margolin
 tt12672536,5,2024-01-23,The Three Musketeers - Part I: D'Artagnan,Les trois mousquetaires: D'Artagnan,https://www.imdb.com/title/tt12672536,Movie,6.7,121,2023,"Adventure, History, Action",2023-04-05,Martin Bourboulon
@@ -428,7 +431,7 @@ tt15255288,4,2023-04-04,Murder Mystery 2,Murder Mystery 2,https://www.imdb.com/t
 tt8772262,7,2023-04-04,Midsommar,Midsommar,https://www.imdb.com/title/tt8772262,Movie,7.1,148,2019,"Horror, Drama, Mystery, Thriller",2019-07-03,Ari Aster
 tt12758060,6,2023-04-02,Tetris,Tetris,https://www.imdb.com/title/tt12758060,Movie,7.4,118,2023,"Biography, Thriller, Drama, History",2023-03-31,Jon S. Baird
 tt2560078,5,2023-03-26,Boston Strangler,Boston Strangler,https://www.imdb.com/title/tt2560078,Movie,6.5,112,2023,"Thriller, Drama, Crime, History",2023-03-17,Matt Ruskin
-tt10366206,8,2023-03-25,John Wick: Chapter 4,John Wick: Chapter 4,https://www.imdb.com/title/tt10366206,Movie,7.7,169,2023,"Action, Crime, Thriller",2023-03-24,Chad Stahelski
+tt10366206,8,2023-03-25,John Wick: Chapter 4,John Wick: Chapter 4,https://www.imdb.com/title/tt10366206,Movie,7.6,169,2023,"Action, Crime, Thriller",2023-03-24,Chad Stahelski
 tt13056052,5,2023-03-23,Broker,Beurokeo,https://www.imdb.com/title/tt13056052,Movie,7.1,129,2022,"Drama, Comedy, Crime",2022-06-08,Hirokazu Koreeda
 tt10944760,4,2023-03-22,Titane,Titane,https://www.imdb.com/title/tt10944760,Movie,6.5,108,2021,"Drama, Thriller, Sci-Fi, Horror",2021-10-01,Julia Ducournau
 tt26229554,6,2023-03-21,Bono & The Edge: A Sort of Homecoming with Dave Letterman,"Bono & The Edge: A Sort of Homecoming, with Dave Letterman",https://www.imdb.com/title/tt26229554,Movie,7.8,84,2023,"Documentary, Music",2023-03-17,Morgan Neville
@@ -451,7 +454,7 @@ tt10365998,7,2023-02-19,Infinity Pool,Infinity Pool,https://www.imdb.com/title/t
 tt5884796,5,2023-02-18,Plane,Plane,https://www.imdb.com/title/tt5884796,Movie,6.5,107,2023,"Action, Thriller, Adventure",2023-01-13,Jean-François Richet
 tt10954600,5,2023-02-18,Ant-Man and the Wasp: Quantumania,Ant-Man and the Wasp: Quantumania,https://www.imdb.com/title/tt10954600,Movie,6.0,124,2023,"Action, Adventure, Comedy, Sci-Fi",2023-02-17,Peyton Reed
 tt12823454,5,2023-02-12,Your Place or Mine,Your Place or Mine,https://www.imdb.com/title/tt12823454,Movie,5.7,109,2023,"Comedy, Romance",2023-02-10,Aline Brosh McKenna
-tt14458442,6,2023-02-12,The Son,The Son,https://www.imdb.com/title/tt14458442,Movie,6.4,123,2022,Drama,2023-01-20,Florian Zeller
+tt14458442,6,2023-02-12,The Son,The Son,https://www.imdb.com/title/tt14458442,Movie,6.5,123,2022,Drama,2023-01-20,Florian Zeller
 tt14402146,5,2023-02-09,Empire of Light,Empire of Light,https://www.imdb.com/title/tt14402146,Movie,6.7,115,2022,"Drama, Romance",2022-12-09,Sam Mendes
 tt8760708,5,2023-02-09,M3GAN,M3GAN,https://www.imdb.com/title/tt8760708,Movie,6.3,102,2022,"Horror, Thriller, Sci-Fi",2023-01-06,Gerard Johnstone
 tt10776712,4,2023-02-04,Microwave,Microwave,https://www.imdb.com/title/tt10776712,Movie,null,83,2023,"Sci-Fi, Comedy, Drama",2023-02-03,Aaron G. Abrams
@@ -718,7 +721,7 @@ tt12655436,5,2022-01-26,Honk for Jesus. Save Your Soul.,Honk for Jesus. Save You
 tt11818818,6,2022-01-26,God's Country,God's Country,https://www.imdb.com/title/tt11818818,Movie,5.6,102,2022,Thriller,2022-09-16,Julian Higgins
 tt14376344,6,2022-01-26,Cha Cha Real Smooth,Cha Cha Real Smooth,https://www.imdb.com/title/tt14376344,Movie,7.3,107,2022,"Drama, Comedy",2022-06-17,Cooper Raiff
 tt16378396,5,2022-01-25,Every Day in Kaimuki,Every Day in Kaimuki,https://www.imdb.com/title/tt16378396,Movie,5.3,81,2022,"Drama, Music",2022-10-21,Alika Tengan
-tt9358052,4,2022-01-25,Knock Down the House,Knock Down the House,https://www.imdb.com/title/tt9358052,Movie,7.3,87,2019,Documentary,2019-05-01,Rachel Lears
+tt9358052,4,2022-01-25,Knock Down the House,Knock Down the House,https://www.imdb.com/title/tt9358052,Movie,7.4,87,2019,Documentary,2019-05-01,Rachel Lears
 tt16378064,2,2022-01-25,To the End,To the End,https://www.imdb.com/title/tt16378064,Movie,3.4,94,2022,Documentary,2022-12-09,Rachel Lears
 tt16378298,6,2022-01-25,Meet Me in the Bathroom,Meet Me in the Bathroom,https://www.imdb.com/title/tt16378298,Movie,6.7,105,2022,"Documentary, Music",2022-11-25,"Will Lovelace,Dylan Southern,Andrew Cross,Vivienne Perry,Sam Rice-Edwards"
 tt16377380,5,2022-01-25,The Unredacted,Jihad Rehab,https://www.imdb.com/title/tt16377380,Movie,7.8,108,2022,Documentary,2022-01-22,Meg Smaker
@@ -988,7 +991,7 @@ tt8080054,8,2021-08-01,Patriot Act with Hasan Minhaj,Patriot Act with Hasan Minh
 tt5057054,7,2021-08-01,Tom Clancy's Jack Ryan,Jack Ryan,https://www.imdb.com/title/tt5057054,TV Series,8.0,60,2018,"Action, Drama, Thriller",2018-08-31,
 tt2261227,6,2021-08-01,Altered Carbon,Altered Carbon,https://www.imdb.com/title/tt2261227,TV Series,7.9,60,2018,"Sci-Fi, Drama, Action, Adventure",2018-02-02,
 tt4378376,5,2021-08-01,Babylon Berlin,Babylon Berlin,https://www.imdb.com/title/tt4378376,TV Series,8.4,45,2017,"Crime, Drama, Thriller",2018-01-30,
-tt6048596,7,2021-08-01,The Sinner,The Sinner,https://www.imdb.com/title/tt6048596,TV Series,7.9,45,2017,"Thriller, Drama, Mystery, Crime",2017-08-02,
+tt6048596,7,2021-08-01,The Sinner,The Sinner,https://www.imdb.com/title/tt6048596,TV Series,7.8,45,2017,"Thriller, Drama, Mystery, Crime",2017-08-02,
 tt5580540,8,2021-08-01,Santa Clarita Diet,Santa Clarita Diet,https://www.imdb.com/title/tt5580540,TV Series,7.8,30,2017,"Comedy, Horror",2017-02-03,
 tt5460226,8,2021-08-01,Search Party,Search Party,https://www.imdb.com/title/tt5460226,TV Series,7.6,24,2016,"Comedy, Drama, Mystery, Thriller, Crime",2016-11-17,
 tt1399664,7,2021-08-01,The Night Manager,The Night Manager,https://www.imdb.com/title/tt1399664,TV Series,8.0,60,2016,"Drama, Mystery, Thriller, Crime",2016-04-19,
@@ -1174,7 +1177,7 @@ tt0499097,6,2021-05-02,Without Remorse,Without Remorse,https://www.imdb.com/titl
 tt9016974,7,2021-04-25,Synchronic,Synchronic,https://www.imdb.com/title/tt9016974,Movie,6.2,102,2019,"Sci-Fi, Thriller, Drama, Horror, Mystery",2020-10-23,"Justin Benson,Aaron Moorhead"
 tt14164234,5,2021-04-25,Ride or Die,Kanojo,https://www.imdb.com/title/tt14164234,Movie,5.6,142,2021,"Drama, Romance, Thriller, Crime",2021-04-15,Ryûichi Hiroki
 tt13472984,7,2021-04-24,Two Distant Strangers,Two Distant Strangers,https://www.imdb.com/title/tt13472984,Short,6.9,32,2020,"Short, Drama, Sci-Fi",2020-11-20,"Travon Free,Martin Desmond Roe"
-tt0293429,5,2021-04-24,Mortal Kombat,Mortal Kombat,https://www.imdb.com/title/tt0293429,Movie,6.0,110,2021,"Thriller, Sci-Fi, Adventure, Fantasy, Action",2021-04-23,Simon McQuoid
+tt0293429,5,2021-04-24,Mortal Kombat,Mortal Kombat,https://www.imdb.com/title/tt0293429,Movie,6.1,110,2021,"Thriller, Sci-Fi, Adventure, Fantasy, Action",2021-04-23,Simon McQuoid
 tt5867314,5,2021-04-23,The Empty Man,The Empty Man,https://www.imdb.com/title/tt5867314,Movie,6.2,137,2020,"Thriller, Horror, Mystery, Drama",2020-10-23,David Prior
 tt8368512,6,2021-04-16,The Courier,The Courier,https://www.imdb.com/title/tt8368512,Movie,7.2,112,2020,"Thriller, Drama, History, Mystery",2021-03-19,Dominic Cooke
 tt7888964,7,2021-04-16,Nobody,Nobody,https://www.imdb.com/title/tt7888964,Movie,7.4,92,2021,"Action, Crime, Thriller, Drama",2021-03-26,Ilya Naishuller
@@ -2508,7 +2511,7 @@ tt0096257,4,2014-05-04,The Thin Blue Line,The Thin Blue Line,https://www.imdb.co
 tt0361862,6,2014-05-04,The Machinist,The Machinist,https://www.imdb.com/title/tt0361862,Movie,7.6,101,2004,"Thriller, Drama",2004-12-03,Brad Anderson
 tt0102057,6,2014-05-04,Hook,Hook,https://www.imdb.com/title/tt0102057,Movie,6.8,142,1991,"Comedy, Adventure, Family, Fantasy",1991-12-11,Steven Spielberg
 tt0362227,6,2014-05-04,The Terminal,The Terminal,https://www.imdb.com/title/tt0362227,Movie,7.4,128,2004,"Drama, Comedy, Romance",2004-06-18,Steven Spielberg
-tt0298148,6,2014-05-04,Shrek 2,Shrek 2,https://www.imdb.com/title/tt0298148,Movie,7.3,93,2004,"Animation, Romance, Comedy, Family, Adventure, Fantasy",2004-05-19,"Andrew Adamson,Kelly Asbury,Conrad Vernon"
+tt0298148,6,2014-05-04,Shrek 2,Shrek 2,https://www.imdb.com/title/tt0298148,Movie,7.4,93,2004,"Animation, Romance, Comedy, Family, Adventure, Fantasy",2004-05-19,"Andrew Adamson,Kelly Asbury,Conrad Vernon"
 tt0338526,6,2014-05-04,Van Helsing,Van Helsing,https://www.imdb.com/title/tt0338526,Movie,6.1,131,2004,"Fantasy, Thriller, Adventure, Action",2004-05-07,Stephen Sommers
 tt0304141,8,2014-05-04,Harry Potter and the Prisoner of Azkaban,Harry Potter and the Prisoner of Azkaban,https://www.imdb.com/title/tt0304141,Movie,7.9,142,2004,"Mystery, Family, Adventure, Fantasy",2004-06-04,Alfonso Cuarón
 tt0363988,6,2014-05-04,Secret Window,Secret Window,https://www.imdb.com/title/tt0363988,Movie,6.5,96,2004,"Thriller, Mystery, Drama",2004-03-12,David Koepp
@@ -2801,7 +2804,7 @@ tt1182350,6,2014-05-04,You Will Meet a Tall Dark Stranger,You Will Meet a Tall D
 tt1222817,4,2014-05-04,Zookeeper,Zookeeper,https://www.imdb.com/title/tt1222817,Movie,5.2,102,2011,"Comedy, Romance, Family, Fantasy",2011-07-08,Frank Coraci
 tt0408790,2,2014-05-04,Flightplan,Flightplan,https://www.imdb.com/title/tt0408790,Movie,6.3,98,2005,"Thriller, Mystery, Drama",2005-09-23,Robert Schwentke
 tt0032910,6,2014-05-04,Pinocchio,Pinocchio,https://www.imdb.com/title/tt0032910,Movie,7.5,88,1940,"Animation, Musical, Fantasy, Comedy, Adventure, Family",1940-02-23,"Norman Ferguson,T. Hee,Wilfred Jackson,Jack Kinney,Hamilton Luske,Bill Roberts,Ben Sharpsteen"
-tt0308808,6,2014-05-04,Revolution OS,Revolution OS,https://www.imdb.com/title/tt0308808,Movie,7.2,85,2001,"Documentary, Comedy",2002-02-15,J.T.S. Moore
+tt0308808,6,2014-05-04,Revolution OS,Revolution OS,https://www.imdb.com/title/tt0308808,Movie,7.3,85,2001,"Documentary, Comedy",2002-02-15,J.T.S. Moore
 tt0328538,8,2014-05-04,Thirteen,Thirteen,https://www.imdb.com/title/tt0328538,Movie,6.8,100,2003,Drama,2003-09-19,Catherine Hardwicke
 tt0380510,6,2014-05-04,The Lovely Bones,The Lovely Bones,https://www.imdb.com/title/tt0380510,Movie,6.6,135,2009,"Drama, Fantasy, Thriller",2010-01-15,Peter Jackson
 tt1086216,6,2014-05-04,Uncertainty,Uncertainty,https://www.imdb.com/title/tt1086216,Movie,5.7,101,2008,"Drama, Romance, Thriller",2012-08-04,"Scott McGehee,David Siegel"
