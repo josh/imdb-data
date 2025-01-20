@@ -20,7 +20,7 @@ mypy-extensions==1.0.0
     # via mypy
 packaging==24.2
     # via parsel
-parsel==1.9.1
+parsel==1.10.0
     # via imdb-data (pyproject.toml)
 requests==2.32.3
     # via imdb-data (pyproject.toml)
