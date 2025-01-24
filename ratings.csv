@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,null,100,2025,Comedy,2025-01-23,James Sweeney
 tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,null,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.9,107,2024,Drama,2024-10-18,Pedro Almodóvar
 tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.4,127,2024,"Action, Thriller",2024-12-12,J.C. Chandor
@@ -16,10 +17,10 @@ tt27196021,4,2024-12-22,Small Things Like These,Small Things Like These,https://
 tt28015403,7,2024-12-21,Heretic,Heretic,https://www.imdb.com/title/tt28015403,Movie,7.0,111,2024,"Horror, Thriller",2024-11-08,"Scott Beck,Bryan Woods"
 tt1381404,6,2024-12-17,The Company You Keep,The Company You Keep,https://www.imdb.com/title/tt1381404,Movie,6.4,125,2012,"Thriller, Drama",2013-04-26,Robert Redford
 tt16366836,2,2024-12-16,Venom: The Last Dance,Venom: The Last Dance,https://www.imdb.com/title/tt16366836,Movie,6.0,110,2024,"Action, Adventure, Sci-Fi, Thriller",2024-10-25,Kelly Marcel
-tt20221436,2,2024-12-16,Emilia Pérez,Emilia Pérez,https://www.imdb.com/title/tt20221436,Movie,6.4,132,2024,"Musical, Comedy, Crime, Thriller, Drama",2024-11-13,Jacques Audiard
+tt20221436,2,2024-12-16,Emilia Pérez,Emilia Pérez,https://www.imdb.com/title/tt20221436,Movie,6.3,132,2024,"Musical, Comedy, Crime, Thriller, Drama",2024-11-13,Jacques Audiard
 tt10171472,6,2024-12-16,Goodrich,Goodrich,https://www.imdb.com/title/tt10171472,Movie,6.3,110,2024,"Drama, Comedy",2024-10-17,Hallie Meyers-Shyer
 tt26625693,7,2024-12-14,The Order,The Order,https://www.imdb.com/title/tt26625693,Movie,6.8,116,2024,"Crime, Thriller, Drama",2024-12-06,Justin Kurzel
-tt28249919,7,2024-12-14,Presence,Presence,https://www.imdb.com/title/tt28249919,Movie,6.5,85,2024,"Thriller, Horror, Drama",2025-01-24,Steven Soderbergh
+tt28249919,7,2024-12-14,Presence,Presence,https://www.imdb.com/title/tt28249919,Movie,6.6,85,2024,"Thriller, Horror, Drama",2025-01-24,Steven Soderbergh
 tt21382296,6,2024-12-14,Carry-On,Carry-On,https://www.imdb.com/title/tt21382296,Movie,6.5,119,2024,"Action, Thriller, Crime, Mystery, Drama",2024-12-13,Jaume Collet-Serra
 tt15939198,4,2024-12-12,Blitz,Blitz,https://www.imdb.com/title/tt15939198,Movie,6.2,120,2024,"Drama, War, History, Action",2024-11-01,Steve McQueen
 tt0137363,6,2024-12-12,Arlington Road,Arlington Road,https://www.imdb.com/title/tt0137363,Movie,7.2,117,1999,"Crime, Drama, Action, Mystery, Thriller",1999-07-09,Mark Pellington
@@ -249,7 +250,7 @@ tt30319830,1,2024-01-27,Skywalkers: A Love Story,Skywalkers: A Love Story,https:
 tt27722375,4,2024-01-26,Between the Temples,Between the Temples,https://www.imdb.com/title/tt27722375,Movie,6.3,111,2024,Comedy,2024-08-23,Nathan Silver
 tt26681810,2,2024-01-26,War Game,War Game,https://www.imdb.com/title/tt26681810,Movie,5.5,94,2024,"Documentary, Thriller",2024-08-09,"Tony Gerber,Jesse Moss"
 tt18363072,5,2024-01-26,The Royal Hotel,The Royal Hotel,https://www.imdb.com/title/tt18363072,Movie,5.8,91,2023,"Thriller, Drama",2023-10-06,Kitty Green
-tt30227076,5,2024-01-25,Black Box Diaries,Black Box Diaries,https://www.imdb.com/title/tt30227076,Movie,7.7,102,2024,Documentary,2024-11-28,Shiori Itô
+tt30227076,5,2024-01-25,Black Box Diaries,Black Box Diaries,https://www.imdb.com/title/tt30227076,Movie,7.6,102,2024,Documentary,2024-11-28,Shiori Itô
 tt21375602,2,2024-01-25,Love Me,Love Me,https://www.imdb.com/title/tt21375602,Movie,5.4,92,2024,"Drama, Sci-Fi",2025-01-31,"Andrew Zuchero,Sam Zuchero"
 tt21740488,3,2024-01-25,Little Death,Little Death,https://www.imdb.com/title/tt21740488,Movie,5.5,110,2024,"Drama, Comedy",2024-01-19,Jack Begert
 tt0165798,6,2024-01-25,Ghost Dog: The Way of the Samurai,Ghost Dog: The Way of the Samurai,https://www.imdb.com/title/tt0165798,Movie,7.5,116,1999,"Crime, Drama",2000-03-24,Jim Jarmusch
@@ -4162,7 +4163,7 @@ tt1152836,7,2012-07-16,Public Enemies,Public Enemies,https://www.imdb.com/title/
 tt1182345,10,2012-07-16,Moon,Moon,https://www.imdb.com/title/tt1182345,Movie,7.8,97,2009,"Sci-Fi, Drama, Mystery",2009-07-10,Duncan Jones
 tt1210166,8,2012-07-16,Moneyball,Moneyball,https://www.imdb.com/title/tt1210166,Movie,7.6,133,2011,"Drama, Sport, Biography",2011-09-23,Bennett Miller
 tt0112817,8,2012-07-16,Dead Man,Dead Man,https://www.imdb.com/title/tt0112817,Movie,7.5,121,1995,"Drama, Fantasy, Adventure, Comedy, Western",1996-05-10,Jim Jarmusch
-tt0361309,6,2012-07-16,We Don't Live Here Anymore,We Don't Live Here Anymore,https://www.imdb.com/title/tt0361309,Movie,6.2,101,2004,"Drama, Romance",2004-09-03,John Curran
+tt0361309,6,2012-07-16,We Don't Live Here Anymore,We Don't Live Here Anymore,https://www.imdb.com/title/tt0361309,Movie,6.3,101,2004,"Drama, Romance",2004-09-03,John Curran
 tt1250777,7,2012-07-16,Kick-Ass,Kick-Ass,https://www.imdb.com/title/tt1250777,Movie,7.6,117,2010,"Comedy, Action, Crime",2010-04-16,Matthew Vaughn
 tt0272338,8,2012-07-16,Punch-Drunk Love,Punch-Drunk Love,https://www.imdb.com/title/tt0272338,Movie,7.3,95,2002,"Drama, Comedy, Thriller, Romance",2002-11-01,Paul Thomas Anderson
 tt0106912,7,2012-07-16,Fire in the Sky,Fire in the Sky,https://www.imdb.com/title/tt0106912,Movie,6.5,109,1993,"Biography, Fantasy, Sci-Fi, Drama, Mystery",1993-03-12,Robert Lieberman
