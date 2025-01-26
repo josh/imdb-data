@@ -1,8 +1,9 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,null,98,2025,Drama,2025-01-25,Dylan Southern
 tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,null,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.1,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
-tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.6,100,2025,Comedy,2025-01-23,James Sweeney
-tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.6,83,2025,Drama,2025-01-23,Cole Webley
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.3,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
+tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.8,100,2025,Comedy,2025-01-23,James Sweeney
+tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.5,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.9,107,2024,Drama,2024-10-18,Pedro Almodóvar
 tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.4,127,2024,"Action, Thriller",2024-12-12,J.C. Chandor
 tt22042346,3,2025-01-23,2073,2073,https://www.imdb.com/title/tt22042346,Movie,5.0,85,2024,"Documentary, Thriller",2024-12-27,Asif Kapadia
@@ -191,7 +192,7 @@ tt30320959,4,2024-03-26,God Save Texas,God Save Texas,https://www.imdb.com/title
 tt11097384,4,2024-03-23,Spaceman,Spaceman,https://www.imdb.com/title/tt11097384,Movie,5.7,107,2024,"Adventure, Drama, Sci-Fi",2024-03-01,Johan Renck
 tt13884444,4,2024-03-23,American Dreamer,American Dreamer,https://www.imdb.com/title/tt13884444,Movie,6.0,98,2022,Comedy,2024-03-08,Paul Dektor
 tt0098206,6,2024-03-23,Road House,Road House,https://www.imdb.com/title/tt0098206,Movie,6.7,114,1989,"Thriller, Action",1989-05-19,Rowdy Herrington
-tt3359350,7,2024-03-22,Road House,Road House,https://www.imdb.com/title/tt3359350,Movie,6.2,121,2024,"Action, Thriller",2024-03-21,Doug Liman
+tt3359350,7,2024-03-22,Road House,Road House,https://www.imdb.com/title/tt3359350,Movie,6.2,121,2024,"Action, Thriller, Drama",2024-03-21,Doug Liman
 tt13655120,4,2024-03-21,I.S.S.,I.S.S.,https://www.imdb.com/title/tt13655120,Movie,5.3,95,2023,"Sci-Fi, Thriller",2024-01-19,Gabriela Cowperthwaite
 tt1660648,6,2024-03-21,Ricky Stanicky,Ricky Stanicky,https://www.imdb.com/title/tt1660648,Movie,6.2,113,2024,Comedy,2024-03-07,Peter Farrelly
 tt27110516,6,2024-03-20,One More Shot,One More Shot,https://www.imdb.com/title/tt27110516,Movie,5.4,103,2024,"Action, Thriller",2024-01-12,James Nunn
@@ -260,7 +261,7 @@ tt8258502,4,2024-01-25,Foe,Foe,https://www.imdb.com/title/tt8258502,Movie,5.4,11
 tt21823606,5,2024-01-25,A Real Pain,A Real Pain,https://www.imdb.com/title/tt21823606,Movie,7.2,90,2024,"Comedy, Drama",2024-11-01,Jesse Eisenberg
 tt3758542,5,2024-01-24,Ferrari,Ferrari,https://www.imdb.com/title/tt3758542,Movie,6.4,130,2023,"Biography, Drama, History, Sport",2023-12-25,Michael Mann
 tt18559464,4,2024-01-24,My Old Ass,My Old Ass,https://www.imdb.com/title/tt18559464,Movie,7.0,89,2024,"Comedy, Drama, Romance",2024-11-07,Megan Park
-tt11433906,6,2024-01-24,Winner,Winner,https://www.imdb.com/title/tt11433906,Movie,6.3,103,2024,"Biography, Comedy, Adventure, Drama, Thriller",2024-09-13,Susanna Fogel
+tt11433906,6,2024-01-24,Winner,Winner,https://www.imdb.com/title/tt11433906,Movie,6.4,103,2024,"Biography, Comedy, Adventure, Drama, Thriller",2024-09-13,Susanna Fogel
 tt23778968,6,2024-01-23,Thelma,Thelma,https://www.imdb.com/title/tt23778968,Movie,7.0,98,2024,"Comedy, Action",2024-06-21,Josh Margolin
 tt12672536,5,2024-01-23,The Three Musketeers - Part I: D'Artagnan,Les trois mousquetaires: D'Artagnan,https://www.imdb.com/title/tt12672536,Movie,6.7,121,2023,"Adventure, History, Action",2023-04-05,Martin Bourboulon
 tt11908172,4,2024-01-23,The Kill Room,The Kill Room,https://www.imdb.com/title/tt11908172,Movie,5.5,98,2023,"Thriller, Comedy",2023-09-29,Nicol Paone
@@ -1414,7 +1415,7 @@ tt8461224,4,2020-08-31,The Tax Collector,The Tax Collector,https://www.imdb.com/
 tt5932728,5,2020-08-31,The Professor and the Madman,The Professor and the Madman,https://www.imdb.com/title/tt5932728,Movie,7.2,124,2019,"Drama, Biography, History",2019-05-10,Farhad Safinia
 tt0096928,6,2020-08-31,Bill & Ted's Excellent Adventure,Bill & Ted's Excellent Adventure,https://www.imdb.com/title/tt0096928,Movie,6.9,90,1989,"Sci-Fi, Music, Romance, Comedy, Adventure",1989-02-17,Stephen Herek
 tt4523530,6,2020-08-26,Valley of the Gods,Valley of the Gods,https://www.imdb.com/title/tt4523530,Movie,4.6,126,2019,"Drama, Adventure, Sci-Fi, Thriller",2020-08-11,Lech Majewski
-tt9000224,4,2020-08-26,The Assistant,The Assistant,https://www.imdb.com/title/tt9000224,Movie,6.3,87,2019,Drama,2020-01-31,Kitty Green
+tt9000224,4,2020-08-26,The Assistant,The Assistant,https://www.imdb.com/title/tt9000224,Movie,6.4,87,2019,Drama,2020-01-31,Kitty Green
 tt9231040,5,2020-08-23,First Cow,First Cow,https://www.imdb.com/title/tt9231040,Movie,7.1,122,2019,"Drama, Western",2020-07-10,Kelly Reichardt
 tt5723286,8,2020-08-23,Wheelman,Wheelman,https://www.imdb.com/title/tt5723286,Movie,6.4,82,2017,"Action, Thriller",2017-10-20,Jeremy Rush
 tt4015500,5,2020-08-23,The Tale,The Tale,https://www.imdb.com/title/tt4015500,Movie,7.2,114,2018,"Drama, Mystery, Thriller, Biography",2018-05-27,Jennifer Fox
