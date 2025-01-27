@@ -1,10 +1,12 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt19861162,4,2025-01-27,The Return,The Return,https://www.imdb.com/title/tt19861162,Movie,6.2,116,2024,"History, Adventure, Drama",2024-12-06,Uberto Pasolini
+tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.5,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
 tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,null,94,2025,Comedy,2025-01-26,Sophie Brooks
-tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,8.0,98,2025,Drama,2025-01-25,Dylan Southern
+tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,7.7,98,2025,Drama,2025-01-25,Dylan Southern
 tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,8.0,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.5,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.4,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.8,100,2025,Comedy,2025-01-23,James Sweeney
-tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.6,83,2025,Drama,2025-01-23,Cole Webley
+tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.7,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.9,107,2024,Drama,2024-10-18,Pedro Almodóvar
 tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.4,127,2024,"Action, Thriller",2024-12-12,J.C. Chandor
 tt22042346,3,2025-01-23,2073,2073,https://www.imdb.com/title/tt22042346,Movie,5.0,85,2024,"Documentary, Thriller",2024-12-27,Asif Kapadia
@@ -12,7 +14,7 @@ tt1259528,7,2025-01-20,Den of Thieves,Den of Thieves,https://www.imdb.com/title/
 tt24176060,5,2025-01-18,Queer,Queer,https://www.imdb.com/title/tt24176060,Movie,6.5,137,2024,"Drama, Biography, History, Romance",2025-02-13,Luca Guadagnino
 tt15388560,4,2025-01-13,All Happy Families,All Happy Families,https://www.imdb.com/title/tt15388560,Movie,5.9,90,2023,Comedy,2023-10-12,Haroula Rose
 tt29536384,6,2025-01-12,Lake George,Lake George,https://www.imdb.com/title/tt29536384,Movie,6.3,118,2024,"Crime, Thriller",2024-12-06,Jeffrey Reiner
-tt8999762,4,2025-01-10,The Brutalist,The Brutalist,https://www.imdb.com/title/tt8999762,Movie,8.1,214,2024,Drama,2025-01-24,Brady Corbet
+tt8999762,4,2025-01-10,The Brutalist,The Brutalist,https://www.imdb.com/title/tt8999762,Movie,8.0,214,2024,Drama,2025-01-24,Brady Corbet
 tt22207786,6,2025-01-05,Red Rooms,Les chambres rouges,https://www.imdb.com/title/tt22207786,Movie,7.1,118,2023,"Thriller, Crime, Mystery, Horror",2023-10-20,Pascal Plante
 tt30144381,4,2024-12-31,Nutcrackers,Nutcrackers,https://www.imdb.com/title/tt30144381,Movie,5.5,104,2024,"Comedy, Drama",2024-11-29,David Gordon Green
 tt14948432,4,2024-12-29,Red One,Red One,https://www.imdb.com/title/tt14948432,Movie,6.3,123,2024,"Action, Adventure, Comedy, Mystery, Fantasy",2024-11-15,Jake Kasdan
@@ -32,7 +34,7 @@ tt0104006,6,2024-12-12,Consenting Adults,Consenting Adults,https://www.imdb.com/
 tt27131358,5,2024-12-10,We Live in Time,We Live in Time,https://www.imdb.com/title/tt27131358,Movie,7.0,108,2024,"Drama, Romance",2024-10-18,John Crowley
 tt27403986,7,2024-12-09,Juror #2,Juror #2,https://www.imdb.com/title/tt27403986,Movie,7.0,114,2024,"Thriller, Drama, Crime, Mystery",2024-12-20,Clint Eastwood
 tt6866266,7,2024-12-09,Escape at Dannemora,Escape at Dannemora,https://www.imdb.com/title/tt6866266,TV Mini Series,7.9,60,2018,"Drama, Biography, Crime, Thriller",2018-11-18,
-tt18272208,5,2024-12-09,Here,Here,https://www.imdb.com/title/tt18272208,Movie,6.2,104,2024,Drama,2024-11-01,Robert Zemeckis
+tt18272208,5,2024-12-09,Here,Here,https://www.imdb.com/title/tt18272208,Movie,6.3,104,2024,Drama,2024-11-01,Robert Zemeckis
 tt9218128,6,2024-12-08,Gladiator II,Gladiator II,https://www.imdb.com/title/tt9218128,Movie,6.6,148,2024,"Action, Adventure, Drama",2024-11-22,Ridley Scott
 tt15507512,5,2024-12-07,The Piano Lesson,The Piano Lesson,https://www.imdb.com/title/tt15507512,Movie,6.2,127,2024,"Drama, Music",2024-11-08,Malcolm Washington
 tt30841606,3,2024-12-06,Rumours,Rumours,https://www.imdb.com/title/tt30841606,Movie,5.1,104,2024,"Comedy, Drama, Horror",2024-12-06,"Evan Johnson,Galen Johnson,Guy Maddin"
@@ -114,7 +116,7 @@ tt4919268,6,2024-07-27,Bad Boys: Ride or Die,Bad Boys: Ride or Die,https://www.i
 tt6263850,8,2024-07-26,Deadpool & Wolverine,Deadpool & Wolverine,https://www.imdb.com/title/tt6263850,Movie,7.6,128,2024,"Action, Comedy, Sci-Fi, Adventure",2024-07-26,Shawn Levy
 tt22773644,5,2024-07-26,The Dead Don't Hurt,The Dead Don't Hurt,https://www.imdb.com/title/tt22773644,Movie,6.4,129,2023,"Western, Drama",2024-05-31,Viggo Mortensen
 tt21469794,3,2024-07-22,Space Cadet,Space Cadet,https://www.imdb.com/title/tt21469794,Movie,4.9,110,2024,Comedy,2024-07-04,Liz W. Garcia
-tt26442871,5,2024-07-21,Wildcat,Wildcat,https://www.imdb.com/title/tt26442871,Movie,5.7,103,2023,"Biography, Drama, Fantasy",2024-07-12,Ethan Hawke
+tt26442871,5,2024-07-21,Wildcat,Wildcat,https://www.imdb.com/title/tt26442871,Movie,5.8,103,2023,"Biography, Drama, Fantasy",2024-07-12,Ethan Hawke
 tt19864802,5,2024-07-21,Land of Bad,Land of Bad,https://www.imdb.com/title/tt19864802,Movie,6.6,113,2024,"Action, Thriller",2024-02-16,William Eubank
 tt17505010,4,2024-07-19,Horizon: An American Saga - Chapter 1,Horizon: An American Saga - Chapter 1,https://www.imdb.com/title/tt17505010,Movie,6.7,181,2024,"Western, Drama",2024-06-28,Kevin Costner
 tt12584954,6,2024-07-19,Twisters,Twisters,https://www.imdb.com/title/tt12584954,Movie,6.5,122,2024,"Action, Adventure, Thriller",2024-07-19,Lee Isaac Chung
