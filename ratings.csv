@@ -1,12 +1,13 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb.com/title/tt32214413,Movie,null,102,2025,"Romance, Comedy",2025-04-18,Andrew Ahn
 tt19861162,4,2025-01-27,The Return,The Return,https://www.imdb.com/title/tt19861162,Movie,6.2,116,2024,"History, Adventure, Drama",2024-12-06,Uberto Pasolini
-tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.5,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
-tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,null,94,2025,Comedy,2025-01-26,Sophie Brooks
-tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,7.7,98,2025,Drama,2025-01-25,Dylan Southern
-tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,8.0,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.4,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
+tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.4,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
+tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,8.2,94,2025,Comedy,2025-01-26,Sophie Brooks
+tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,8.2,98,2025,Drama,2025-01-25,Dylan Southern
+tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,7.5,104,2025,"Drama, War",2025-01-25,Hailey Gates
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.0,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.8,100,2025,Comedy,2025-01-23,James Sweeney
-tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.7,83,2025,Drama,2025-01-23,Cole Webley
+tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.8,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.9,107,2024,Drama,2024-10-18,Pedro Almodóvar
 tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.4,127,2024,"Action, Thriller",2024-12-12,J.C. Chandor
 tt22042346,3,2025-01-23,2073,2073,https://www.imdb.com/title/tt22042346,Movie,5.0,85,2024,"Documentary, Thriller",2024-12-27,Asif Kapadia
@@ -159,7 +160,7 @@ tt23571908,6,2024-05-14,Chris Rock: Selective Outrage,Chris Rock: Selective Outr
 tt26739529,6,2024-05-14,Money Shot: The Pornhub Story,Money Shot: The Pornhub Story,https://www.imdb.com/title/tt26739529,Movie,5.4,94,2023,Documentary,2023-03-15,Suzanne Hillinger
 tt0088178,7,2024-05-14,Stop Making Sense,Stop Making Sense,https://www.imdb.com/title/tt0088178,Movie,8.7,88,1984,"Documentary, Music",1984-11-16,Jonathan Demme
 tt28814949,7,2024-05-14,Taylor Swift: The Eras Tour,Taylor Swift: The Eras Tour,https://www.imdb.com/title/tt28814949,Movie,8.0,169,2023,"Documentary, Musical, Music",2023-10-12,Sam Wrench
-tt28363850,5,2024-05-14,Postcard from Earth,Postcard from Earth,https://www.imdb.com/title/tt28363850,Movie,7.5,55,2023,"Documentary, Sci-Fi",2023-10-06,Darren Aronofsky
+tt28363850,5,2024-05-14,Postcard from Earth,Postcard from Earth,https://www.imdb.com/title/tt28363850,Movie,7.6,55,2023,"Documentary, Sci-Fi",2023-10-06,Darren Aronofsky
 tt27489557,6,2024-05-14,Abigail,Abigail,https://www.imdb.com/title/tt27489557,Movie,6.6,109,2024,"Thriller, Horror",2024-04-19,"Matt Bettinelli-Olpin,Tyler Gillett"
 tt21235248,6,2024-05-13,Ghostbusters: Frozen Empire,Ghostbusters: Frozen Empire,https://www.imdb.com/title/tt21235248,Movie,6.1,115,2024,"Adventure, Comedy, Fantasy, Sci-Fi",2024-03-22,Gil Kenan
 tt2640044,5,2024-05-06,Masters of the Air,Masters of the Air,https://www.imdb.com/title/tt2640044,TV Mini Series,7.8,56,2024,"War, Drama, Action, History",2024-01-26,
@@ -1350,7 +1351,7 @@ tt7178640,4,2020-11-27,Superintelligence,Superintelligence,https://www.imdb.com/
 tt9340860,6,2020-11-25,Let Him Go,Let Him Go,https://www.imdb.com/title/tt9340860,Movie,6.7,113,2020,"Drama, Crime, Thriller, Western",2020-11-06,Thomas Bezucha
 tt0101700,4,2020-11-23,Delicatessen,Delicatessen,https://www.imdb.com/title/tt0101700,Movie,7.5,99,1991,"Crime, Comedy",1992-04-03,"Marc Caro,Jean-Pierre Jeunet"
 tt6439020,5,2020-11-23,The Personal History of David Copperfield,The Personal History of David Copperfield,https://www.imdb.com/title/tt6439020,Movie,6.4,119,2019,"Drama, Comedy",2020-08-28,Armando Iannucci
-tt1981115,6,2020-11-22,Thor: The Dark World,Thor: The Dark World,https://www.imdb.com/title/tt1981115,Movie,6.7,112,2013,"Action, Adventure",2013-11-08,Alan Taylor
+tt1981115,6,2020-11-22,Thor: The Dark World,Thor: The Dark World,https://www.imdb.com/title/tt1981115,Movie,6.7,112,2013,"Action, Adventure, Fantasy, Sci-Fi",2013-11-08,Alan Taylor
 tt0800369,7,2020-11-22,Thor,Thor,https://www.imdb.com/title/tt0800369,Movie,7.0,115,2011,"Action, Fantasy",2011-05-06,Kenneth Branagh
 tt1899353,6,2020-11-22,The Raid: Redemption,Serbuan maut,https://www.imdb.com/title/tt1899353,Movie,7.6,101,2011,"Action, Thriller, Crime",2012-04-13,Gareth Evans
 tt0190332,7,2020-11-18,"Crouching Tiger, Hidden Dragon",Wo hu cang long,https://www.imdb.com/title/tt0190332,Movie,7.9,120,2000,"Action, Romance, Adventure, Drama, Fantasy",2001-01-12,Ang Lee
@@ -1916,7 +1917,7 @@ tt1386697,2,2017-04-26,Suicide Squad,Suicide Squad,https://www.imdb.com/title/tt
 tt4682786,1,2017-04-26,Collateral Beauty,Collateral Beauty,https://www.imdb.com/title/tt4682786,Movie,6.8,97,2016,"Drama, Romance",2016-12-16,David Frankel
 tt0376479,5,2017-04-26,American Pastoral,American Pastoral,https://www.imdb.com/title/tt0376479,Movie,6.1,108,2016,"Drama, Crime, Mystery, Romance, Thriller",2016-10-21,Ewan McGregor
 tt4158096,7,2017-04-26,Free Fire,Free Fire,https://www.imdb.com/title/tt4158096,Movie,6.3,91,2016,"Crime, Thriller, Action, Comedy",2017-04-21,Ben Wheatley
-tt5826432,6,2017-04-23,Burning Sands,Burning Sands,https://www.imdb.com/title/tt5826432,Movie,6.0,96,2017,Drama,2017-03-10,Gerard McMurray
+tt5826432,6,2017-04-23,Burning Sands,Burning Sands,https://www.imdb.com/title/tt5826432,Movie,6.1,96,2017,Drama,2017-03-10,Gerard McMurray
 tt4972582,7,2017-04-22,Split,Split,https://www.imdb.com/title/tt4972582,Movie,7.3,117,2016,"Thriller, Horror",2017-01-20,M. Night Shyamalan
 tt4372390,6,2017-04-18,Detour,Detour,https://www.imdb.com/title/tt4372390,Movie,6.2,97,2016,"Thriller, Action",2017-01-20,Christopher Smith
 tt2265398,7,2017-04-18,Drinking Buddies,Drinking Buddies,https://www.imdb.com/title/tt2265398,Movie,6.1,90,2013,"Drama, Romance, Comedy",2013-07-25,Joe Swanberg
@@ -3335,7 +3336,7 @@ tt0489664,6,2014-05-04,Shattered,Butterfly on a Wheel,https://www.imdb.com/title
 tt0817230,8,2014-05-04,Valentine's Day,Valentine's Day,https://www.imdb.com/title/tt0817230,Movie,5.7,125,2010,"Comedy, Romance",2010-02-12,Garry Marshall
 tt0233469,6,2014-05-04,Collateral Damage,Collateral Damage,https://www.imdb.com/title/tt0233469,Movie,5.5,108,2002,"Drama, Thriller, Action",2002-02-08,Andrew Davis
 tt0110074,4,2014-05-04,The Hudsucker Proxy,The Hudsucker Proxy,https://www.imdb.com/title/tt0110074,Movie,7.2,111,1994,"Fantasy, Drama, Comedy",1994-03-11,"Joel Coen,Ethan Coen"
-tt0486946,4,2014-05-04,Wild Hogs,Wild Hogs,https://www.imdb.com/title/tt0486946,Movie,5.8,100,2007,"Adventure, Comedy, Action",2007-03-02,Walt Becker
+tt0486946,4,2014-05-04,Wild Hogs,Wild Hogs,https://www.imdb.com/title/tt0486946,Movie,5.9,100,2007,"Adventure, Comedy, Action",2007-03-02,Walt Becker
 tt0285823,6,2014-05-04,Once Upon a Time in Mexico,Once Upon a Time in Mexico,https://www.imdb.com/title/tt0285823,Movie,6.3,102,2003,"Action, Thriller, Crime",2003-09-12,Robert Rodriguez
 tt0448134,8,2014-05-04,Sunshine,Sunshine,https://www.imdb.com/title/tt0448134,Movie,7.2,107,2007,"Sci-Fi, Thriller",2007-07-27,Danny Boyle
 tt0327437,2,2014-05-04,Around the World in 80 Days,Around the World in 80 Days,https://www.imdb.com/title/tt0327437,Movie,5.9,120,2004,"Comedy, Action, Family, Western, Adventure",2004-06-16,Frank Coraci
