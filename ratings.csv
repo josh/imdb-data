@@ -1,14 +1,15 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt29929565,5,2025-01-28,Opus,Opus,https://www.imdb.com/title/tt29929565,Movie,3.9,103,2025,Drama,2025-03-14,Mark Anthony Green
-tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb.com/title/tt32214413,Movie,null,102,2025,"Romance, Comedy",2025-04-18,Andrew Ahn
+tt29994753,4,2025-01-29,"Oh, Canada","Oh, Canada",https://www.imdb.com/title/tt29994753,Movie,5.7,91,2024,Drama,2025-01-21,Paul Schrader
+tt29929565,5,2025-01-28,Opus,Opus,https://www.imdb.com/title/tt29929565,Movie,5.5,103,2025,Drama,2025-03-14,Mark Anthony Green
+tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb.com/title/tt32214413,Movie,6.8,102,2025,"Romance, Comedy",2025-04-18,Andrew Ahn
 tt19861162,4,2025-01-27,The Return,The Return,https://www.imdb.com/title/tt19861162,Movie,6.2,116,2024,"History, Adventure, Drama",2024-12-06,Uberto Pasolini
 tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.4,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
-tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,7.9,94,2025,Comedy,2025-01-26,Sophie Brooks
+tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,8.5,94,2025,Comedy,2025-01-26,Sophie Brooks
 tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,8.2,98,2025,Drama,2025-01-25,Dylan Southern
-tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,7.6,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.0,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
+tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,8.2,104,2025,"Drama, War",2025-01-25,Hailey Gates
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.1,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.7,100,2025,Comedy,2025-01-23,James Sweeney
-tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,8.8,83,2025,Drama,2025-01-23,Cole Webley
+tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,9.0,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.9,107,2024,Drama,2024-10-18,Pedro Almodóvar
 tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.4,127,2024,"Action, Thriller",2024-12-12,J.C. Chandor
 tt22042346,3,2025-01-23,2073,2073,https://www.imdb.com/title/tt22042346,Movie,5.0,85,2024,"Documentary, Thriller",2024-12-27,Asif Kapadia
@@ -17,7 +18,7 @@ tt24176060,5,2025-01-18,Queer,Queer,https://www.imdb.com/title/tt24176060,Movie,
 tt15388560,4,2025-01-13,All Happy Families,All Happy Families,https://www.imdb.com/title/tt15388560,Movie,5.9,90,2023,Comedy,2023-10-12,Haroula Rose
 tt29536384,6,2025-01-12,Lake George,Lake George,https://www.imdb.com/title/tt29536384,Movie,6.3,118,2024,"Crime, Thriller",2024-12-06,Jeffrey Reiner
 tt8999762,4,2025-01-10,The Brutalist,The Brutalist,https://www.imdb.com/title/tt8999762,Movie,8.0,214,2024,Drama,2025-01-24,Brady Corbet
-tt22207786,6,2025-01-05,Red Rooms,Les chambres rouges,https://www.imdb.com/title/tt22207786,Movie,7.1,118,2023,"Thriller, Crime, Mystery, Horror",2023-10-20,Pascal Plante
+tt22207786,6,2025-01-05,Red Rooms,Les chambres rouges,https://www.imdb.com/title/tt22207786,Movie,7.1,118,2023,"Thriller, Crime, Mystery, Horror",2024-01-17,Pascal Plante
 tt30144381,4,2024-12-31,Nutcrackers,Nutcrackers,https://www.imdb.com/title/tt30144381,Movie,5.5,104,2024,"Comedy, Drama",2024-11-29,David Gordon Green
 tt14948432,4,2024-12-29,Red One,Red One,https://www.imdb.com/title/tt14948432,Movie,6.3,123,2024,"Action, Adventure, Comedy, Mystery, Fantasy",2024-11-15,Jake Kasdan
 tt1262426,6,2024-12-28,Wicked,Wicked,https://www.imdb.com/title/tt1262426,Movie,7.7,160,2024,"Musical, Fantasy, Romance",2024-11-22,Jon M. Chu
@@ -25,7 +26,7 @@ tt27196021,4,2024-12-22,Small Things Like These,Small Things Like These,https://
 tt28015403,7,2024-12-21,Heretic,Heretic,https://www.imdb.com/title/tt28015403,Movie,7.0,111,2024,"Horror, Thriller",2024-11-08,"Scott Beck,Bryan Woods"
 tt1381404,6,2024-12-17,The Company You Keep,The Company You Keep,https://www.imdb.com/title/tt1381404,Movie,6.4,125,2012,"Thriller, Drama",2013-04-26,Robert Redford
 tt16366836,2,2024-12-16,Venom: The Last Dance,Venom: The Last Dance,https://www.imdb.com/title/tt16366836,Movie,6.0,110,2024,"Action, Adventure, Sci-Fi, Thriller",2024-10-25,Kelly Marcel
-tt20221436,2,2024-12-16,Emilia Pérez,Emilia Pérez,https://www.imdb.com/title/tt20221436,Movie,6.0,132,2024,"Musical, Comedy, Crime, Thriller, Drama",2024-11-13,Jacques Audiard
+tt20221436,2,2024-12-16,Emilia Pérez,Emilia Pérez,https://www.imdb.com/title/tt20221436,Movie,5.9,132,2024,"Musical, Comedy, Crime, Thriller, Drama",2024-11-13,Jacques Audiard
 tt10171472,6,2024-12-16,Goodrich,Goodrich,https://www.imdb.com/title/tt10171472,Movie,6.3,110,2024,"Drama, Comedy",2024-10-17,Hallie Meyers-Shyer
 tt26625693,7,2024-12-14,The Order,The Order,https://www.imdb.com/title/tt26625693,Movie,6.8,116,2024,"Crime, Thriller, Drama",2024-12-06,Justin Kurzel
 tt28249919,7,2024-12-14,Presence,Presence,https://www.imdb.com/title/tt28249919,Movie,6.7,85,2024,"Thriller, Horror, Drama",2025-01-24,Steven Soderbergh
@@ -169,7 +170,7 @@ tt9466114,4,2024-05-06,The Idea of You,The Idea of You,https://www.imdb.com/titl
 tt14914430,3,2024-05-05,Unfrosted,Unfrosted,https://www.imdb.com/title/tt14914430,Movie,5.5,97,2024,"Comedy, Biography, History",2024-05-03,Jerry Seinfeld
 tt22939186,4,2024-05-03,Arcadian,Arcadian,https://www.imdb.com/title/tt22939186,Movie,5.5,92,2024,"Thriller, Action, Horror, Drama, Sci-Fi",2024-04-12,Benjamin Brewer
 tt1684562,8,2024-05-02,The Fall Guy,The Fall Guy,https://www.imdb.com/title/tt1684562,Movie,6.8,126,2024,"Action, Drama, Comedy, Romance",2024-05-03,David Leitch
-tt16280912,5,2024-04-29,Humane,Humane,https://www.imdb.com/title/tt16280912,Movie,5.5,93,2024,"Thriller, Horror",2024-04-26,Caitlin Cronenberg
+tt16280912,5,2024-04-29,Humane,Humane,https://www.imdb.com/title/tt16280912,Movie,5.5,93,2024,"Thriller, Horror",2024-07-26,Caitlin Cronenberg
 tt8888540,5,2024-04-28,Palm Royale,Palm Royale,https://www.imdb.com/title/tt8888540,TV Series,6.7,,2024,"Drama, Comedy",2024-03-20,
 tt23137904,2,2024-04-28,Rebel Moon - Part Two: The Scargiver,Rebel Moon - Part Two: The Scargiver,https://www.imdb.com/title/tt23137904,Movie,5.3,122,2024,"Sci-Fi, Action, Adventure, Drama, Fantasy",2024-04-19,Zack Snyder
 tt15009428,3,2024-04-28,Argylle,Argylle,https://www.imdb.com/title/tt15009428,Movie,5.6,139,2024,"Action, Thriller, Comedy",2024-02-02,Matthew Vaughn
@@ -259,7 +260,7 @@ tt27722375,4,2024-01-26,Between the Temples,Between the Temples,https://www.imdb
 tt26681810,2,2024-01-26,War Game,War Game,https://www.imdb.com/title/tt26681810,Movie,5.5,94,2024,"Documentary, Thriller",2024-08-09,"Tony Gerber,Jesse Moss"
 tt18363072,5,2024-01-26,The Royal Hotel,The Royal Hotel,https://www.imdb.com/title/tt18363072,Movie,5.8,91,2023,"Thriller, Drama",2023-10-06,Kitty Green
 tt30227076,5,2024-01-25,Black Box Diaries,Black Box Diaries,https://www.imdb.com/title/tt30227076,Movie,7.6,102,2024,Documentary,2024-11-28,Shiori Itô
-tt21375602,2,2024-01-25,Love Me,Love Me,https://www.imdb.com/title/tt21375602,Movie,5.4,92,2024,"Drama, Sci-Fi",2025-01-31,"Andrew Zuchero,Sam Zuchero"
+tt21375602,2,2024-01-25,Love Me,Love Me,https://www.imdb.com/title/tt21375602,Movie,5.3,92,2024,"Drama, Sci-Fi",2025-01-31,"Andrew Zuchero,Sam Zuchero"
 tt21740488,3,2024-01-25,Little Death,Little Death,https://www.imdb.com/title/tt21740488,Movie,5.4,110,2024,"Drama, Comedy",2024-01-19,Jack Begert
 tt0165798,6,2024-01-25,Ghost Dog: The Way of the Samurai,Ghost Dog: The Way of the Samurai,https://www.imdb.com/title/tt0165798,Movie,7.5,116,1999,"Crime, Drama",2000-03-24,Jim Jarmusch
 tt8258502,4,2024-01-25,Foe,Foe,https://www.imdb.com/title/tt8258502,Movie,5.4,110,2023,"Thriller, Sci-Fi, Drama, Romance",2023-11-07,Garth Davis
@@ -505,7 +506,7 @@ tt11687104,5,2023-02-03,"Alice, Darling","Alice, Darling",https://www.imdb.com/t
 tt0247425,7,2023-02-02,In the Bedroom,In the Bedroom,https://www.imdb.com/title/tt0247425,Movie,7.4,131,2001,"Crime, Drama",2002-02-08,Todd Field
 tt14826022,6,2023-02-02,You People,You People,https://www.imdb.com/title/tt14826022,Movie,5.5,117,2023,"Comedy, Romance",2023-01-27,Kenya Barris
 tt8129806,6,2023-01-30,To Leslie,To Leslie,https://www.imdb.com/title/tt8129806,Movie,7.1,119,2022,Drama,2022-10-07,Michael Morris
-tt14647404,6,2023-01-29,Cat Person,Cat Person,https://www.imdb.com/title/tt14647404,Movie,6.0,118,2023,"Drama, Thriller, Comedy",2023-10-06,Susanna Fogel
+tt14647404,6,2023-01-29,Cat Person,Cat Person,https://www.imdb.com/title/tt14647404,Movie,6.1,118,2023,"Drama, Thriller, Comedy",2023-10-06,Susanna Fogel
 tt7645334,5,2023-01-28,Landscape with Invisible Hand,Landscape with Invisible Hand,https://www.imdb.com/title/tt7645334,Movie,5.9,105,2023,"Sci-Fi, Drama, Comedy",2023-11-16,Cory Finley
 tt22004186,4,2023-01-28,A Little Prayer,A Little Prayer,https://www.imdb.com/title/tt22004186,Movie,7.1,91,2023,Drama,2023-01-24,Angus MacLachlan
 tt16431966,3,2023-01-28,Sometimes I Think About Dying,Sometimes I Think About Dying,https://www.imdb.com/title/tt16431966,Movie,6.5,94,2023,"Drama, Comedy, Romance",2024-03-12,Rachel Lambert
@@ -2672,7 +2673,7 @@ tt0202470,6,2014-05-04,Rock Star,Rock Star,https://www.imdb.com/title/tt0202470,
 tt0236493,6,2014-05-04,The Mexican,The Mexican,https://www.imdb.com/title/tt0236493,Movie,6.1,123,2001,"Adventure, Drama, Romance, Comedy",2001-03-02,Gore Verbinski
 tt0245686,4,2014-05-04,Joe Dirt,Joe Dirt,https://www.imdb.com/title/tt0245686,Movie,6.0,91,2001,"Adventure, Drama, Comedy",2001-04-11,Dennie Gordon
 tt0215750,6,2014-05-04,Enemy at the Gates,Enemy at the Gates,https://www.imdb.com/title/tt0215750,Movie,7.5,131,2001,"Action, Drama, War",2001-03-16,Jean-Jacques Annaud
-tt0209475,6,2014-05-04,The Wedding Planner,The Wedding Planner,https://www.imdb.com/title/tt0209475,Movie,5.4,103,2001,"Romance, Comedy",2001-01-26,Adam Shankman
+tt0209475,6,2014-05-04,The Wedding Planner,The Wedding Planner,https://www.imdb.com/title/tt0209475,Movie,5.3,103,2001,"Romance, Comedy",2001-01-26,Adam Shankman
 tt0239948,6,2014-05-04,Saving Silverman,Saving Silverman,https://www.imdb.com/title/tt0239948,Movie,5.9,90,2001,"Crime, Romance, Comedy",2001-02-09,Dennis Dugan
 tt0242423,2,2014-05-04,"Dude, Where's My Car?","Dude, Where's My Car?",https://www.imdb.com/title/tt0242423,Movie,5.5,83,2000,"Mystery, Sci-Fi, Comedy",2000-12-15,Danny Leiner
 tt0057546,6,2014-05-04,The Sword in the Stone,The Sword in the Stone,https://www.imdb.com/title/tt0057546,Movie,7.1,79,1963,"Animation, Musical, Adventure, Comedy, Family, Fantasy",1964-06-21,"Wolfgang Reitherman,Clyde Geronimi,David Hand"
@@ -3873,7 +3874,7 @@ tt0120586,8,2014-05-04,American History X,American History X,https://www.imdb.co
 tt0120484,6,2014-05-04,The Waterboy,The Waterboy,https://www.imdb.com/title/tt0120484,Movie,6.2,90,1998,"Sport, Comedy",1998-11-06,Frank Coraci
 tt0120749,6,2014-05-04,Mercury Rising,Mercury Rising,https://www.imdb.com/title/tt0120749,Movie,6.1,111,1998,"Crime, Drama, Thriller, Action",1998-04-03,Harold Becker
 tt0114898,4,2014-05-04,Waterworld,Waterworld,https://www.imdb.com/title/tt0114898,Movie,6.3,135,1995,"Sci-Fi, Adventure, Action",1995-07-28,Kevin Reynolds
-tt0081070,6,2014-05-04,The Long Good Friday,The Long Good Friday,https://www.imdb.com/title/tt0081070,Movie,7.5,114,1980,"Crime, Mystery, Drama, Thriller",1982-04-02,John Mackenzie
+tt0081070,6,2014-05-04,The Long Good Friday,The Long Good Friday,https://www.imdb.com/title/tt0081070,Movie,7.6,114,1980,"Crime, Mystery, Drama, Thriller",1982-04-02,John Mackenzie
 tt0119217,10,2014-05-04,Good Will Hunting,Good Will Hunting,https://www.imdb.com/title/tt0119217,Movie,8.3,126,1997,"Romance, Drama",1998-01-09,Gus Van Sant
 tt0085244,6,2014-05-04,The Big Chill,The Big Chill,https://www.imdb.com/title/tt0085244,Movie,7.1,105,1983,"Drama, Comedy",1983-09-30,Lawrence Kasdan
 tt0120324,6,2014-05-04,A Simple Plan,A Simple Plan,https://www.imdb.com/title/tt0120324,Movie,7.5,121,1998,"Crime, Drama, Thriller",1999-01-22,Sam Raimi
