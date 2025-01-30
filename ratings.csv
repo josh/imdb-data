@@ -1,12 +1,14 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt10236164,5,2025-01-30,The Girl with the Needle,Pigen med nålen,https://www.imdb.com/title/tt10236164,Movie,7.5,123,2024,"Drama, History",2025-01-24,Magnus von Horn
+tt28142896,5,2025-01-30,Weekend in Taipei,Weekend in Taipei,https://www.imdb.com/title/tt28142896,Movie,5.7,100,2024,"Action, Thriller",2024-11-08,George Huang
 tt29994753,4,2025-01-29,"Oh, Canada","Oh, Canada",https://www.imdb.com/title/tt29994753,Movie,5.7,91,2024,Drama,2025-01-21,Paul Schrader
-tt29929565,5,2025-01-28,Opus,Opus,https://www.imdb.com/title/tt29929565,Movie,5.5,103,2025,Drama,2025-03-14,Mark Anthony Green
+tt29929565,5,2025-01-28,Opus,Opus,https://www.imdb.com/title/tt29929565,Movie,5.4,103,2025,Drama,2025-03-14,Mark Anthony Green
 tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb.com/title/tt32214413,Movie,6.8,102,2025,"Romance, Comedy",2025-04-18,Andrew Ahn
 tt19861162,4,2025-01-27,The Return,The Return,https://www.imdb.com/title/tt19861162,Movie,6.2,116,2024,"History, Adventure, Drama",2024-12-06,Uberto Pasolini
 tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.4,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
 tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,8.5,94,2025,Comedy,2025-01-26,Sophie Brooks
 tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,8.2,98,2025,Drama,2025-01-25,Dylan Southern
-tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,8.2,104,2025,"Drama, War",2025-01-25,Hailey Gates
+tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,8.1,104,2025,"Drama, War",2025-01-25,Hailey Gates
 tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,7.1,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.7,100,2025,Comedy,2025-01-23,James Sweeney
 tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,9.0,83,2025,Drama,2025-01-23,Cole Webley
@@ -370,7 +372,7 @@ tt15351980,5,2023-08-27,Vacation Friends 2,Vacation Friends 2,https://www.imdb.c
 tt17527468,6,2023-08-25,Bottoms,Bottoms,https://www.imdb.com/title/tt17527468,Movie,6.7,91,2023,Comedy,2024-02-14,Emma Seligman
 tt15789038,7,2023-08-21,Elemental,Elemental,https://www.imdb.com/title/tt15789038,Movie,7.0,101,2023,"Animation, Adventure, Fantasy, Comedy, Romance, Family",2023-06-16,Peter Sohn
 tt21991654,5,2023-08-19,Sympathy for the Devil,Sympathy for the Devil,https://www.imdb.com/title/tt21991654,Movie,5.5,90,2023,"Thriller, Action",2023-07-28,Yuval Adler
-tt15671028,7,2023-08-19,No Hard Feelings,No Hard Feelings,https://www.imdb.com/title/tt15671028,Movie,6.4,103,2023,"Comedy, Romance",2023-06-23,Gene Stupnitsky
+tt15671028,7,2023-08-19,No Hard Feelings,No Hard Feelings,https://www.imdb.com/title/tt15671028,Movie,6.3,103,2023,"Comedy, Romance",2023-06-23,Gene Stupnitsky
 tt13849558,4,2023-08-17,Corner Office,Corner Office,https://www.imdb.com/title/tt13849558,Movie,6.1,101,2022,"Comedy, Mystery",2023-08-04,Joachim Back
 tt21291992,5,2023-08-16,River Wild,River Wild,https://www.imdb.com/title/tt21291992,Movie,5.4,91,2023,"Thriller, Action, Adventure",2023-08-01,Ben Ketai
 tt11028122,2,2023-08-16,Billion Dollar Heist,Billion Dollar Heist,https://www.imdb.com/title/tt11028122,Movie,6.8,84,2023,"Documentary, Crime",2023-08-14,"Daniel Gordon,Brendan Donovan,Bryn Evans"
@@ -506,7 +508,7 @@ tt11687104,5,2023-02-03,"Alice, Darling","Alice, Darling",https://www.imdb.com/t
 tt0247425,7,2023-02-02,In the Bedroom,In the Bedroom,https://www.imdb.com/title/tt0247425,Movie,7.4,131,2001,"Crime, Drama",2002-02-08,Todd Field
 tt14826022,6,2023-02-02,You People,You People,https://www.imdb.com/title/tt14826022,Movie,5.5,117,2023,"Comedy, Romance",2023-01-27,Kenya Barris
 tt8129806,6,2023-01-30,To Leslie,To Leslie,https://www.imdb.com/title/tt8129806,Movie,7.1,119,2022,Drama,2022-10-07,Michael Morris
-tt14647404,6,2023-01-29,Cat Person,Cat Person,https://www.imdb.com/title/tt14647404,Movie,6.1,118,2023,"Drama, Thriller, Comedy",2023-10-06,Susanna Fogel
+tt14647404,6,2023-01-29,Cat Person,Cat Person,https://www.imdb.com/title/tt14647404,Movie,6.0,118,2023,"Drama, Thriller, Comedy",2023-10-06,Susanna Fogel
 tt7645334,5,2023-01-28,Landscape with Invisible Hand,Landscape with Invisible Hand,https://www.imdb.com/title/tt7645334,Movie,5.9,105,2023,"Sci-Fi, Drama, Comedy",2023-11-16,Cory Finley
 tt22004186,4,2023-01-28,A Little Prayer,A Little Prayer,https://www.imdb.com/title/tt22004186,Movie,7.1,91,2023,Drama,2023-01-24,Angus MacLachlan
 tt16431966,3,2023-01-28,Sometimes I Think About Dying,Sometimes I Think About Dying,https://www.imdb.com/title/tt16431966,Movie,6.5,94,2023,"Drama, Comedy, Romance",2024-03-12,Rachel Lambert
@@ -3640,7 +3642,7 @@ tt0164052,4,2014-05-04,Hollow Man,Hollow Man,https://www.imdb.com/title/tt016405
 tt0185183,1,2014-05-04,Battlefield Earth,Battlefield Earth,https://www.imdb.com/title/tt0185183,Movie,2.5,117,2000,"Adventure, Sci-Fi, Action",2000-05-12,Roger Christian
 tt0144528,2,2014-05-04,Nutty Professor II: The Klumps,Nutty Professor II: The Klumps,https://www.imdb.com/title/tt0144528,Movie,4.5,106,2000,"Sci-Fi, Romance, Comedy",2000-07-28,Peter Segal
 tt0120903,6,2014-05-04,X-Men,X-Men,https://www.imdb.com/title/tt0120903,Movie,7.3,104,2000,"Adventure, Sci-Fi, Action",2000-07-14,Bryan Singer
-tt0204946,1,2014-05-04,Bring It On,Bring It On,https://www.imdb.com/title/tt0204946,Movie,6.1,98,2000,"Sport, Romance, Comedy",2000-08-25,Peyton Reed
+tt0204946,1,2014-05-04,Bring It On,Bring It On,https://www.imdb.com/title/tt0204946,Movie,6.2,98,2000,"Sport, Romance, Comedy",2000-08-25,Peyton Reed
 tt0171433,6,2014-05-04,Keeping the Faith,Keeping the Faith,https://www.imdb.com/title/tt0171433,Movie,6.4,128,2000,"Romance, Drama, Comedy",2000-04-14,Edward Norton
 tt0120694,2,2014-05-04,Halloween H20: 20 Years Later,Halloween H20: 20 Years Later,https://www.imdb.com/title/tt0120694,Movie,5.8,86,1998,"Thriller, Horror",1998-08-05,Steve Miner
 tt0183505,8,2014-05-04,"Me, Myself & Irene","Me, Myself & Irene",https://www.imdb.com/title/tt0183505,Movie,6.6,116,2000,Comedy,2000-06-23,"Bobby Farrelly,Peter Farrelly"
