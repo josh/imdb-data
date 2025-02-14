@@ -481,14 +481,9 @@ def queue_export(
         json=post_data,
     )
     r.raise_for_status()
+    data = r.json()
 
-    try:
-        data = r.json()
-        assert data["data"][mutation_name]["status"]["id"] == "PROCESSING"
-    except (TypeError, AssertionError):
-        logger.error("Error exporting %s", export_id)
-        logger.error(r.text)
-
+    assert data["data"][mutation_name]["status"]["id"] == "PROCESSING"
     return None
 
 
