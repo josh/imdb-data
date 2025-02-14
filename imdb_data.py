@@ -483,7 +483,21 @@ def queue_export(
     r.raise_for_status()
     data = r.json()
 
-    assert data["data"][mutation_name]["status"]["id"] == "PROCESSING"
+    has_errors = False
+    for error in data.get("errors", []):
+        logger.error(error["message"])
+        has_errors = True
+
+    if (
+        data["data"][mutation_name] is None
+        or data["data"][mutation_name]["status"]["id"] != "PROCESSING"
+    ):
+        has_errors = True
+
+    if has_errors:
+        logger.error(r.text)
+        raise ValueError("export operation failed")
+
     return None
 
 
