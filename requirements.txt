@@ -12,7 +12,7 @@ idna==3.10
     # via requests
 jmespath==1.0.1
     # via parsel
-lxml==5.3.1
+lxml==5.3.2
     # via parsel
 mypy==1.15.0
     # via imdb-data (pyproject.toml)
