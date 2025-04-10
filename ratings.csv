@@ -1,5 +1,7 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt12299608,6,2025-04-09,Mickey 17,Mickey 17,https://www.imdb.com/title/tt12299608,Movie,7.0,137,2025,"Sci-Fi, Adventure, Fantasy, Comedy",2025-03-07,Bong Joon Ho
+tt5066574,8,2025-04-09,Ali Wong: Baby Cobra,Ali Wong: Baby Cobra,https://www.imdb.com/title/tt5066574,TV Special,7.5,60,2016,Comedy,2016-05-05,Jaime Eliezer Karas
+tt33350315,8,2025-04-09,Ali Wong: Single Lady,Ali Wong: Single Lady,https://www.imdb.com/title/tt33350315,TV Special,6.2,60,2024,"Documentary, Comedy",2024-10-08,Ali Wong
+tt12299608,6,2025-04-09,Mickey 17,Mickey 17,https://www.imdb.com/title/tt12299608,Movie,6.9,137,2025,"Sci-Fi, Adventure, Fantasy, Comedy",2025-03-07,Bong Joon Ho
 tt10275534,6,2025-04-03,To Catch a Killer,To Catch a Killer,https://www.imdb.com/title/tt10275534,Movie,6.6,119,2023,"Drama, Crime, Mystery, Thriller, Action",2023-04-06,Damián Szifron
 tt14186876,5,2025-04-02,Bring Them Down,Bring Them Down,https://www.imdb.com/title/tt14186876,Movie,6.5,106,2024,"Drama, Thriller",2025-03-28,Chris Andrews
 tt3045628,5,2025-04-02,Holland,Holland,https://www.imdb.com/title/tt3045628,Movie,5.0,110,2025,Thriller,2025-03-27,Mimi Cave
@@ -21,7 +23,7 @@ tt23055660,5,2025-02-17,Nickel Boys,Nickel Boys,https://www.imdb.com/title/tt230
 tt11891850,6,2025-02-17,Hard Truths,Hard Truths,https://www.imdb.com/title/tt11891850,Movie,7.3,97,2024,"Comedy, Drama",2025-01-10,Mike Leigh
 tt13654226,4,2025-02-17,The Gorge,The Gorge,https://www.imdb.com/title/tt13654226,Movie,6.7,127,2025,"Action, Romance, Sci-Fi, Adventure, Horror",2025-02-14,Scott Derrickson
 tt30057084,6,2025-02-15,Babygirl,Babygirl,https://www.imdb.com/title/tt30057084,Movie,5.9,114,2024,"Thriller, Drama, Romance",2024-12-25,Halina Reijn
-tt12810074,6,2025-02-15,Nightbitch,Nightbitch,https://www.imdb.com/title/tt12810074,Movie,5.5,99,2024,"Comedy, Horror",2024-12-06,Marielle Heller
+tt12810074,6,2025-02-15,Nightbitch,Nightbitch,https://www.imdb.com/title/tt12810074,Movie,5.6,99,2024,"Comedy, Horror",2024-12-06,Marielle Heller
 tt14513804,6,2025-02-14,Captain America: Brave New World,Captain America: Brave New World,https://www.imdb.com/title/tt14513804,Movie,5.8,118,2025,"Action, Adventure, Sci-Fi",2025-02-14,Julius Onah
 tt4216984,5,2025-02-09,Wolf Man,Wolf Man,https://www.imdb.com/title/tt4216984,Movie,5.6,103,2025,Horror,2025-01-17,Leigh Whannell
 tt30788842,3,2025-02-08,Love Hurts,Love Hurts,https://www.imdb.com/title/tt30788842,Movie,5.2,83,2025,"Action, Comedy, Romance",2025-02-07,Jonathan Eusebio
@@ -33,7 +35,7 @@ tt21349688,5,2025-02-02,East of Wall,East of Wall,https://www.imdb.com/title/tt2
 tt34965625,5,2025-02-02,Prime Minister,Prime Minister,https://www.imdb.com/title/tt34965625,Movie,null,101,2025,Documentary,2025-01-24,"Lindsay Utz,Michelle Walshe"
 tt34963732,5,2025-02-02,Predators,Predators,https://www.imdb.com/title/tt34963732,Movie,7.9,96,2025,Documentary,2025-01-25,David Osit
 tt13650578,6,2025-02-02,Bubble & Squeak,Bubble & Squeak,https://www.imdb.com/title/tt13650578,Movie,6.0,95,2025,Comedy,2025-01-24,Evan Twohy
-tt31140176,5,2025-02-01,Sukkwan Island,Sukkwan Island,https://www.imdb.com/title/tt31140176,Movie,6.8,114,2025,Drama,2025-01-25,Vladimir de Fontenay
+tt31140176,5,2025-02-01,Sukkwan Island,Sukkwan Island,https://www.imdb.com/title/tt31140176,Movie,6.9,114,2025,Drama,2025-01-25,Vladimir de Fontenay
 tt26784676,4,2025-02-01,Sugar Babies,Sugar Babies,https://www.imdb.com/title/tt26784676,Movie,5.7,81,2025,Documentary,2025-01-27,Rachel Fleit
 tt29544916,3,2025-01-31,OBEX,OBEX,https://www.imdb.com/title/tt29544916,Movie,6.8,90,2025,Sci-Fi,2025-01-25,Albert Birney
 tt33365660,2,2025-01-31,By Design,By Design,https://www.imdb.com/title/tt33365660,Movie,5.7,92,2025,"Drama, Sci-Fi",2025-01-23,Amanda Kramer
@@ -50,16 +52,16 @@ tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,
 tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,7.5,94,2025,Comedy,2025-01-26,Sophie Brooks
 tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,6.7,98,2025,Drama,2025-01-25,Dylan Southern
 tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,6.1,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.6,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.5,97,2025,"Horror, Mystery, Thriller",2025-01-24,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.2,100,2025,Comedy,2025-01-23,James Sweeney
 tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,7.7,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.8,107,2024,Drama,2024-10-18,Pedro Almodóvar
-tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.5,127,2024,"Action, Thriller",2024-12-13,J.C. Chandor
+tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.5,127,2024,"Action, Thriller, Adventure",2024-12-13,J.C. Chandor
 tt22042346,3,2025-01-23,2073,2073,https://www.imdb.com/title/tt22042346,Movie,5.1,85,2024,"Documentary, Thriller",2024-12-27,Asif Kapadia
 tt1259528,7,2025-01-20,Den of Thieves,Den of Thieves,https://www.imdb.com/title/tt1259528,Movie,7.0,140,2018,"Action, Drama, Crime, Thriller",2018-01-19,Christian Gudegast
 tt24176060,5,2025-01-18,Queer,Queer,https://www.imdb.com/title/tt24176060,Movie,6.4,137,2024,"Drama, Biography, History, Romance",2025-03-29,Luca Guadagnino
 tt15388560,4,2025-01-13,All Happy Families,All Happy Families,https://www.imdb.com/title/tt15388560,Movie,5.9,90,2023,Comedy,2023-10-12,Haroula Rose
-tt29536384,6,2025-01-12,Lake George,Lake George,https://www.imdb.com/title/tt29536384,Movie,6.3,118,2024,"Crime, Thriller",2024-12-06,Jeffrey Reiner
+tt29536384,6,2025-01-12,Lake George,Lake George,https://www.imdb.com/title/tt29536384,Movie,6.4,118,2024,"Crime, Thriller",2024-12-06,Jeffrey Reiner
 tt8999762,4,2025-01-10,The Brutalist,The Brutalist,https://www.imdb.com/title/tt8999762,Movie,7.4,216,2024,Drama,2025-01-24,Brady Corbet
 tt22207786,6,2025-01-05,Red Rooms,Les chambres rouges,https://www.imdb.com/title/tt22207786,Movie,7.1,118,2023,"Thriller, Crime, Mystery, Horror",2024-01-17,Pascal Plante
 tt30144381,4,2024-12-31,Nutcrackers,Nutcrackers,https://www.imdb.com/title/tt30144381,Movie,5.5,104,2024,"Comedy, Drama",2024-11-29,David Gordon Green
@@ -3456,7 +3458,7 @@ tt0795368,4,2014-05-04,Death at a Funeral,Death at a Funeral,https://www.imdb.co
 tt1237838,6,2014-05-04,Mystery Team,Mystery Team,https://www.imdb.com/title/tt1237838,Movie,6.6,97,2009,"Comedy, Crime, Mystery",2009-01-17,Dan Eckman
 tt0364751,4,2014-05-04,Without a Paddle,Without a Paddle,https://www.imdb.com/title/tt0364751,Movie,5.8,95,2004,"Comedy, Adventure, Mystery",2004-08-20,Steven Brill
 tt0362120,2,2014-05-04,Scary Movie 4,Scary Movie 4,https://www.imdb.com/title/tt0362120,Movie,5.1,83,2006,Comedy,2006-04-14,David Zucker
-tt0408839,4,2014-05-04,The Heartbreak Kid,The Heartbreak Kid,https://www.imdb.com/title/tt0408839,Movie,5.9,116,2007,"Comedy, Romance",2007-10-05,"Bobby Farrelly,Peter Farrelly"
+tt0408839,4,2014-05-04,The Heartbreak Kid,The Heartbreak Kid,https://www.imdb.com/title/tt0408839,Movie,5.8,116,2007,"Comedy, Romance",2007-10-05,"Bobby Farrelly,Peter Farrelly"
 tt0443295,6,2014-05-04,"Yours, Mine & Ours","Yours, Mine & Ours",https://www.imdb.com/title/tt0443295,Movie,5.5,88,2005,"Comedy, Romance, Family",2005-11-23,Raja Gosnell
 tt0124819,4,2014-05-04,Orgazmo,Orgazmo,https://www.imdb.com/title/tt0124819,Movie,6.1,94,1997,Comedy,1998-10-23,Trey Parker
 tt0293662,6,2014-05-04,The Transporter,The Transporter,https://www.imdb.com/title/tt0293662,Movie,6.8,92,2002,"Crime, Thriller, Action",2002-10-11,"Louis Leterrier,Corey Yuen"
