@@ -1,5 +1,6 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt14123284,5,2025-04-25,Havoc,Havoc,https://www.imdb.com/title/tt14123284,Movie,null,107,2025,"Action, Thriller, Crime, Drama, Mystery",2025-04-25,Gareth Evans
+tt21815562,6,2025-04-26,The Alto Knights,The Alto Knights,https://www.imdb.com/title/tt21815562,Movie,5.7,123,2025,"Drama, Biography, Crime, History",2025-03-21,Barry Levinson
+tt14123284,5,2025-04-25,Havoc,Havoc,https://www.imdb.com/title/tt14123284,Movie,6.1,107,2025,"Action, Thriller, Crime, Drama, Mystery",2025-04-25,Gareth Evans
 tt26671996,4,2025-04-25,Locked,Locked,https://www.imdb.com/title/tt26671996,Movie,5.9,95,2025,Thriller,2025-03-21,David Yarovesky
 tt17492148,5,2025-04-25,Psycho Therapy: The Shallow Tale of a Writer Who Decided to Write About a Serial Killer,Psycho Therapy: The Shallow Tale of a Writer Who Decided to Write About a Serial Killer,https://www.imdb.com/title/tt17492148,Movie,6.4,102,2024,"Comedy, Drama",2025-04-18,Tolga Karaçelik
 tt7068946,4,2025-04-25,The Accountant 2,The Accountant 2,https://www.imdb.com/title/tt7068946,Movie,7.3,124,2025,"Thriller, Action, Crime, Drama, Mystery",2025-04-25,Gavin O'Connor
@@ -55,7 +56,7 @@ tt10236164,5,2025-01-30,The Girl with the Needle,Pigen med nålen,https://www.im
 tt28142896,5,2025-01-30,Weekend in Taipei,Weekend in Taipei,https://www.imdb.com/title/tt28142896,Movie,5.7,100,2024,"Action, Thriller",2024-11-08,George Huang
 tt29994753,4,2025-01-29,"Oh, Canada","Oh, Canada",https://www.imdb.com/title/tt29994753,Movie,5.6,91,2024,Drama,2025-01-21,Paul Schrader
 tt29929565,5,2025-01-28,Opus,Opus,https://www.imdb.com/title/tt29929565,Movie,5.7,104,2025,"Drama, Music, Thriller",2025-03-14,Mark Anthony Green
-tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb.com/title/tt32214413,Movie,6.7,103,2025,"Romance, Comedy",2025-04-18,Andrew Ahn
+tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb.com/title/tt32214413,Movie,6.8,103,2025,"Romance, Comedy",2025-04-18,Andrew Ahn
 tt19861162,4,2025-01-27,The Return,The Return,https://www.imdb.com/title/tt19861162,Movie,6.2,116,2024,"History, Adventure, Drama",2024-12-06,Uberto Pasolini
 tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.2,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
 tt33292655,6,2025-01-26,"'Oh, Hi!'","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,7.5,94,2025,Comedy,2025-01-26,Sophie Brooks
@@ -329,7 +330,7 @@ tt19637052,7,2024-01-21,Love Lies Bleeding,Love Lies Bleeding,https://www.imdb.c
 tt6166392,5,2024-01-20,Wonka,Wonka,https://www.imdb.com/title/tt6166392,Movie,7.0,116,2023,"Musical, Comedy, Adventure, Family, Fantasy",2023-12-15,Paul King
 tt14577874,8,2024-01-20,It's What's Inside,It's What's Inside,https://www.imdb.com/title/tt14577874,Movie,6.6,103,2024,"Comedy, Mystery, Sci-Fi, Thriller",2024-10-04,Greg Jardin
 tt26749327,5,2024-01-20,Brief History of a Family,Jiating jianshi,https://www.imdb.com/title/tt26749327,Movie,6.7,100,2024,"Drama, Mystery, Thriller",2024-09-12,Lin Jianjie
-tt21942598,3,2024-01-19,Freaky Tales,Freaky Tales,https://www.imdb.com/title/tt21942598,Movie,7.0,107,2024,"Drama, Adventure, Comedy, Action, Crime",2025-04-04,"Anna Boden,Ryan Fleck"
+tt21942598,3,2024-01-19,Freaky Tales,Freaky Tales,https://www.imdb.com/title/tt21942598,Movie,6.9,107,2024,"Drama, Adventure, Comedy, Action, Crime",2025-04-04,"Anna Boden,Ryan Fleck"
 tt30259532,4,2024-01-19,Girls State,Girls State,https://www.imdb.com/title/tt30259532,Movie,6.6,97,2024,Documentary,2024-04-05,"Amanda McBaine,Jesse Moss"
 tt19854690,5,2024-01-18,Eno,Eno,https://www.imdb.com/title/tt19854690,Movie,7.9,85,2024,"Documentary, Music",2024-01-18,Gary Hustwit
 tt25470468,6,2024-01-16,Beyond Utopia,Beyond Utopia,https://www.imdb.com/title/tt25470468,Movie,7.9,115,2023,"Documentary, News, Biography, History",2023-11-28,Madeleine Gavin
@@ -712,7 +713,7 @@ tt0106582,5,2022-08-01,Cliffhanger,Cliffhanger,https://www.imdb.com/title/tt0106
 tt4301160,7,2022-07-29,Black Bird,Black Bird,https://www.imdb.com/title/tt4301160,TV Mini Series,8.1,58,2022,"Crime, Drama, Thriller, Mystery, Biography",2022-07-08,
 tt4428398,4,2022-07-26,Paws of Fury: The Legend of Hank,Paws of Fury: The Legend of Hank,https://www.imdb.com/title/tt4428398,Movie,5.8,98,2022,"Animation, Comedy, Action, Family, Adventure, Fantasy",2022-07-15,"Chris Bailey,Mark Koetsier,Rob Minkoff"
 tt10298810,6,2022-07-25,Lightyear,Lightyear,https://www.imdb.com/title/tt10298810,Movie,6.1,105,2022,"Animation, Adventure, Sci-Fi, Action, Comedy, Family",2022-06-17,Angus MacLane
-tt8041270,6,2022-07-24,Jurassic World: Dominion,Jurassic World Dominion,https://www.imdb.com/title/tt8041270,Movie,5.6,147,2022,"Adventure, Sci-Fi, Action, Thriller",2022-06-10,Colin Trevorrow
+tt8041270,6,2022-07-24,Jurassic World Dominion,Jurassic World Dominion,https://www.imdb.com/title/tt8041270,Movie,5.6,147,2022,"Adventure, Sci-Fi, Action, Thriller",2022-06-10,Colin Trevorrow
 tt1649418,6,2022-07-23,The Gray Man,The Gray Man,https://www.imdb.com/title/tt1649418,Movie,6.5,122,2022,"Thriller, Mystery, Action",2022-07-22,"Joe Russo,Anthony Russo"
 tt7144666,7,2022-07-16,The Black Phone,The Black Phone,https://www.imdb.com/title/tt7144666,Movie,6.9,103,2021,"Horror, Thriller, Mystery",2022-06-24,Scott Derrickson
 tt14549466,5,2022-07-14,Crimes of the Future,Crimes of the Future,https://www.imdb.com/title/tt14549466,Movie,5.8,107,2022,"Horror, Sci-Fi, Drama",2022-05-25,David Cronenberg
