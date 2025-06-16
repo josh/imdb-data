@@ -1,5 +1,6 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt30505698,6,2025-06-15,Friendship,Friendship,https://www.imdb.com/title/tt30505698,Movie,7.3,100,2024,Comedy,2025-05-23,Andrew DeYoung
+tt26743210,7,2025-06-16,How to Train Your Dragon,How to Train Your Dragon,https://www.imdb.com/title/tt26743210,Movie,8.1,125,2025,"Adventure, Action, Family, Fantasy, Comedy, Drama, Sci-Fi",2025-06-13,Dean DeBlois
+tt30505698,6,2025-06-15,Friendship,Friendship,https://www.imdb.com/title/tt30505698,Movie,7.2,100,2024,Comedy,2025-05-23,Andrew DeYoung
 tt27052633,6,2025-06-15,Echo Valley,Echo Valley,https://www.imdb.com/title/tt27052633,Movie,6.3,104,2025,"Thriller, Drama",2025-06-13,Michael Pearce
 tt13286652,8,2025-06-13,"Good Night, and Good Luck","Good Night, and Good Luck.",https://www.imdb.com/title/tt13286652,TV Movie,8.1,94,2025,"Drama, History",2025-06-07,"Micah Bickham,David Cromer"
 tt30253473,7,2025-06-13,Materialists,Materialists,https://www.imdb.com/title/tt30253473,Movie,7.0,116,2025,"Romance, Comedy",2025-06-13,Celine Song
@@ -14,7 +15,7 @@ tt36751759,8,2025-05-26,Wick Is Pain,Wick Is Pain,https://www.imdb.com/title/tt3
 tt30955489,4,2025-05-26,Until Dawn,Until Dawn,https://www.imdb.com/title/tt30955489,Movie,5.8,103,2025,"Horror, Drama",2025-04-25,David F. Sandberg
 tt31434639,5,2025-05-26,Warfare,Warfare,https://www.imdb.com/title/tt31434639,Movie,7.3,95,2025,"War, Action, Drama",2025-04-11,"Ray Mendoza,Alex Garland"
 tt18108824,5,2025-05-25,The Friend,The Friend,https://www.imdb.com/title/tt18108824,Movie,6.3,119,2024,"Drama, Comedy",2025-04-04,"Scott McGehee,David Siegel"
-tt9603208,8,2025-05-23,Mission: Impossible - The Final Reckoning,Mission: Impossible - The Final Reckoning,https://www.imdb.com/title/tt9603208,Movie,7.5,169,2025,"Action, Thriller, Adventure",2025-05-23,Christopher McQuarrie
+tt9603208,8,2025-05-23,Mission: Impossible - The Final Reckoning,Mission: Impossible - The Final Reckoning,https://www.imdb.com/title/tt9603208,Movie,7.4,169,2025,"Action, Thriller, Adventure",2025-05-23,Christopher McQuarrie
 tt9619824,4,2025-05-21,Final Destination: Bloodlines,Final Destination: Bloodlines,https://www.imdb.com/title/tt9619824,Movie,7.0,110,2025,Horror,2025-05-16,"Zach Lipovsky,Adam B. Stein"
 tt20214908,5,2025-05-04,Another Simple Favor,Another Simple Favor,https://www.imdb.com/title/tt20214908,Movie,5.3,120,2025,"Comedy, Thriller, Crime, Mystery",2025-05-01,Paul Feig
 tt13491834,5,2025-05-01,Sacramento,Sacramento,https://www.imdb.com/title/tt13491834,Movie,5.9,89,2024,Comedy,2025-04-10,Michael Angarano
@@ -939,7 +940,7 @@ tt6910282,5,2021-11-07,Bergman Island,Bergman Island,https://www.imdb.com/title/
 tt9032400,4,2021-11-06,Eternals,Eternals,https://www.imdb.com/title/tt9032400,Movie,6.2,156,2021,"Action, Fantasy, Sci-Fi, Adventure",2021-11-05,Chloé Zhao
 tt13024674,5,2021-11-05,Army of Thieves,Army of Thieves,https://www.imdb.com/title/tt13024674,Movie,6.4,127,2021,"Action, Crime, Thriller, Comedy",2021-10-29,Matthias Schweighöfer
 tt10574558,5,2021-11-04,Midnight Mass,Midnight Mass,https://www.imdb.com/title/tt10574558,TV Mini Series,7.7,60,2021,"Horror, Drama, Mystery, Fantasy",2021-09-24,
-tt7203552,6,2021-11-04,The Morning Show,The Morning Show,https://www.imdb.com/title/tt7203552,TV Series,8.2,60,2019,Drama,2019-11-01,
+tt7203552,6,2021-11-04,The Morning Show,The Morning Show,https://www.imdb.com/title/tt7203552,TV Series,8.1,60,2019,Drama,2019-11-01,
 tt7335184,8,2021-11-04,You,You,https://www.imdb.com/title/tt7335184,TV Series,7.6,45,2018,"Drama, Crime, Thriller, Romance",2018-09-09,
 tt8310612,9,2021-11-04,The Other Two,The Other Two,https://www.imdb.com/title/tt8310612,TV Series,7.8,30,2019,Comedy,2019-01-24,
 tt9174558,7,2021-11-04,Dopesick,Dopesick,https://www.imdb.com/title/tt9174558,TV Mini Series,8.6,60,2021,Drama,2021-10-13,
@@ -1658,7 +1659,7 @@ tt4364194,6,2019-11-26,The Peanut Butter Falcon,The Peanut Butter Falcon,https:/
 tt8178486,5,2019-11-19,Earthquake Bird,Earthquake Bird,https://www.imdb.com/title/tt8178486,Movie,6.0,107,2019,"Thriller, Crime, Romance, Drama, Mystery",2019-11-15,Wash Westmoreland
 tt7616148,7,2019-11-19,Luce,Luce,https://www.imdb.com/title/tt7616148,Movie,6.6,109,2019,"Drama, Mystery, Thriller",2019-08-23,Julius Onah
 tt7984766,6,2019-11-13,The King,The King,https://www.imdb.com/title/tt7984766,Movie,7.3,140,2019,"Drama, Biography, History, War",2019-11-01,David Michôd
-tt6127004,5,2019-11-12,Paradise Hills,Paradise Hills,https://www.imdb.com/title/tt6127004,Movie,5.3,95,2019,"Fantasy, Sci-Fi, Thriller, Mystery",2019-10-25,Alice Waddington
+tt6127004,5,2019-11-12,Paradise Hills,Paradise Hills,https://www.imdb.com/title/tt6127004,Movie,5.2,95,2019,"Fantasy, Sci-Fi, Thriller, Mystery",2019-10-25,Alice Waddington
 tt0409459,7,2019-11-11,Watchmen,Watchmen,https://www.imdb.com/title/tt0409459,Movie,7.6,162,2009,"Sci-Fi, Action, Mystery, Drama",2009-03-06,Zack Snyder
 tt6806448,6,2019-11-10,Fast & Furious Presents: Hobbs & Shaw,Fast & Furious Presents: Hobbs & Shaw,https://www.imdb.com/title/tt6806448,Movie,6.5,137,2019,"Action, Adventure, Thriller",2019-08-02,David Leitch
 tt1302006,7,2019-11-06,The Irishman,The Irishman,https://www.imdb.com/title/tt1302006,Movie,7.8,209,2019,"Crime, Drama, Biography, History, Thriller",2019-11-27,Martin Scorsese
@@ -3099,7 +3100,7 @@ tt0116830,6,2014-05-04,Last Man Standing,Last Man Standing,https://www.imdb.com/
 tt0377107,6,2014-05-04,Proof,Proof,https://www.imdb.com/title/tt0377107,Movie,6.7,100,2005,"Drama, Mystery",2005-10-07,John Madden
 tt0086066,4,2014-05-04,The Outsiders,The Outsiders,https://www.imdb.com/title/tt0086066,Movie,7.0,91,1983,"Crime, Drama",1983-03-25,Francis Ford Coppola
 tt0100514,4,2014-05-04,The Rookie,The Rookie,https://www.imdb.com/title/tt0100514,Movie,5.9,120,1990,"Thriller, Crime, Drama, Action",1990-12-07,Clint Eastwood
-tt0255798,4,2014-05-04,The Animal,The Animal,https://www.imdb.com/title/tt0255798,Movie,4.8,84,2001,"Sci-Fi, Comedy",2001-06-01,Luke Greenfield
+tt0255798,4,2014-05-04,The Animal,The Animal,https://www.imdb.com/title/tt0255798,Movie,4.9,84,2001,"Sci-Fi, Comedy",2001-06-01,Luke Greenfield
 tt1336617,4,2014-05-04,Cyrus,Cyrus,https://www.imdb.com/title/tt1336617,Movie,6.3,91,2010,"Drama, Romance, Comedy",2010-07-16,"Jay Duplass,Mark Duplass"
 tt0804461,6,2014-05-04,Death Sentence,Death Sentence,https://www.imdb.com/title/tt0804461,Movie,6.7,105,2007,"Thriller, Action, Crime",2007-08-31,James Wan
 tt0480242,4,2014-05-04,Dan in Real Life,Dan in Real Life,https://www.imdb.com/title/tt0480242,Movie,6.8,98,2007,"Comedy, Romance, Drama",2007-10-26,Peter Hedges
