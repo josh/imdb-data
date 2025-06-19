@@ -30,7 +30,7 @@ types-requests==2.32.0.20241016
     # via imdb-data (pyproject.toml)
 typing-extensions==4.14.0
     # via mypy
-urllib3==2.4.0
+urllib3==2.5.0
     # via
     #   requests
     #   types-requests
