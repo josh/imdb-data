@@ -1,12 +1,13 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt31036941,6,2025-07-03,Jurassic World: Rebirth,Jurassic World: Rebirth,https://www.imdb.com/title/tt31036941,Movie,6.4,134,2025,"Thriller, Action, Adventure, Sci-Fi",2025-07-02,Gareth Edwards
-tt20969586,7,2025-07-02,Thunderbolts*,Thunderbolts*,https://www.imdb.com/title/tt20969586,Movie,7.5,127,2025,"Action, Adventure, Sci-Fi, Crime, Drama, Fantasy",2025-05-02,Jake Schreier
+tt20969586,6,2025-07-03,Thunderbolts*,Thunderbolts*,https://www.imdb.com/title/tt20969586,Movie,7.5,127,2025,"Action, Adventure, Sci-Fi, Crime, Drama, Fantasy",2025-05-02,Jake Schreier
+tt31036941,5,2025-07-03,Jurassic World: Rebirth,Jurassic World: Rebirth,https://www.imdb.com/title/tt31036941,Movie,6.3,134,2025,"Thriller, Action, Adventure, Sci-Fi",2025-07-02,Gareth Edwards
+tt26927452,4,2025-07-03,Hurry Up Tomorrow,Hurry Up Tomorrow,https://www.imdb.com/title/tt26927452,Movie,4.7,105,2025,Thriller,2025-05-16,Trey Edward Shults
 tt36463894,7,2025-07-01,Predator: Killer of Killers,Predator: Killer of Killers,https://www.imdb.com/title/tt36463894,Movie,7.5,85,2025,"Animation, Action, Sci-Fi, Thriller, Adventure",2025-06-06,"Dan Trachtenberg,Joshua Wassung"
 tt36266270,6,2025-06-30,Henry Johnson,Henry Johnson,https://www.imdb.com/title/tt36266270,Movie,5.6,85,2025,"Drama, Crime",2025-05-09,David Mamet
 tt31121295,7,2025-06-27,Deep Cover,Deep Cover,https://www.imdb.com/title/tt31121295,Movie,6.7,99,2025,"Crime, Comedy, Action",2025-06-12,Tom Kingsley
 tt16311594,8,2025-06-24,F1: The Movie,F1,https://www.imdb.com/title/tt16311594,Movie,7.9,155,2025,"Sport, Drama, Action",2025-06-27,Joseph Kosinski
 tt10548174,7,2025-06-20,28 Years Later,28 Years Later,https://www.imdb.com/title/tt10548174,Movie,7.2,115,2025,"Horror, Thriller",2025-06-20,Danny Boyle
-tt7181546,8,2025-06-17,Ballerina,Ballerina,https://www.imdb.com/title/tt7181546,Movie,7.2,124,2025,"Action, Thriller",2025-06-06,Len Wiseman
+tt7181546,8,2025-06-17,Ballerina,Ballerina,https://www.imdb.com/title/tt7181546,Movie,7.1,124,2025,"Action, Thriller",2025-06-06,Len Wiseman
 tt26743210,7,2025-06-16,How to Train Your Dragon,How to Train Your Dragon,https://www.imdb.com/title/tt26743210,Movie,8.1,125,2025,"Adventure, Action, Family, Fantasy, Comedy, Drama, Sci-Fi",2025-06-13,Dean DeBlois
 tt30505698,6,2025-06-15,Friendship,Friendship,https://www.imdb.com/title/tt30505698,Movie,7.0,100,2024,Comedy,2025-05-23,Andrew DeYoung
 tt27052633,6,2025-06-15,Echo Valley,Echo Valley,https://www.imdb.com/title/tt27052633,Movie,6.3,104,2025,"Thriller, Drama",2025-06-13,Michael Pearce
@@ -14,7 +15,7 @@ tt13286652,8,2025-06-13,"Good Night, and Good Luck","Good Night, and Good Luck."
 tt30253473,7,2025-06-13,Materialists,Materialists,https://www.imdb.com/title/tt30253473,Movie,6.8,116,2025,"Romance, Comedy",2025-06-13,Celine Song
 tt35396529,3,2025-06-06,Mountainhead,Mountainhead,https://www.imdb.com/title/tt35396529,Movie,5.4,108,2025,Drama,2025-05-31,Jesse Armstrong
 tt3566834,4,2025-06-02,A Minecraft Movie,A Minecraft Movie,https://www.imdb.com/title/tt3566834,Movie,5.7,101,2025,"Action, Adventure, Fantasy, Comedy, Family",2025-04-04,Jared Hess
-tt14674708,4,2025-06-02,Going Places,Going Places,https://www.imdb.com/title/tt14674708,Movie,4.6,102,2025,"Action, Comedy",2025-03-11,Max Chernov
+tt14674708,4,2025-06-02,Going Places,Going Places,https://www.imdb.com/title/tt14674708,Movie,4.7,102,2025,"Action, Comedy",2025-03-11,Max Chernov
 tt11001074,4,2025-06-01,Rust,Rust,https://www.imdb.com/title/tt11001074,Movie,5.4,139,2024,"Western, Drama",2025-05-02,Joel Souza
 tt32331377,5,2025-06-01,The Luckiest Man in America,The Luckiest Man in America,https://www.imdb.com/title/tt32331377,Movie,6.2,91,2024,Thriller,2025-04-04,Samir Oliveros
 tt30840798,5,2025-05-30,The Phoenician Scheme,The Phoenician Scheme,https://www.imdb.com/title/tt30840798,Movie,6.8,101,2025,"Action, Comedy, Thriller, Crime, Drama",2025-06-06,Wes Anderson
@@ -494,7 +495,7 @@ tt5433140,6,2023-07-05,Fast X,Fast X,https://www.imdb.com/title/tt5433140,Movie,
 tt12758486,6,2023-07-01,Chevalier,Chevalier,https://www.imdb.com/title/tt12758486,Movie,6.5,108,2022,"Biography, Drama, History, Music, Romance",2023-04-06,Stephen Williams
 tt1462764,7,2023-06-30,Indiana Jones and the Dial of Destiny,Indiana Jones and the Dial of Destiny,https://www.imdb.com/title/tt1462764,Movie,6.5,154,2023,"Action, Adventure, Sci-Fi",2023-06-30,James Mangold
 tt8399658,4,2023-06-29,Daliland,Dalíland,https://www.imdb.com/title/tt8399658,Movie,5.9,97,2022,"Biography, Drama",2023-06-09,Mary Harron
-tt15342244,6,2023-06-26,Master Gardener,Master Gardener,https://www.imdb.com/title/tt15342244,Movie,6.2,111,2022,"Thriller, Drama, Mystery",2023-05-26,Paul Schrader
+tt15342244,6,2023-06-26,Master Gardener,Master Gardener,https://www.imdb.com/title/tt15342244,Movie,6.1,111,2022,"Thriller, Drama, Mystery",2023-05-26,Paul Schrader
 tt15771916,6,2023-06-26,You Hurt My Feelings,You Hurt My Feelings,https://www.imdb.com/title/tt15771916,Movie,6.5,93,2023,"Comedy, Drama, Romance",2024-01-26,Nicole Holofcener
 tt25363184,7,2023-06-24,Stan Lee,Stan Lee,https://www.imdb.com/title/tt25363184,Movie,6.9,86,2023,"Documentary, Biography",2023-06-16,David Gelb
 tt9013340,4,2023-06-24,Fool's Paradise,Fool's Paradise,https://www.imdb.com/title/tt9013340,Movie,4.7,98,2023,Comedy,2023-05-12,Charlie Day
@@ -2164,7 +2165,7 @@ tt3488710,6,2016-01-11,The Walk,The Walk,https://www.imdb.com/title/tt3488710,Mo
 tt3460252,9,2016-01-03,The Hateful Eight,The Hateful Eight,https://www.imdb.com/title/tt3460252,Movie,7.8,168,2015,"Western, Drama, Thriller, Mystery, Crime",2015-12-30,Quentin Tarantino
 tt1596363,8,2015-12-27,The Big Short,The Big Short,https://www.imdb.com/title/tt1596363,Movie,7.8,130,2015,"Drama, Biography, Comedy, History",2015-12-23,Adam McKay
 tt2637276,6,2015-12-21,Ted 2,Ted 2,https://www.imdb.com/title/tt2637276,Movie,6.3,115,2015,Comedy,2015-06-26,Seth MacFarlane
-tt2488496,9,2015-12-20,Star Wars: Episode VII - The Force Awakens,Star Wars: Episode VII - The Force Awakens,https://www.imdb.com/title/tt2488496,Movie,7.8,138,2015,"Sci-Fi, Action, Adventure",2015-12-18,J.J. Abrams
+tt2488496,9,2015-12-20,Star Wars: Episode VII - The Force Awakens,Star Wars: Episode VII - The Force Awakens,https://www.imdb.com/title/tt2488496,Movie,7.7,138,2015,"Sci-Fi, Action, Adventure",2015-12-18,J.J. Abrams
 tt2494362,7,2015-12-06,Bone Tomahawk,Bone Tomahawk,https://www.imdb.com/title/tt2494362,Movie,7.1,132,2015,"Western, Drama, Horror",2016-02-19,S. Craig Zahler
 tt4226388,6,2015-11-29,Victoria,Victoria,https://www.imdb.com/title/tt4226388,Movie,7.6,138,2015,"Drama, Crime, Thriller, Romance",2015-06-11,Sebastian Schipper
 tt3569230,6,2015-11-28,Legend,Legend,https://www.imdb.com/title/tt3569230,Movie,6.9,132,2015,"Thriller, Biography, Crime, Drama",2015-11-20,Brian Helgeland
@@ -3238,7 +3239,7 @@ tt1228987,6,2014-05-04,Let Me In,Let Me In,https://www.imdb.com/title/tt1228987,
 tt0443543,6,2014-05-04,The Illusionist,The Illusionist,https://www.imdb.com/title/tt0443543,Movie,7.5,110,2006,"Drama, Romance, Mystery, Thriller, Fantasy",2006-09-01,Neil Burger
 tt0107798,6,2014-05-04,The Pelican Brief,The Pelican Brief,https://www.imdb.com/title/tt0107798,Movie,6.6,141,1993,"Crime, Drama, Mystery, Thriller",1993-12-17,Alan J. Pakula
 tt0479143,4,2014-05-04,Rocky Balboa,Rocky Balboa,https://www.imdb.com/title/tt0479143,Movie,7.1,102,2006,"Sport, Drama",2006-12-20,Sylvester Stallone
-tt0101329,6,2014-05-04,An American Tail: Fievel Goes West,An American Tail: Fievel Goes West,https://www.imdb.com/title/tt0101329,Movie,6.5,75,1991,"Animation, Musical, Adventure, Family, Western",1991-11-22,"Phil Nibbelink,Simon Wells"
+tt0101329,6,2014-05-04,An American Tail: Fievel Goes West,An American Tail: Fievel Goes West,https://www.imdb.com/title/tt0101329,Movie,6.5,75,1991,"Animation, Musical, Adventure, Comedy, Family, Western",1991-11-22,"Phil Nibbelink,Simon Wells"
 tt1645080,6,2014-05-04,The Art of Getting By,The Art of Getting By,https://www.imdb.com/title/tt1645080,Movie,6.5,83,2011,"Drama, Romance, Comedy, Family",2011-06-17,Gavin Wiesen
 tt1077258,8,2014-05-04,Planet Terror,Planet Terror,https://www.imdb.com/title/tt1077258,Movie,7.0,105,2007,"Horror, Comedy, Action, Thriller",2007-04-06,Robert Rodriguez
 tt0244244,6,2014-05-04,Swordfish,Swordfish,https://www.imdb.com/title/tt0244244,Movie,6.5,99,2001,"Crime, Thriller, Action",2001-06-08,Dominic Sena
