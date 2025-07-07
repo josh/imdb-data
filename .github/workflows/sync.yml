@@ -36,16 +36,10 @@ jobs:
           done
         working-directory: data/
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version-file: "pyproject.toml"
-
       - uses: astral-sh/setup-uv@v6
 
       - name: Install dependencies
-        run: |
-          uv pip install --system --constraint requirements.txt '.'
+        run: uv sync
 
       - name: Load cookie jar
         uses: actions/cache@v4
@@ -58,7 +52,7 @@ jobs:
       - name: Import cookies
         if: ${{ env.IMDB_COOKIE != '' }}
         run: |
-          imdb-data import-cookies
+          uv run imdb-data import-cookies
         env:
           IMDB_COOKIE: ${{ secrets.IMDB_COOKIE }}
 
@@ -66,7 +60,7 @@ jobs:
         id: check-watchlist
         run: |
           set -o pipefail
-          imdb-data check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
+          uv run imdb-data check-watchlist data/watchlist.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
 
@@ -74,14 +68,14 @@ jobs:
         id: check-ratings
         run: |
           set -o pipefail
-          imdb-data check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
+          uv run imdb-data check-ratings data/ratings.csv | tee -a "$GITHUB_OUTPUT"
         env:
           IMDB_USER_ID: ${{ secrets.IMDB_USER_ID }}
 
       - name: Export watchlist
         if: ${{ steps.check-watchlist.outputs.outdated == 'true' }}
         run: |
-          imdb-data download-export "$IMDB_WATCHLIST_ID" \
+          uv run imdb-data download-export "$IMDB_WATCHLIST_ID" \
             --drop-column "Position" \
             --drop-column "Num Votes" \
             --output data/watchlist.csv
@@ -91,7 +85,7 @@ jobs:
       - name: Export ratings
         if: ${{ steps.check-ratings.outputs.outdated == 'true' }}
         run: |
-          imdb-data download-export ratings \
+          uv run imdb-data download-export ratings \
             --drop-column "Num Votes" \
             --output data/ratings.csv
 
