@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt20212786,5,2025-07-09,The Shrouds,The Shrouds,https://www.imdb.com/title/tt20212786,Movie,5.7,120,2024,"Thriller, Sci-Fi, Drama, Horror",2025-04-25,David Cronenberg
 tt27813235,6,2025-07-09,The Surfer,The Surfer,https://www.imdb.com/title/tt27813235,Movie,6.0,100,2024,Thriller,2025-05-02,Lorcan Finnegan
 tt0899043,4,2025-07-08,The Amateur,The Amateur,https://www.imdb.com/title/tt0899043,Movie,6.5,122,2025,"Action, Thriller",2025-04-11,James Hawes
 tt1232776,6,2025-07-07,Fish Tank,Fish Tank,https://www.imdb.com/title/tt1232776,Movie,7.3,123,2009,Drama,2009-09-11,Andrea Arnold
@@ -97,9 +98,9 @@ tt32214413,6,2025-01-27,The Wedding Banquet,The Wedding Banquet,https://www.imdb
 tt19861162,4,2025-01-27,The Return,The Return,https://www.imdb.com/title/tt19861162,Movie,6.2,116,2024,"History, Adventure, Drama",2024-12-06,Uberto Pasolini
 tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,Movie,7.2,132,2024,"Horror, Fantasy, Mystery",2024-12-25,Robert Eggers
 tt33292655,6,2025-01-26,"Oh, Hi!","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,6.6,94,2025,Comedy,2025-07-25,Sophie Brooks
-tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,6.6,98,2025,Drama,2025-01-25,Dylan Southern
+tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,6.5,98,2025,Drama,2025-01-25,Dylan Southern
 tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,6.1,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.4,97,2025,"Horror, Mystery, Thriller",2025-09-18,Bryn Chainey
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.5,97,2025,"Horror, Mystery, Thriller",2025-09-18,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,8.2,100,2025,Comedy,2025-09-05,James Sweeney
 tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,7.6,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.8,107,2024,Drama,2024-10-18,Pedro Almodóvar
@@ -345,7 +346,7 @@ tt17009348,5,2024-01-28,DogMan,Dogman,https://www.imdb.com/title/tt17009348,Movi
 tt15799866,4,2024-01-27,Silent Night,Silent Night,https://www.imdb.com/title/tt15799866,Movie,5.3,104,2023,"Action, Thriller",2023-12-01,John Woo
 tt1462759,4,2024-01-27,Butcher's Crossing,Butcher's Crossing,https://www.imdb.com/title/tt1462759,Movie,5.6,105,2022,"Drama, Western, Adventure",2023-10-26,Gabe Polsky
 tt14827638,4,2024-01-27,The Retirement Plan,The Retirement Plan,https://www.imdb.com/title/tt14827638,Movie,5.1,103,2023,"Action, Comedy, Crime, Thriller",2023-09-15,Tim Brown
-tt26006472,2,2024-01-27,Veni Vidi Vici,Veni Vidi Vici,https://www.imdb.com/title/tt26006472,Movie,5.7,86,2024,"Drama, Comedy",2024-09-13,"Daniel Hoesl,Julia Niemann"
+tt26006472,2,2024-01-27,Veni Vidi Vici,Veni Vidi Vici,https://www.imdb.com/title/tt26006472,Movie,5.6,86,2024,"Drama, Comedy",2024-09-13,"Daniel Hoesl,Julia Niemann"
 tt30319830,1,2024-01-27,Skywalkers: A Love Story,Skywalkers: A Love Story,https://www.imdb.com/title/tt30319830,Movie,7.1,100,2024,Documentary,2024-07-19,"Jeff Zimbalist,Maria Bukhonina"
 tt27722375,4,2024-01-26,Between the Temples,Between the Temples,https://www.imdb.com/title/tt27722375,Movie,6.2,111,2024,Comedy,2024-08-23,Nathan Silver
 tt26681810,2,2024-01-26,War Game,War Game,https://www.imdb.com/title/tt26681810,Movie,5.5,94,2024,"Documentary, Thriller",2024-08-09,"Tony Gerber,Jesse Moss"
@@ -1762,7 +1763,7 @@ tt7286916,8,2019-03-21,The Dawn Wall,The Dawn Wall,https://www.imdb.com/title/tt
 tt1488606,5,2019-03-18,Triple Frontier,Triple Frontier,https://www.imdb.com/title/tt1488606,Movie,6.5,125,2019,"Action, Thriller, Adventure",2019-03-13,J.C. Chandor
 tt4154664,7,2019-03-10,Captain Marvel,Captain Marvel,https://www.imdb.com/title/tt4154664,Movie,6.7,123,2019,"Action, Adventure, Sci-Fi",2019-03-08,"Anna Boden,Ryan Fleck"
 tt0118929,9,2019-03-09,Dark City,Dark City,https://www.imdb.com/title/tt0118929,Movie,7.6,100,1998,"Thriller, Mystery, Fantasy, Sci-Fi",1998-02-27,Alex Proyas
-tt6566768,7,2019-03-08,Native Son,Native Son,https://www.imdb.com/title/tt6566768,Movie,5.7,104,2019,Drama,2019-04-06,Rashid Johnson
+tt6566768,7,2019-03-08,Native Son,Native Son,https://www.imdb.com/title/tt6566768,Movie,5.8,104,2019,Drama,2019-04-06,Rashid Johnson
 tt0094737,6,2019-03-08,Big,Big,https://www.imdb.com/title/tt0094737,Movie,7.3,104,1988,"Drama, Romance, Comedy, Fantasy",1988-06-03,Penny Marshall
 tt1318517,5,2019-03-08,The Man Who Killed Don Quixote,The Man Who Killed Don Quixote,https://www.imdb.com/title/tt1318517,Movie,6.3,132,2018,"Adventure, Comedy, Fantasy, Drama",2019-04-19,Terry Gilliam
 tt6343314,6,2019-02-26,Creed II,Creed II,https://www.imdb.com/title/tt6343314,Movie,7.1,130,2018,"Drama, Sport, Action",2018-11-21,Steven Caple Jr.
