@@ -1,6 +1,7 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt31176520,7,2025-07-16,Eddington,Eddington,https://www.imdb.com/title/tt31176520,Movie,5.9,148,2025,"Western, Comedy, Drama",2025-07-18,Ari Aster
-tt5950044,7,2025-07-15,Superman,Superman,https://www.imdb.com/title/tt5950044,Movie,7.7,129,2025,"Action, Adventure, Sci-Fi",2025-07-11,James Gunn
+tt9569096,5,2025-07-17,Sharp Corner,Sharp Corner,https://www.imdb.com/title/tt9569096,Movie,5.9,110,2024,Thriller,2025-05-09,Jason Buxton
+tt31176520,7,2025-07-16,Eddington,Eddington,https://www.imdb.com/title/tt31176520,Movie,6.0,148,2025,"Western, Comedy, Drama",2025-07-18,Ari Aster
+tt5950044,7,2025-07-15,Superman,Superman,https://www.imdb.com/title/tt5950044,Movie,7.6,129,2025,"Action, Adventure, Sci-Fi",2025-07-11,James Gunn
 tt4481514,6,2025-07-13,The House,The House,https://www.imdb.com/title/tt4481514,Movie,5.6,88,2017,"Comedy, Crime",2017-06-30,Andrew Jay Cohen
 tt13357520,5,2025-07-12,Heads of State,Heads of State,https://www.imdb.com/title/tt13357520,Movie,6.4,116,2025,"Action, Thriller, Comedy",2025-07-02,Ilya Naishuller
 tt29474633,5,2025-07-10,Pretty Thing,Pretty Thing,https://www.imdb.com/title/tt29474633,Movie,4.0,96,2025,Thriller,2025-07-04,Justin Kelly
@@ -30,7 +31,7 @@ tt11001074,4,2025-06-01,Rust,Rust,https://www.imdb.com/title/tt11001074,Movie,5.
 tt32331377,5,2025-06-01,The Luckiest Man in America,The Luckiest Man in America,https://www.imdb.com/title/tt32331377,Movie,6.2,91,2024,Thriller,2025-04-04,Samir Oliveros
 tt30840798,5,2025-05-30,The Phoenician Scheme,The Phoenician Scheme,https://www.imdb.com/title/tt30840798,Movie,6.8,101,2025,"Action, Comedy, Thriller, Crime, Drama",2025-06-06,Wes Anderson
 tt27075958,5,2025-05-29,Fountain of Youth,Fountain of Youth,https://www.imdb.com/title/tt27075958,Movie,5.7,125,2025,"Mystery, Adventure, Fantasy, Action",2025-05-23,Guy Ritchie
-tt36751759,8,2025-05-26,Wick Is Pain,Wick Is Pain,https://www.imdb.com/title/tt36751759,Movie,7.6,126,2025,Documentary,2025-05-09,Jeffrey Doe
+tt36751759,8,2025-05-26,Wick Is Pain,Wick Is Pain,https://www.imdb.com/title/tt36751759,Movie,7.7,126,2025,Documentary,2025-05-09,Jeffrey Doe
 tt30955489,4,2025-05-26,Until Dawn,Until Dawn,https://www.imdb.com/title/tt30955489,Movie,5.8,103,2025,"Horror, Drama",2025-04-25,David F. Sandberg
 tt31434639,5,2025-05-26,Warfare,Warfare,https://www.imdb.com/title/tt31434639,Movie,7.2,95,2025,"War, Action, Drama",2025-04-11,"Alex Garland,Ray Mendoza"
 tt18108824,5,2025-05-25,The Friend,The Friend,https://www.imdb.com/title/tt18108824,Movie,6.4,119,2024,"Drama, Comedy",2025-04-04,"Scott McGehee,David Siegel"
@@ -1089,7 +1090,7 @@ tt7440726,5,2021-08-01,Your Honor,Your Honor,https://www.imdb.com/title/tt744072
 tt7569576,8,2021-08-01,The Flight Attendant,The Flight Attendant,https://www.imdb.com/title/tt7569576,TV Series,7.1,,2020,"Thriller, Drama, Mystery, Comedy",2020-11-18,
 tt11469904,6,2021-08-01,City So Real,City So Real,https://www.imdb.com/title/tt11469904,TV Mini Series,7.7,,2020,Documentary,2020-10-29,
 tt10482370,4,2021-08-01,The Third Day,The Third Day,https://www.imdb.com/title/tt10482370,TV Series,6.4,60,2020,"Drama, Mystery, Thriller, Horror",2020-09-14,
-tt9848536,2,2021-08-01,We Are Who We Are,We Are Who We Are,https://www.imdb.com/title/tt9848536,TV Series,7.3,,2020,Drama,2020-09-14,
+tt9848536,2,2021-08-01,We Are Who We Are,We Are Who We Are,https://www.imdb.com/title/tt9848536,TV Series,7.3,60,2020,Drama,2020-09-14,
 tt12824922,8,2021-08-01,Long Way Up,Long Way Up,https://www.imdb.com/title/tt12824922,TV Series,8.2,,2020,"Documentary, Reality-TV, Adventure",2020-09-18,
 tt0425118,7,2021-08-01,I Know This Much Is True,I Know This Much Is True,https://www.imdb.com/title/tt0425118,TV Mini Series,8.1,60,2020,Drama,2020-05-10,
 tt12398140,6,2021-08-01,Losing Alice,Losing Alice,https://www.imdb.com/title/tt12398140,TV Mini Series,6.6,64,2020,"Drama, Romance, Thriller",2021-01-22,
@@ -1179,7 +1180,7 @@ tt1723816,8,2021-08-01,Girls,Girls,https://www.imdb.com/title/tt1723816,TV Serie
 tt1759761,7,2021-08-01,Veep,Veep,https://www.imdb.com/title/tt1759761,TV Series,8.4,30,2012,Comedy,2012-04-22,
 tt1235099,7,2021-08-01,Lie to Me,Lie to Me,https://www.imdb.com/title/tt1235099,TV Series,8.0,43,2009,"Drama, Crime, Mystery, Thriller",2009-01-21,
 tt0925266,8,2021-08-01,Pushing Daisies,Pushing Daisies,https://www.imdb.com/title/tt0925266,TV Series,8.4,44,2007,"Musical, Comedy, Drama, Fantasy, Mystery, Romance",2007-10-03,
-tt0863046,8,2021-08-01,Flight of the Conchords,Flight of the Conchords,https://www.imdb.com/title/tt0863046,TV Series,8.5,25,2007,"Musical, Comedy, Music",2007-06-17,
+tt0863046,8,2021-08-01,Flight of the Conchords,Flight of the Conchords,https://www.imdb.com/title/tt0863046,TV Series,8.5,30,2007,"Musical, Comedy, Music",2007-06-17,
 tt0491738,8,2021-08-01,Psych,Psych,https://www.imdb.com/title/tt0491738,TV Series,8.4,44,2006,"Comedy, Crime, Mystery",2006-07-07,
 tt0458254,10,2021-08-01,The Colbert Report,The Colbert Report,https://www.imdb.com/title/tt0458254,TV Series,8.4,30,2005,"News, Talk-Show, Comedy",2005-10-17,
 tt0182576,8,2021-08-01,Family Guy,Family Guy,https://www.imdb.com/title/tt0182576,TV Series,8.1,22,1999,"Animation, Comedy",1999-01-31,
@@ -1205,7 +1206,7 @@ tt9569546,8,2021-07-29,Halston,Halston,https://www.imdb.com/title/tt9569546,TV M
 tt4635276,5,2021-07-29,Master of None,Master of None,https://www.imdb.com/title/tt4635276,TV Series,8.2,30,2015,"Comedy, Drama",2015-11-06,
 tt7255502,6,2021-07-29,The Kominsky Method,The Kominsky Method,https://www.imdb.com/title/tt7255502,TV Series,8.2,30,2018,"Comedy, Drama",2018-11-16,
 tt11041132,8,2021-07-29,The Mosquito Coast,The Mosquito Coast,https://www.imdb.com/title/tt11041132,TV Series,6.8,60,2021,"Adventure, Drama, Thriller",2021-04-30,
-tt8697870,6,2021-07-29,The Nevers,The Nevers,https://www.imdb.com/title/tt8697870,TV Series,7.4,58,2021,"Drama, Sci-Fi, Action, Fantasy, Thriller",2021-04-11,
+tt8697870,6,2021-07-29,The Nevers,The Nevers,https://www.imdb.com/title/tt8697870,TV Series,7.4,60,2021,"Drama, Sci-Fi, Action, Fantasy, Thriller",2021-04-11,
 tt8259114,5,2021-07-29,I'll Be Gone in the Dark,I'll Be Gone in the Dark,https://www.imdb.com/title/tt8259114,TV Mini Series,7.4,50,2020,"Documentary, Crime, Mystery",2020-06-28,
 tt8879940,8,2021-07-29,Mythic Quest,Mythic Quest,https://www.imdb.com/title/tt8879940,TV Series,7.7,30,2020,Comedy,2020-02-07,
 tt0350448,9,2021-07-29,Real Time with Bill Maher,Real Time with Bill Maher,https://www.imdb.com/title/tt0350448,TV Series,7.3,60,2003,"News, Talk-Show, Comedy",2003-02-21,
@@ -1768,7 +1769,7 @@ tt7286916,8,2019-03-21,The Dawn Wall,The Dawn Wall,https://www.imdb.com/title/tt
 tt1488606,5,2019-03-18,Triple Frontier,Triple Frontier,https://www.imdb.com/title/tt1488606,Movie,6.5,125,2019,"Action, Thriller, Adventure",2019-03-13,J.C. Chandor
 tt4154664,7,2019-03-10,Captain Marvel,Captain Marvel,https://www.imdb.com/title/tt4154664,Movie,6.7,123,2019,"Action, Adventure, Sci-Fi",2019-03-08,"Anna Boden,Ryan Fleck"
 tt0118929,9,2019-03-09,Dark City,Dark City,https://www.imdb.com/title/tt0118929,Movie,7.6,100,1998,"Thriller, Mystery, Fantasy, Sci-Fi",1998-02-27,Alex Proyas
-tt6566768,7,2019-03-08,Native Son,Native Son,https://www.imdb.com/title/tt6566768,Movie,5.8,104,2019,Drama,2019-04-06,Rashid Johnson
+tt6566768,7,2019-03-08,Native Son,Native Son,https://www.imdb.com/title/tt6566768,Movie,5.7,104,2019,Drama,2019-04-06,Rashid Johnson
 tt0094737,6,2019-03-08,Big,Big,https://www.imdb.com/title/tt0094737,Movie,7.3,104,1988,"Drama, Romance, Comedy, Fantasy",1988-06-03,Penny Marshall
 tt1318517,5,2019-03-08,The Man Who Killed Don Quixote,The Man Who Killed Don Quixote,https://www.imdb.com/title/tt1318517,Movie,6.3,132,2018,"Adventure, Comedy, Fantasy, Drama",2019-04-19,Terry Gilliam
 tt6343314,6,2019-02-26,Creed II,Creed II,https://www.imdb.com/title/tt6343314,Movie,7.1,130,2018,"Drama, Sport, Action",2018-11-21,Steven Caple Jr.
@@ -2594,7 +2595,7 @@ tt0348150,4,2014-05-04,Superman Returns,Superman Returns,https://www.imdb.com/ti
 tt0389860,2,2014-05-04,Click,Click,https://www.imdb.com/title/tt0389860,Movie,6.4,107,2006,"Comedy, Drama, Romance, Fantasy",2006-06-23,Frank Coraci
 tt0452598,6,2014-05-04,Cheaper by the Dozen 2,Cheaper by the Dozen 2,https://www.imdb.com/title/tt0452598,Movie,5.6,94,2005,"Comedy, Family, Adventure",2005-12-21,Adam Shankman
 tt0427944,8,2014-05-04,Thank You for Smoking,Thank You for Smoking,https://www.imdb.com/title/tt0427944,Movie,7.5,92,2005,"Comedy, Drama",2006-04-14,Jason Reitman
-tt0032138,6,2014-05-04,The Wizard of Oz,The Wizard of Oz,https://www.imdb.com/title/tt0032138,Movie,8.1,102,1939,"Musical, Family, Adventure, Fantasy",1939-08-25,"Victor Fleming,King Vidor"
+tt0032138,6,2014-05-04,The Wizard of Oz,The Wizard of Oz,https://www.imdb.com/title/tt0032138,Movie,8.1,102,1939,"Musical, Family, Adventure, Fantasy",1939-08-25,"Victor Fleming,George Cukor,Norman Taurog,Richard Thorpe,King Vidor"
 tt0433400,2,2014-05-04,Just Friends,Just Friends,https://www.imdb.com/title/tt0433400,Movie,6.2,96,2005,"Comedy, Romance",2005-11-23,Roger Kumble
 tt0356680,4,2014-05-04,The Family Stone,The Family Stone,https://www.imdb.com/title/tt0356680,Movie,6.3,103,2005,"Romance, Drama, Comedy",2005-12-16,Thomas Bezucha
 tt0385002,4,2014-05-04,Green Street Hooligans,Green Street,https://www.imdb.com/title/tt0385002,Movie,7.4,109,2005,"Drama, Crime, Sport, War",2005-09-09,Lexi Alexander
@@ -3907,7 +3908,7 @@ tt0064115,6,2014-05-04,Butch Cassidy and the Sundance Kid,Butch Cassidy and the 
 tt0112384,6,2014-05-04,Apollo 13,Apollo 13,https://www.imdb.com/title/tt0112384,Movie,7.7,140,1995,"Adventure, History, Drama",1995-06-30,Ron Howard
 tt0078788,8,2014-05-04,Apocalypse Now,Apocalypse Now,https://www.imdb.com/title/tt0078788,Movie,8.4,147,1979,"Drama, Mystery, War",1979-08-15,Francis Ford Coppola
 tt0075686,6,2014-05-04,Annie Hall,Annie Hall,https://www.imdb.com/title/tt0075686,Movie,7.9,93,1977,"Romance, Comedy",1977-04-20,Woody Allen
-tt0120855,6,2014-05-04,Tarzan,Tarzan,https://www.imdb.com/title/tt0120855,Movie,7.3,88,1999,"Animation, Drama, Comedy, Music, Adventure, Family",1999-06-18,"Chris Buck,Kevin Lima"
+tt0120855,6,2014-05-04,Tarzan,Tarzan,https://www.imdb.com/title/tt0120855,Movie,7.3,88,1999,"Animation, Drama, Comedy, Adventure, Family",1999-06-18,"Chris Buck,Kevin Lima"
 tt0145531,4,2014-05-04,Stigmata,Stigmata,https://www.imdb.com/title/tt0145531,Movie,6.2,103,1999,"Mystery, Horror",1999-09-10,Rupert Wainwright
 tt0066769,6,2014-05-04,The Andromeda Strain,The Andromeda Strain,https://www.imdb.com/title/tt0066769,Movie,7.2,131,1971,"Thriller, Mystery, Sci-Fi",1971-03-12,Robert Wise
 tt0112346,6,2014-05-04,The American President,The American President,https://www.imdb.com/title/tt0112346,Movie,6.8,114,1995,"Romance, Drama, Comedy",1995-11-17,Rob Reiner
@@ -3920,7 +3921,7 @@ tt0139414,4,2014-05-04,Lake Placid,Lake Placid,https://www.imdb.com/title/tt0139
 tt0130827,4,2014-05-04,Run Lola Run,Lola rennt,https://www.imdb.com/title/tt0130827,Movie,7.6,80,1998,"Crime, Thriller, Action",1999-06-18,Tom Tykwer
 tt0107659,6,2014-05-04,Loaded Weapon 1,National Lampoon's: Loaded Weapon 1,https://www.imdb.com/title/tt0107659,Movie,6.2,84,1993,"Crime, Action, Comedy",1993-02-05,Gene Quintano
 tt0144214,6,2014-05-04,The General's Daughter,The General's Daughter,https://www.imdb.com/title/tt0144214,Movie,6.4,116,1999,"Crime, Drama, Thriller, Mystery",1999-06-18,Simon West
-tt0058150,10,2014-05-04,Goldfinger,Goldfinger,https://www.imdb.com/title/tt0058150,Movie,7.7,110,1964,"Adventure, Comedy, Thriller, Action",1965-01-09,Guy Hamilton
+tt0058150,10,2014-05-04,Goldfinger,Goldfinger,https://www.imdb.com/title/tt0058150,Movie,7.7,110,1964,"Adventure, Thriller, Action",1965-01-09,Guy Hamilton
 tt0113189,10,2014-05-04,GoldenEye,GoldenEye,https://www.imdb.com/title/tt0113189,Movie,7.2,130,1995,"Thriller, Adventure, Action",1995-11-17,Martin Campbell
 tt0130121,6,2014-05-04,Mickey Blue Eyes,Mickey Blue Eyes,https://www.imdb.com/title/tt0130121,Movie,5.9,102,1999,"Romance, Crime, Comedy",1999-08-20,"Kelly Makin,Carl Gottlieb"
 tt0162677,6,2014-05-04,Summer of Sam,Summer of Sam,https://www.imdb.com/title/tt0162677,Movie,6.7,142,1999,"Crime, Thriller, Romance, Drama",1999-07-02,Spike Lee
