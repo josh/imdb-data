@@ -1,5 +1,6 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt4900148,4,2025-08-20,Elio,Elio,https://www.imdb.com/title/tt4900148,Movie,6.9,98,2025,"Animation, Drama, Adventure, Family, Fantasy, Comedy, Sci-Fi",2025-06-20,"Adrian Molina,Domee Shi,Madeline Sharafian"
+tt3402138,6,2025-08-21,The Naked Gun,The Naked Gun,https://www.imdb.com/title/tt3402138,Movie,7.0,85,2025,"Comedy, Action, Crime",2025-08-01,Akiva Schaffer
+tt4900148,4,2025-08-20,Elio,Elio,https://www.imdb.com/title/tt4900148,Movie,6.9,98,2025,"Animation, Drama, Adventure, Family, Fantasy, Comedy, Sci-Fi",2025-06-20,"Adrian Molina,Madeline Sharafian,Domee Shi"
 tt31567422,5,2025-08-17,Night Always Comes,Night Always Comes,https://www.imdb.com/title/tt31567422,Movie,5.9,108,2025,"Drama, Crime, Thriller",2025-08-15,Benjamin Caron
 tt26581740,7,2025-08-17,Weapons,Weapons,https://www.imdb.com/title/tt26581740,Movie,7.9,128,2025,"Horror, Mystery",2025-08-08,Zach Cregger
 tt30645201,5,2025-08-15,Honey Don't!,Honey Don't!,https://www.imdb.com/title/tt30645201,Movie,5.7,88,2025,"Comedy, Mystery, Thriller, Crime",2025-08-22,Ethan Coen
@@ -99,15 +100,15 @@ tt28082769,6,2025-02-07,September 5,September 5,https://www.imdb.com/title/tt280
 tt0456912,7,2025-02-03,A Bittersweet Life,Dalkomhan insaeng,https://www.imdb.com/title/tt0456912,Movie,7.5,119,2005,"Action, Drama, Crime, Thriller",2005-04-01,Kim Jee-woon
 tt8008948,6,2025-02-03,Den of Thieves: Pantera,Den of Thieves: Pantera,https://www.imdb.com/title/tt8008948,Movie,6.3,144,2025,"Action, Crime, Drama, Thriller",2025-01-10,Christian Gudegast
 tt32367116,5,2025-02-03,The Things You Kill,The Things You Kill,https://www.imdb.com/title/tt32367116,Movie,6.9,114,2025,"Thriller, Drama",2025-04-25,Alireza Khatami
-tt21349688,5,2025-02-02,East of Wall,East of Wall,https://www.imdb.com/title/tt21349688,Movie,6.5,97,2025,Drama,2025-01-24,Kate Beecroft
+tt21349688,5,2025-02-02,East of Wall,East of Wall,https://www.imdb.com/title/tt21349688,Movie,6.6,97,2025,Drama,2025-01-24,Kate Beecroft
 tt34965625,5,2025-02-02,Prime Minister,Prime Minister,https://www.imdb.com/title/tt34965625,Movie,5.7,101,2025,Documentary,2025-01-24,"Lindsay Utz,Michelle Walshe"
 tt34963732,5,2025-02-02,Predators,Predators,https://www.imdb.com/title/tt34963732,Movie,7.5,96,2025,"Documentary, Crime, Thriller",2025-01-25,David Osit
 tt13650578,6,2025-02-02,Bubble & Squeak,Bubble & Squeak,https://www.imdb.com/title/tt13650578,Movie,5.6,95,2025,Comedy,2025-01-24,Evan Twohy
 tt31140176,5,2025-02-01,Sukkwan Island,Sukkwan Island,https://www.imdb.com/title/tt31140176,Movie,7.8,114,2025,Drama,2025-09-24,Vladimir de Fontenay
 tt26784676,4,2025-02-01,Sugar Babies,Sugar Babies,https://www.imdb.com/title/tt26784676,Movie,5.7,81,2025,Documentary,2025-01-27,Rachel Fleit
-tt29544916,3,2025-01-31,OBEX,OBEX,https://www.imdb.com/title/tt29544916,Movie,6.3,90,2025,Sci-Fi,2025-01-25,Albert Birney
+tt29544916,3,2025-01-31,OBEX,OBEX,https://www.imdb.com/title/tt29544916,Movie,6.4,90,2025,Sci-Fi,2025-01-25,Albert Birney
 tt33365660,2,2025-01-31,By Design,By Design,https://www.imdb.com/title/tt33365660,Movie,5.7,92,2025,"Drama, Sci-Fi, Comedy",2025-01-23,Amanda Kramer
-tt34965959,4,2025-01-31,Zodiac Killer Project,Zodiac Killer Project,https://www.imdb.com/title/tt34965959,Movie,6.7,91,2025,"Documentary, Crime, Mystery",2025-01-27,Charlie Shackleton
+tt34965959,4,2025-01-31,Zodiac Killer Project,Zodiac Killer Project,https://www.imdb.com/title/tt34965959,Movie,6.8,91,2025,"Documentary, Crime, Mystery",2025-01-27,Charlie Shackleton
 tt33998099,4,2025-01-31,Bunnylovr,Bunnylovr,https://www.imdb.com/title/tt33998099,Movie,5.8,86,2025,Drama,2025-01-25,Katarina Zhu
 tt34909040,5,2025-01-30,The Dating Game,The Dating Game,https://www.imdb.com/title/tt34909040,Movie,7.6,92,2025,Documentary,2025-01-23,Violet Du Feng
 tt10236164,5,2025-01-30,The Girl with the Needle,Pigen med nålen,https://www.imdb.com/title/tt10236164,Movie,7.5,123,2024,"Drama, History, Crime",2025-01-24,Magnus von Horn
@@ -120,9 +121,9 @@ tt5040012,6,2025-01-27,Nosferatu,Nosferatu,https://www.imdb.com/title/tt5040012,
 tt33292655,6,2025-01-26,"Oh, Hi!","Oh, Hi!",https://www.imdb.com/title/tt33292655,Movie,6.6,95,2025,Comedy,2025-07-25,Sophie Brooks
 tt27773954,5,2025-01-26,The Thing with Feathers,The Thing with Feathers,https://www.imdb.com/title/tt27773954,Movie,6.6,98,2025,Drama,2025-10-24,Dylan Southern
 tt31122579,6,2025-01-25,Atropia,Atropia,https://www.imdb.com/title/tt31122579,Movie,6.1,104,2025,"Drama, War",2025-01-25,Hailey Gates
-tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.3,97,2025,"Horror, Mystery",2025-10-09,Bryn Chainey
+tt29567402,3,2025-01-25,Rabbit Trap,Rabbit Trap,https://www.imdb.com/title/tt29567402,Movie,6.4,97,2025,"Horror, Mystery",2025-10-09,Bryn Chainey
 tt31322753,7,2025-01-24,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,7.9,100,2025,"Comedy, Drama",2025-09-05,James Sweeney
-tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,7.6,83,2025,Drama,2025-01-23,Cole Webley
+tt29253299,4,2025-01-23,Omaha,Omaha,https://www.imdb.com/title/tt29253299,Movie,7.5,83,2025,Drama,2025-01-23,Cole Webley
 tt29439114,5,2025-01-23,The Room Next Door,The Room Next Door,https://www.imdb.com/title/tt29439114,Movie,6.8,107,2024,Drama,2024-10-18,Pedro Almodóvar
 tt8790086,4,2025-01-23,Kraven the Hunter,Kraven the Hunter,https://www.imdb.com/title/tt8790086,Movie,5.5,127,2024,"Action, Thriller, Adventure",2024-12-13,J.C. Chandor
 tt22042346,3,2025-01-23,2073,2073,https://www.imdb.com/title/tt22042346,Movie,5.1,85,2024,"Documentary, Thriller",2024-12-27,Asif Kapadia
@@ -630,7 +631,7 @@ tt21221240,2,2023-01-28,Bad Behaviour,Bad Behaviour,https://www.imdb.com/title/t
 tt16304446,5,2023-01-27,Fair Play,Fair Play,https://www.imdb.com/title/tt16304446,Movie,6.4,113,2023,"Drama, Thriller",2023-10-06,Chloe Domont
 tt22751422,5,2023-01-27,The Accidental Getaway Driver,The Accidental Getaway Driver,https://www.imdb.com/title/tt22751422,Movie,5.7,102,2023,"Drama, Thriller",2025-05-12,Sing J. Lee
 tt15768848,5,2023-01-26,The Pod Generation,The Pod Generation,https://www.imdb.com/title/tt15768848,Movie,5.6,110,2023,"Comedy, Romance, Sci-Fi",2023-10-25,Sophie Barthes
-tt20601972,4,2023-01-26,Fairyland,Fairyland,https://www.imdb.com/title/tt20601972,Movie,6.6,114,2023,Drama,2023-01-20,Andrew Durham
+tt20601972,4,2023-01-26,Fairyland,Fairyland,https://www.imdb.com/title/tt20601972,Movie,6.6,116,2023,Drama,2023-01-20,Andrew Durham
 tt24076146,5,2023-01-24,The Persian Version,The Persian Version,https://www.imdb.com/title/tt24076146,Movie,6.2,107,2023,"Drama, Comedy, Romance",2023-12-05,Maryam Keshavarz
 tt21232992,6,2023-01-22,Theater Camp,Theater Camp,https://www.imdb.com/title/tt21232992,Movie,6.9,92,2023,Comedy,2023-09-14,"Molly Gordon,Nick Lieberman"
 tt22352848,4,2023-01-21,Jung_E,Jung_E,https://www.imdb.com/title/tt22352848,Movie,5.5,98,2023,"Action, Adventure, Drama, Sci-Fi",2023-01-20,Yeon Sang-ho
@@ -3223,7 +3224,7 @@ tt1632708,4,2014-05-04,Friends with Benefits,Friends with Benefits,https://www.i
 tt0076618,6,2014-05-04,The Rescuers,The Rescuers,https://www.imdb.com/title/tt0076618,Movie,6.9,77,1977,"Animation, Adventure, Fantasy, Comedy, Family",1977-06-22,"John Lounsbery,Wolfgang Reitherman,Art Stevens"
 tt0042332,2,2014-05-04,Cinderella,Cinderella,https://www.imdb.com/title/tt0042332,Movie,7.3,74,1950,"Animation, Musical, Fantasy, Romance, Family",1950-03-04,"Clyde Geronimi,Wilfred Jackson,Hamilton Luske"
 tt0425123,2,2014-05-04,Just Like Heaven,Just Like Heaven,https://www.imdb.com/title/tt0425123,Movie,6.7,95,2005,"Comedy, Romance, Fantasy, Drama",2005-09-16,Mark Waters
-tt0799949,2,2014-05-04,Epic Movie,Epic Movie,https://www.imdb.com/title/tt0799949,Movie,2.4,86,2007,"Adventure, Comedy, Fantasy",2007-01-26,"Jason Friedberg,Aaron Seltzer"
+tt0799949,2,2014-05-04,Epic Movie,Epic Movie,https://www.imdb.com/title/tt0799949,Movie,2.5,86,2007,"Adventure, Comedy, Fantasy",2007-01-26,"Jason Friedberg,Aaron Seltzer"
 tt0366551,6,2014-05-04,Harold & Kumar Go to White Castle,Harold & Kumar Go to White Castle,https://www.imdb.com/title/tt0366551,Movie,7.0,88,2004,"Comedy, Adventure",2004-07-30,Danny Leiner
 tt0424136,8,2014-05-04,Hard Candy,Hard Candy,https://www.imdb.com/title/tt0424136,Movie,7.0,104,2005,"Thriller, Drama",2006-04-28,David Slade
 tt0097937,4,2014-05-04,My Left Foot,My Left Foot: The Story of Christy Brown,https://www.imdb.com/title/tt0097937,Movie,7.8,103,1989,"Biography, Drama",1990-03-30,Jim Sheridan
