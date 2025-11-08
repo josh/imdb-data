@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt1312221,5,2025-11-08,Frankenstein,Frankenstein,https://www.imdb.com/title/tt1312221,Movie,7.7,149,2025,"Horror, Sci-Fi, Drama, Fantasy",2025-11-07,Guillermo del Toro
 tt31973693,6,2025-11-08,The Roses,The Roses,https://www.imdb.com/title/tt31973693,Movie,6.8,105,2025,Comedy,2025-08-29,Jay Roach
 tt7130300,5,2025-11-08,The Woman in Cabin 10,The Woman in Cabin 10,https://www.imdb.com/title/tt7130300,Movie,5.8,92,2025,"Thriller, Drama, Mystery",2025-10-10,Simon Stone
 tt11214558,6,2025-11-07,The Smashing Machine,The Smashing Machine,https://www.imdb.com/title/tt11214558,Movie,6.6,123,2025,"Biography, Drama, Action, Sport, History",2025-10-03,Benny Safdie
@@ -125,7 +126,7 @@ tt1194238,5,2025-02-21,Polytechnique,Polytechnique,https://www.imdb.com/title/tt
 tt23872886,4,2025-02-21,Zero Day,Zero Day,https://www.imdb.com/title/tt23872886,TV Mini Series,7.0,50,2025,"Thriller, Drama",2025-02-20,
 tt26584495,7,2025-02-21,Companion,Companion,https://www.imdb.com/title/tt26584495,Movie,6.9,97,2025,"Thriller, Sci-Fi",2025-01-31,Drew Hancock
 tt16826430,6,2025-02-20,Night Call,La nuit se traîne,https://www.imdb.com/title/tt16826430,Movie,6.7,97,2024,"Thriller, Action",2024-08-28,Michiel Blanchart
-tt10078772,5,2025-02-20,Flight Risk,Flight Risk,https://www.imdb.com/title/tt10078772,Movie,5.3,91,2025,"Thriller, Action, Crime, Drama",2025-01-24,Mel Gibson
+tt10078772,5,2025-02-20,Flight Risk,Flight Risk,https://www.imdb.com/title/tt10078772,Movie,5.2,91,2025,"Thriller, Action, Crime, Drama",2025-01-24,Mel Gibson
 tt23055660,5,2025-02-17,Nickel Boys,Nickel Boys,https://www.imdb.com/title/tt23055660,Movie,6.9,140,2024,Drama,2025-02-28,RaMell Ross
 tt11891850,6,2025-02-17,Hard Truths,Hard Truths,https://www.imdb.com/title/tt11891850,Movie,7.2,97,2024,"Comedy, Drama",2025-01-10,Mike Leigh
 tt13654226,4,2025-02-17,The Gorge,The Gorge,https://www.imdb.com/title/tt13654226,Movie,6.7,127,2025,"Action, Romance, Sci-Fi, Adventure, Horror",2025-02-14,Scott Derrickson
@@ -145,8 +146,8 @@ tt13650578,6,2025-02-02,Bubble & Squeak,Bubble & Squeak,https://www.imdb.com/tit
 tt31140176,5,2025-02-01,Sukkwan Island,Sukkwan Island,https://www.imdb.com/title/tt31140176,Movie,6.4,114,2025,Drama,2026-02-04,Vladimir de Fontenay
 tt26784676,4,2025-02-01,Sugar Babies,Sugar Babies,https://www.imdb.com/title/tt26784676,Movie,5.7,81,2025,Documentary,2025-01-27,Rachel Fleit
 tt29544916,3,2025-01-31,OBEX,OBEX,https://www.imdb.com/title/tt29544916,Movie,6.1,90,2025,"Sci-Fi, Horror",2025-01-25,Albert Birney
-tt33365660,2,2025-01-31,By Design,By Design,https://www.imdb.com/title/tt33365660,Movie,5.7,92,2025,"Drama, Sci-Fi, Comedy",2025-01-23,Amanda Kramer
-tt34965959,4,2025-01-31,Zodiac Killer Project,Zodiac Killer Project,https://www.imdb.com/title/tt34965959,Movie,6.7,91,2025,"Documentary, Crime, Mystery",2025-01-27,Charlie Shackleton
+tt33365660,2,2025-01-31,By Design,By Design,https://www.imdb.com/title/tt33365660,Movie,5.6,92,2025,"Drama, Sci-Fi, Comedy",2025-01-23,Amanda Kramer
+tt34965959,4,2025-01-31,Zodiac Killer Project,Zodiac Killer Project,https://www.imdb.com/title/tt34965959,Movie,6.6,91,2025,"Documentary, Crime, Mystery",2025-01-27,Charlie Shackleton
 tt33998099,4,2025-01-31,Bunnylovr,Bunnylovr,https://www.imdb.com/title/tt33998099,Movie,5.8,86,2025,Drama,2025-01-25,Katarina Zhu
 tt34909040,5,2025-01-30,The Dating Game,The Dating Game,https://www.imdb.com/title/tt34909040,Movie,7.0,92,2025,Documentary,2025-01-23,Violet Du Feng
 tt10236164,5,2025-01-30,The Girl with the Needle,Pigen med nålen,https://www.imdb.com/title/tt10236164,Movie,7.5,123,2024,"Drama, History, Crime",2025-01-24,Magnus von Horn
@@ -440,7 +441,7 @@ tt16252698,4,2024-01-14,Passages,Passages,https://www.imdb.com/title/tt16252698,
 tt28254460,7,2024-01-14,Sly,Sly,https://www.imdb.com/title/tt28254460,Movie,7.0,95,2023,"Documentary, Biography",2023-11-03,Thom Zimny
 tt18278698,4,2024-01-13,Dave Chappelle: The Dreamer,Dave Chappelle: The Dreamer,https://www.imdb.com/title/tt18278698,TV Special,7.0,56,2023,Comedy,2023-12-31,Stan Lathan
 tt14097180,6,2024-01-11,Somewhere in Queens,Somewhere in Queens,https://www.imdb.com/title/tt14097180,Movie,6.8,106,2022,"Comedy, Drama, Sport",2023-04-21,Ray Romano
-tt7985704,5,2024-01-10,Operation Fortune: Ruse de Guerre,Operation Fortune: Ruse de Guerre,https://www.imdb.com/title/tt7985704,Movie,6.3,114,2023,"Action, Thriller, Comedy",2023-03-03,Guy Ritchie
+tt7985704,5,2024-01-10,Operation Fortune: Ruse de Guerre,Operation Fortune: Ruse de Guerre,https://www.imdb.com/title/tt7985704,Movie,6.3,114,2023,"Action, Thriller, Comedy, Adventure",2023-03-03,Guy Ritchie
 tt6722400,5,2024-01-10,Fast Charlie,Fast Charlie,https://www.imdb.com/title/tt6722400,Movie,6.0,90,2023,"Action, Crime, Drama, Mystery, Thriller",2023-12-08,Phillip Noyce
 tt23289160,7,2024-01-06,Godzilla Minus One,Gojira Mainasu Wan,https://www.imdb.com/title/tt23289160,Movie,7.7,124,2023,"Action, Adventure, Sci-Fi, Horror, Drama",2023-12-01,Takashi Yamazaki
 tt0096754,6,2024-01-06,The Abyss,The Abyss,https://www.imdb.com/title/tt0096754,Movie,7.5,140,1989,"Drama, Mystery, Sci-Fi, Thriller, Adventure",1989-08-09,James Cameron
@@ -1761,7 +1762,7 @@ tt5884052,5,2019-08-26,Pokémon: Detective Pikachu,Pokémon: Detective Pikachu,h
 tt8499102,5,2019-08-24,Jawline,Jawline,https://www.imdb.com/title/tt8499102,Movie,6.1,99,2019,Documentary,2019-01-28,Liza Mandelup
 tt1856101,10,2019-08-20,Blade Runner 2049,Blade Runner 2049,https://www.imdb.com/title/tt1856101,Movie,8.0,164,2017,"Sci-Fi, Thriller, Action, Drama, Mystery",2017-10-06,Denis Villeneuve
 tt6849786,6,2019-08-05,General Magic,General Magic,https://www.imdb.com/title/tt6849786,Movie,7.4,93,2018,Documentary,2019-07-12,"Sarah Kerruish,Matt Maude"
-tt1099212,3,2019-08-05,Twilight,Twilight,https://www.imdb.com/title/tt1099212,Movie,5.3,122,2008,"Romance, Fantasy, Drama",2008-11-21,Catherine Hardwicke
+tt1099212,3,2019-08-05,Twilight,Twilight,https://www.imdb.com/title/tt1099212,Movie,5.4,122,2008,"Romance, Fantasy, Drama",2008-11-21,Catherine Hardwicke
 tt0465538,10,2019-08-05,Michael Clayton,Michael Clayton,https://www.imdb.com/title/tt0465538,Movie,7.2,119,2007,"Drama, Thriller, Crime, Mystery",2007-10-12,Tony Gilroy
 tt2139881,4,2019-07-31,Long Shot,Long Shot,https://www.imdb.com/title/tt2139881,Movie,6.8,125,2019,"Comedy, Romance",2019-05-03,Jonathan Levine
 tt6105098,5,2019-07-29,The Lion King,The Lion King,https://www.imdb.com/title/tt6105098,Movie,6.8,118,2019,"Animation, Musical, Adventure, Drama, Family",2019-07-19,Jon Favreau
@@ -2023,7 +2024,7 @@ tt4846232,8,2017-09-05,Good Time,Good Time,https://www.imdb.com/title/tt4846232,
 tt1212428,5,2017-08-31,The Lost City of Z,The Lost City of Z,https://www.imdb.com/title/tt1212428,Movie,6.6,141,2016,"Drama, Biography, Adventure, History",2017-04-21,James Gray
 tt4776998,5,2017-08-30,The Promise,The Promise,https://www.imdb.com/title/tt4776998,Movie,6.1,133,2016,"Drama, Action, Adventure, War",2017-04-21,Terry George
 tt1082807,6,2017-08-30,The Belko Experiment,The Belko Experiment,https://www.imdb.com/title/tt1082807,Movie,6.2,89,2016,"Horror, Thriller, Action",2017-03-17,Greg McLean
-tt5541240,6,2017-08-29,To the Bone,To the Bone,https://www.imdb.com/title/tt5541240,Movie,6.8,107,2017,Drama,2017-07-14,Marti Noxon
+tt5541240,6,2017-08-29,To the Bone,To the Bone,https://www.imdb.com/title/tt5541240,Movie,6.7,107,2017,Drama,2017-07-14,Marti Noxon
 tt3967856,6,2017-08-29,Okja,Okja,https://www.imdb.com/title/tt3967856,Movie,7.3,120,2017,"Adventure, Sci-Fi, Drama, Action",2017-06-28,Bong Joon Ho
 tt4714782,5,2017-08-25,Personal Shopper,Personal Shopper,https://www.imdb.com/title/tt4714782,Movie,6.1,105,2016,"Thriller, Mystery, Drama",2017-03-10,Olivier Assayas
 tt1219827,5,2017-08-23,Ghost in the Shell,Ghost in the Shell,https://www.imdb.com/title/tt1219827,Movie,6.3,107,2017,"Action, Drama, Sci-Fi, Thriller, Crime, Mystery",2017-03-31,Rupert Sanders
@@ -2673,7 +2674,7 @@ tt0374536,6,2014-05-04,Bewitched,Bewitched,https://www.imdb.com/title/tt0374536,
 tt0120667,6,2014-05-04,Fantastic Four,Fantastic Four,https://www.imdb.com/title/tt0120667,Movie,5.7,106,2005,"Adventure, Fantasy, Sci-Fi, Action",2005-07-08,Tim Story
 tt0356910,6,2014-05-04,Mr. & Mrs. Smith,Mr. & Mrs. Smith,https://www.imdb.com/title/tt0356910,Movie,6.5,120,2005,"Comedy, Crime, Thriller, Action",2005-06-10,Doug Liman
 tt0351283,6,2014-05-04,Madagascar,Madagascar,https://www.imdb.com/title/tt0351283,Movie,6.9,86,2005,"Animation, Family, Comedy, Adventure",2005-05-27,"Eric Darnell,Tom McGrath"
-tt0110989,6,2014-05-04,Richie Rich,Ri¢hie Ri¢h,https://www.imdb.com/title/tt0110989,Movie,5.4,95,1994,"Family, Comedy",1994-12-21,Donald Petrie
+tt0110989,6,2014-05-04,Richie Rich,Ri¢hie Ri¢h,https://www.imdb.com/title/tt0110989,Movie,5.5,95,1994,"Family, Comedy",1994-12-21,Donald Petrie
 tt0386588,6,2014-05-04,Hitch,Hitch,https://www.imdb.com/title/tt0386588,Movie,6.6,118,2005,"Comedy, Romance",2005-02-11,Andy Tennant
 tt0382077,4,2014-05-04,Hide and Seek,Hide and Seek,https://www.imdb.com/title/tt0382077,Movie,5.9,101,2005,"Horror, Mystery",2005-01-28,John Polson
 tt0340163,6,2014-05-04,Hostage,Hostage,https://www.imdb.com/title/tt0340163,Movie,6.5,113,2005,"Crime, Drama, Thriller, Action",2005-03-11,Florent-Emilio Siri
