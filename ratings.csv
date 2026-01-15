@@ -1,5 +1,7 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt30343021,6,2026-01-14,Song Sung Blue,Song Sung Blue,https://www.imdb.com/title/tt30343021,Movie,7.6,132,2025,"Musical, Biography, Drama, History, Music",2025-12-25,Craig Brewer
+tt23172090,5,2026-01-15,Dust Bunny,Dust Bunny,https://www.imdb.com/title/tt23172090,Movie,6.7,106,2025,"Drama, Thriller, Horror, Action",2025-12-12,Bryan Fuller
+tt32321317,4,2026-01-15,Pillion,Pillion,https://www.imdb.com/title/tt32321317,Movie,7.0,107,2025,"Drama, Romance, Comedy",2026-02-06,Harry Lighton
+tt30343021,6,2026-01-14,Song Sung Blue,Song Sung Blue,https://www.imdb.com/title/tt30343021,Movie,7.5,132,2025,"Musical, Biography, Drama, History, Music",2025-12-25,Craig Brewer
 tt14142060,7,2026-01-14,Rental Family,Rental Family,https://www.imdb.com/title/tt14142060,Movie,7.8,110,2025,"Comedy, Drama",2025-11-21,Hikari
 tt22740896,5,2026-01-11,People We Meet on Vacation,People We Meet on Vacation,https://www.imdb.com/title/tt22740896,Movie,6.8,117,2026,Romance,2026-01-09,Brett Haley
 tt22060498,5,2026-01-09,Mistress Dispeller,Mistress Dispeller,https://www.imdb.com/title/tt22060498,Movie,6.9,94,2024,"Documentary, Family",2025-10-24,Elizabeth Lo
@@ -7,7 +9,7 @@ tt36491653,5,2026-01-09,It Was Just an Accident,Yek tasadof-e sadeh,https://www.
 tt27977862,5,2026-01-08,Last Days,Last Days,https://www.imdb.com/title/tt27977862,Movie,4.8,120,2025,"Drama, Adventure, Biography",2025-10-24,Justin Lin
 tt35520290,6,2026-01-08,The Baltimorons,The Baltimorons,https://www.imdb.com/title/tt35520290,Movie,6.9,101,2025,"Comedy, Drama, Romance",2025-09-05,Jay Duplass
 tt33350512,5,2026-01-08,100 Nights of Hero,100 Nights of Hero,https://www.imdb.com/title/tt33350512,Movie,5.9,91,2025,"Romance, Fantasy, Drama",2025-12-05,Julia Jackman
-tt31844586,6,2026-01-07,Sisu: Road to Revenge,Sisu 2,https://www.imdb.com/title/tt31844586,Movie,6.9,89,2025,"Action, War",2025-11-21,Jalmari Helander
+tt31844586,6,2026-01-07,Sisu: Road to Revenge,Sisu 2,https://www.imdb.com/title/tt31844586,Movie,6.8,89,2025,"Action, War",2025-11-21,Jalmari Helander
 tt31322753,8,2026-01-07,Twinless,Twinless,https://www.imdb.com/title/tt31322753,Movie,7.4,100,2025,"Comedy, Drama",2025-09-05,James Sweeney
 tt18382850,6,2026-01-07,If I Had Legs I'd Kick You,If I Had Legs I'd Kick You,https://www.imdb.com/title/tt18382850,Movie,6.7,113,2025,"Drama, Thriller",2025-10-10,Mary Bronstein
 tt27714581,6,2026-01-06,Sentimental Value,Affeksjonsverdi,https://www.imdb.com/title/tt27714581,Movie,7.9,133,2025,Drama,2025-08-20,Joachim Trier
@@ -135,7 +137,7 @@ tt9603208,8,2025-05-23,Mission: Impossible - The Final Reckoning,Mission: Imposs
 tt9619824,4,2025-05-21,Final Destination: Bloodlines,Final Destination Bloodlines,https://www.imdb.com/title/tt9619824,Movie,6.7,110,2025,"Horror, Thriller",2025-05-16,"Zach Lipovsky,Adam B. Stein"
 tt20214908,5,2025-05-04,Another Simple Favor,Another Simple Favor,https://www.imdb.com/title/tt20214908,Movie,5.3,120,2025,"Comedy, Thriller, Crime, Mystery",2025-05-01,Paul Feig
 tt13491834,5,2025-05-01,Sacramento,Sacramento,https://www.imdb.com/title/tt13491834,Movie,5.9,89,2024,Comedy,2025-04-10,Michael Angarano
-tt28443655,5,2025-04-30,Death of a Unicorn,Death of a Unicorn,https://www.imdb.com/title/tt28443655,Movie,5.9,107,2025,"Comedy, Horror, Fantasy, Thriller",2025-03-28,Alex Scharfman
+tt28443655,5,2025-04-30,Death of a Unicorn,Death of a Unicorn,https://www.imdb.com/title/tt28443655,Movie,5.8,107,2025,"Comedy, Horror, Fantasy, Thriller",2025-03-28,Alex Scharfman
 tt32149847,6,2025-04-29,Drop,Drop,https://www.imdb.com/title/tt32149847,Movie,6.1,95,2025,"Thriller, Drama, Mystery",2025-04-11,Christopher Landon
 tt14123284,6,2025-04-28,Havoc,Havoc,https://www.imdb.com/title/tt14123284,Movie,5.6,107,2025,"Action, Thriller, Crime, Drama, Mystery",2025-04-25,Gareth Evans
 tt21987878,5,2025-04-27,Day of the Fight,Day of the Fight,https://www.imdb.com/title/tt21987878,Movie,6.9,108,2023,"Drama, Sport",2024-03-07,Jack Huston
@@ -2978,7 +2980,7 @@ tt1433813,6,2014-05-04,Hubble,Hubble 3D,https://www.imdb.com/title/tt1433813,Mov
 tt0373074,2,2014-05-04,Kung Fu Hustle,Kung Fu Hustle,https://www.imdb.com/title/tt0373074,Movie,7.7,99,2004,"Action, Comedy, Fantasy",2005-04-22,Stephen Chow
 tt0083944,6,2014-05-04,First Blood,First Blood,https://www.imdb.com/title/tt0083944,Movie,7.7,93,1982,"Adventure, Thriller, Action",1982-10-22,Ted Kotcheff
 tt1068680,6,2014-05-04,Yes Man,Yes Man,https://www.imdb.com/title/tt1068680,Movie,6.8,104,2008,"Comedy, Romance",2008-12-19,Peyton Reed
-tt0203009,8,2014-05-04,Moulin Rouge!,Moulin Rouge!,https://www.imdb.com/title/tt0203009,Movie,7.5,127,2001,"Musical, Romance, Drama",2001-06-01,Baz Luhrmann
+tt0203009,8,2014-05-04,Moulin Rouge!,Moulin Rouge!,https://www.imdb.com/title/tt0203009,Movie,7.6,127,2001,"Musical, Romance, Drama",2001-06-01,Baz Luhrmann
 tt0438488,6,2014-05-04,Terminator Salvation,Terminator Salvation,https://www.imdb.com/title/tt0438488,Movie,6.5,115,2009,"Sci-Fi, Action, Adventure",2009-05-21,McG
 tt0277371,2,2014-05-04,Not Another Teen Movie,Not Another Teen Movie,https://www.imdb.com/title/tt0277371,Movie,5.8,89,2001,"Romance, Comedy",2001-12-14,Joel Gallen
 tt0102511,6,2014-05-04,Naked Lunch,Naked Lunch,https://www.imdb.com/title/tt0102511,Movie,6.9,115,1991,"Mystery, Drama",1992-04-24,David Cronenberg
@@ -4154,7 +4156,7 @@ tt0117802,6,2014-05-04,Swingers,Swingers,https://www.imdb.com/title/tt0117802,Mo
 tt0083131,6,2014-05-04,Stripes,Stripes,https://www.imdb.com/title/tt0083131,Movie,6.8,106,1981,"War, Comedy",1981-06-26,Ivan Reitman
 tt0070735,6,2014-05-04,The Sting,The Sting,https://www.imdb.com/title/tt0070735,Movie,8.2,129,1973,"Drama, Crime, Comedy",1973-12-25,George Roy Hill
 tt0452702,7,2014-04-26,Vacancy,Vacancy,https://www.imdb.com/title/tt0452702,Movie,6.2,85,2007,"Horror, Thriller",2007-04-20,Nimród Antal
-tt2170299,7,2014-04-24,Bad Words,Bad Words,https://www.imdb.com/title/tt2170299,Movie,6.6,89,2013,"Comedy, Drama",2014-03-28,Jason Bateman
+tt2170299,7,2014-04-24,Bad Words,Bad Words,https://www.imdb.com/title/tt2170299,Movie,6.7,89,2013,"Comedy, Drama",2014-03-28,Jason Bateman
 tt1843866,6,2014-04-24,Captain America: The Winter Soldier,Captain America: The Winter Soldier,https://www.imdb.com/title/tt1843866,Movie,7.7,136,2014,"Action, Adventure, Sci-Fi, Thriller",2014-04-04,"Anthony Russo,Joe Russo"
 tt1322269,6,2014-04-20,August: Osage County,August: Osage County,https://www.imdb.com/title/tt1322269,Movie,7.2,121,2013,"Drama, Comedy",2014-01-10,John Wells
 tt1959490,6,2014-04-19,Noah,Noah,https://www.imdb.com/title/tt1959490,Movie,5.8,138,2014,"Drama, Adventure, Action",2014-03-28,Darren Aronofsky
