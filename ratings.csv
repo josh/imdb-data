@@ -1,7 +1,8 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,null,94,2026,Thriller,2026-01-24,Cathy Yan
 tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,null,94,2026,Drama,2026-01-23,Molly Manners
-tt32321285,7,2026-01-24,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.5,114,2026,"Drama, Thriller",2026-01-23,Beth de Araújo
-tt6628920,7,2026-01-24,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,8.8,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
+tt32321285,7,2026-01-24,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,7.8,114,2026,"Drama, Thriller",2026-01-23,Beth de Araújo
+tt6628920,7,2026-01-24,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,7.1,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
 tt33296751,7,2026-01-24,Tuner,Tuner,https://www.imdb.com/title/tt33296751,Movie,7.3,109,2025,"Crime, Thriller, Drama, Music, Romance",2025-05-29,Daniel Roher
 tt36980182,5,2026-01-23,The Incomer,The Incomer,https://www.imdb.com/title/tt36980182,Movie,6.9,102,2026,Comedy,2026-01-22,Louis Paxton
 tt39150234,8,2026-01-23,The History of Concrete,The History of Concrete,https://www.imdb.com/title/tt39150234,Movie,null,100,2026,Documentary,2026-01-22,John Wilson
@@ -43,7 +44,7 @@ tt32159989,6,2025-12-04,After the Hunt,After the Hunt,https://www.imdb.com/title
 tt31843054,6,2025-12-04,The Dinner Plan,The Dinner Plan,https://www.imdb.com/title/tt31843054,Short,7.3,34,2025,"Short, Comedy, Thriller",2025-11-26,Patrick Willems
 tt12300742,4,2025-11-30,Bugonia,Bugonia,https://www.imdb.com/title/tt12300742,Movie,7.4,118,2025,"Sci-Fi, Comedy, Crime",2025-10-31,Yorgos Lanthimos
 tt19847976,6,2025-11-28,Wicked: For Good,Wicked: For Good,https://www.imdb.com/title/tt19847976,Movie,6.7,137,2025,"Musical, Family, Fantasy, Romance, Drama",2025-11-21,Jon M. Chu
-tt34621966,6,2025-11-22,Megadoc,MegaDoc,https://www.imdb.com/title/tt34621966,Movie,7.0,107,2025,Documentary,2025-11-21,Mike Figgis
+tt34621966,6,2025-11-22,Megadoc,MegaDoc,https://www.imdb.com/title/tt34621966,Movie,6.9,107,2025,Documentary,2025-11-21,Mike Figgis
 tt14107334,5,2025-11-21,The Running Man,The Running Man,https://www.imdb.com/title/tt14107334,Movie,6.4,133,2025,"Sci-Fi, Action, Thriller, Adventure",2025-11-14,Edgar Wright
 tt31425731,4,2025-11-16,Playdate,Playdate,https://www.imdb.com/title/tt31425731,Movie,5.5,93,2025,"Action, Comedy",2025-11-12,Luke Greenfield
 tt31193180,9,2025-11-15,Sinners,Sinners,https://www.imdb.com/title/tt31193180,Movie,7.5,137,2025,"Drama, Thriller, Horror, Action, Music",2025-04-18,Ryan Coogler
@@ -1033,7 +1034,7 @@ tt0116705,7,2021-12-25,Jingle All the Way,Jingle All the Way,https://www.imdb.co
 tt2953050,5,2021-12-24,Encanto,Encanto,https://www.imdb.com/title/tt2953050,Movie,7.2,102,2021,"Animation, Musical, Family, Fantasy, Comedy",2021-11-24,"Jared Bush,Byron Howard,Charise Castro Smith"
 tt11741044,5,2021-12-21,I Was a Simple Man,I Was a Simple Man,https://www.imdb.com/title/tt11741044,Movie,6.0,100,2021,Drama,2021-01-29,Christopher Makoto Yogi
 tt2250912,9,2021-12-20,Spider-Man: Homecoming,Spider-Man: Homecoming,https://www.imdb.com/title/tt2250912,Movie,7.4,133,2017,"Action, Sci-Fi, Adventure",2017-07-07,Jon Watts
-tt10872600,9,2021-12-20,Spider-Man: No Way Home,Spider-Man: No Way Home,https://www.imdb.com/title/tt10872600,Movie,8.2,148,2021,"Action, Adventure, Sci-Fi, Fantasy",2021-12-17,Jon Watts
+tt10872600,9,2021-12-20,Spider-Man: No Way Home,Spider-Man: No Way Home,https://www.imdb.com/title/tt10872600,Movie,8.1,148,2021,"Action, Adventure, Sci-Fi, Fantasy",2021-12-17,Jon Watts
 tt13207508,7,2021-12-18,Swan Song,Swan Song,https://www.imdb.com/title/tt13207508,Movie,6.8,116,2021,"Drama, Sci-Fi, Romance, Thriller",2021-12-17,Benjamin Cleary
 tt11233960,5,2021-12-15,The Unforgivable,The Unforgivable,https://www.imdb.com/title/tt11233960,Movie,7.2,112,2021,"Drama, Crime, Mystery",2021-12-10,Nora Fingscheidt
 tt8893974,5,2021-12-05,Passing,Passing,https://www.imdb.com/title/tt8893974,Movie,6.6,98,2021,"Drama, Thriller, Mystery",2021-11-10,Rebecca Hall
@@ -1174,7 +1175,7 @@ tt11204260,7,2021-08-01,I May Destroy You,I May Destroy You,https://www.imdb.com
 tt9612516,4,2021-08-01,Space Force,Space Force,https://www.imdb.com/title/tt9612516,TV Series,6.7,30,2020,Comedy,2020-05-29,
 tt10584608,6,2021-08-01,Teenage Bounty Hunters,Teenage Bounty Hunters,https://www.imdb.com/title/tt10584608,TV Series,7.6,50,2020,"Comedy, Crime, Drama",2020-08-14,
 tt8134470,2,2021-08-01,The Undoing,The Undoing,https://www.imdb.com/title/tt8134470,TV Mini Series,7.4,60,2020,"Drama, Thriller, Crime, Mystery",2020-10-25,
-tt10680614,4,2021-08-01,A Teacher,A Teacher,https://www.imdb.com/title/tt10680614,TV Mini Series,6.8,25,2020,Drama,2020-11-10,
+tt10680614,4,2021-08-01,A Teacher,A Teacher,https://www.imdb.com/title/tt10680614,TV Mini Series,6.9,25,2020,Drama,2020-11-10,
 tt10795658,8,2021-08-01,Alice in Borderland,Imawa no Kuni no Arisu,https://www.imdb.com/title/tt10795658,TV Series,7.8,50,2020,"Drama, Sci-Fi, Thriller, Mystery, Horror, Action",2020-12-10,
 tt10577736,6,2021-08-01,Tehran,Tehran,https://www.imdb.com/title/tt10577736,TV Series,7.6,45,2020,"Thriller, Drama, Crime, Action",2020-09-25,
 tt10222764,5,2021-08-01,The Vow,The Vow,https://www.imdb.com/title/tt10222764,TV Series,7.2,60,2020,"Documentary, Crime",2020-08-23,
