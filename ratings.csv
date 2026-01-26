@@ -1,11 +1,12 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,null,94,2026,Thriller,2026-01-24,Cathy Yan
-tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,null,94,2026,Drama,2026-01-23,Molly Manners
-tt32321285,7,2026-01-24,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,7.8,114,2026,"Drama, Thriller",2026-01-23,Beth de Araújo
-tt6628920,7,2026-01-24,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,7.1,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
+tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,7.7,93,2026,Comedy,2026-01-25,David Wain
+tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,6.1,94,2026,Thriller,2026-01-24,Cathy Yan
+tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,7.3,94,2026,Drama,2026-01-23,Molly Manners
+tt32321285,7,2026-01-24,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.1,114,2026,"Drama, Thriller, Crime",2026-01-23,Beth de Araújo
+tt6628920,7,2026-01-24,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,6.5,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
 tt33296751,7,2026-01-24,Tuner,Tuner,https://www.imdb.com/title/tt33296751,Movie,7.3,109,2025,"Crime, Thriller, Drama, Music, Romance",2025-05-29,Daniel Roher
-tt36980182,5,2026-01-23,The Incomer,The Incomer,https://www.imdb.com/title/tt36980182,Movie,6.9,102,2026,Comedy,2026-01-22,Louis Paxton
-tt39150234,8,2026-01-23,The History of Concrete,The History of Concrete,https://www.imdb.com/title/tt39150234,Movie,null,100,2026,Documentary,2026-01-22,John Wilson
+tt36980182,5,2026-01-23,The Incomer,The Incomer,https://www.imdb.com/title/tt36980182,Movie,7.2,102,2026,Comedy,2026-01-22,Louis Paxton
+tt39150234,8,2026-01-23,The History of Concrete,The History of Concrete,https://www.imdb.com/title/tt39150234,Movie,7.7,100,2026,Documentary,2026-01-22,John Wilson
 tt32642706,6,2026-01-17,The Rip,The Rip,https://www.imdb.com/title/tt32642706,Movie,6.8,113,2026,"Crime, Thriller, Drama, Mystery, Action",2026-01-16,Joe Carnahan
 tt23172090,5,2026-01-15,Dust Bunny,Dust Bunny,https://www.imdb.com/title/tt23172090,Movie,6.6,106,2025,"Drama, Thriller, Horror, Action",2025-12-12,Bryan Fuller
 tt32321317,4,2026-01-15,Pillion,Pillion,https://www.imdb.com/title/tt32321317,Movie,6.8,107,2025,"Drama, Romance, Comedy",2026-02-06,Harry Lighton
@@ -92,7 +93,7 @@ tt12001534,4,2025-09-04,The Thursday Murder Club,The Thursday Murder Club,https:
 tt0057565,6,2025-09-03,High and Low,Tengoku to jigoku,https://www.imdb.com/title/tt0057565,Movie,8.4,143,1963,"Drama, Crime, Mystery, Thriller",1963-11-26,Akira Kurosawa
 tt0097216,4,2025-09-03,Do the Right Thing,Do the Right Thing,https://www.imdb.com/title/tt0097216,Movie,7.9,120,1989,"Comedy, Drama",1989-07-21,Spike Lee
 tt19403516,5,2025-08-26,Hallow Road,Hallow Road,https://www.imdb.com/title/tt19403516,Movie,6.0,80,2025,"Drama, Thriller, Horror",2025-05-16,Babak Anvari
-tt3402138,6,2025-08-21,The Naked Gun,The Naked Gun,https://www.imdb.com/title/tt3402138,Movie,6.4,85,2025,"Comedy, Action, Crime",2025-08-01,Akiva Schaffer
+tt3402138,6,2025-08-21,The Naked Gun,The Naked Gun,https://www.imdb.com/title/tt3402138,Movie,6.3,85,2025,"Comedy, Action, Crime",2025-08-01,Akiva Schaffer
 tt4900148,4,2025-08-20,Elio,Elio,https://www.imdb.com/title/tt4900148,Movie,6.7,98,2025,"Animation, Drama, Adventure, Family, Fantasy, Comedy, Sci-Fi",2025-06-20,"Adrian Molina,Madeline Sharafian,Domee Shi"
 tt31567422,5,2025-08-17,Night Always Comes,Night Always Comes,https://www.imdb.com/title/tt31567422,Movie,5.9,108,2025,"Drama, Crime, Thriller",2025-08-15,Benjamin Caron
 tt30645201,5,2025-08-15,Honey Don't!,Honey Don't!,https://www.imdb.com/title/tt30645201,Movie,5.2,89,2025,"Comedy, Mystery, Thriller, Crime",2025-08-22,Ethan Coen
@@ -199,7 +200,7 @@ tt29544916,3,2025-01-31,Obex,Obex,https://www.imdb.com/title/tt29544916,Movie,6.
 tt33365660,2,2025-01-31,By Design,By Design,https://www.imdb.com/title/tt33365660,Movie,5.5,92,2025,"Drama, Sci-Fi, Comedy",2025-01-23,Amanda Kramer
 tt34965959,4,2025-01-31,Zodiac Killer Project,Zodiac Killer Project,https://www.imdb.com/title/tt34965959,Movie,6.6,91,2025,"Documentary, Crime, Mystery",2025-11-28,Charlie Shackleton
 tt33998099,4,2025-01-31,Bunnylovr,Bunnylovr,https://www.imdb.com/title/tt33998099,Movie,5.8,86,2025,Drama,2025-01-25,Katarina Zhu
-tt34909040,5,2025-01-30,The Dating Game,The Dating Game,https://www.imdb.com/title/tt34909040,Movie,7.0,92,2025,Documentary,2025-12-15,Violet Du Feng
+tt34909040,5,2025-01-30,The Dating Game,The Dating Game,https://www.imdb.com/title/tt34909040,Movie,6.9,92,2025,Documentary,2025-12-15,Violet Du Feng
 tt10236164,5,2025-01-30,The Girl with the Needle,Pigen med nålen,https://www.imdb.com/title/tt10236164,Movie,7.5,123,2024,"Drama, History, Crime",2025-01-24,Magnus von Horn
 tt28142896,5,2025-01-30,Weekend in Taipei,Weekend in Taipei,https://www.imdb.com/title/tt28142896,Movie,5.7,100,2024,"Action, Thriller",2024-11-08,George Huang
 tt29994753,4,2025-01-29,"Oh, Canada","Oh, Canada",https://www.imdb.com/title/tt29994753,Movie,5.6,91,2024,Drama,2025-01-21,Paul Schrader
@@ -1175,7 +1176,7 @@ tt11204260,7,2021-08-01,I May Destroy You,I May Destroy You,https://www.imdb.com
 tt9612516,4,2021-08-01,Space Force,Space Force,https://www.imdb.com/title/tt9612516,TV Series,6.7,30,2020,Comedy,2020-05-29,
 tt10584608,6,2021-08-01,Teenage Bounty Hunters,Teenage Bounty Hunters,https://www.imdb.com/title/tt10584608,TV Series,7.6,50,2020,"Comedy, Crime, Drama",2020-08-14,
 tt8134470,2,2021-08-01,The Undoing,The Undoing,https://www.imdb.com/title/tt8134470,TV Mini Series,7.4,60,2020,"Drama, Thriller, Crime, Mystery",2020-10-25,
-tt10680614,4,2021-08-01,A Teacher,A Teacher,https://www.imdb.com/title/tt10680614,TV Mini Series,6.9,25,2020,Drama,2020-11-10,
+tt10680614,4,2021-08-01,A Teacher,A Teacher,https://www.imdb.com/title/tt10680614,TV Mini Series,6.8,25,2020,Drama,2020-11-10,
 tt10795658,8,2021-08-01,Alice in Borderland,Imawa no Kuni no Arisu,https://www.imdb.com/title/tt10795658,TV Series,7.8,50,2020,"Drama, Sci-Fi, Thriller, Mystery, Horror, Action",2020-12-10,
 tt10577736,6,2021-08-01,Tehran,Tehran,https://www.imdb.com/title/tt10577736,TV Series,7.6,45,2020,"Thriller, Drama, Crime, Action",2020-09-25,
 tt10222764,5,2021-08-01,The Vow,The Vow,https://www.imdb.com/title/tt10222764,TV Series,7.2,60,2020,"Documentary, Crime",2020-08-23,
