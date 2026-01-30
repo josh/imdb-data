@@ -1,12 +1,14 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
-tt39163244,4,2026-01-29,The Best Summer,The Best Summer,https://www.imdb.com/title/tt39163244,Movie,null,84,2026,"Documentary, Biography, Music",2026-01-24,Tamra Davis
+tt38626943,5,2026-01-29,Carousel,Carousel,https://www.imdb.com/title/tt38626943,Movie,4.2,105,2026,"Drama, Romance, Comedy",2026-01-22,Rachel Lambert
+tt38579505,5,2026-01-29,Chasing Summer,Chasing Summer,https://www.imdb.com/title/tt38579505,Movie,8.2,91,2026,"Comedy, Drama",2026-01-26,Josephine Decker
+tt39163244,4,2026-01-29,The Best Summer,The Best Summer,https://www.imdb.com/title/tt39163244,Movie,5.4,84,2026,"Documentary, Biography, Music",2026-01-24,Tamra Davis
 tt39150080,1,2026-01-29,Ghost in the Machine,Ghost in the Machine,https://www.imdb.com/title/tt39150080,Movie,null,110,2026,Documentary,2026-01-26,Valerie Veatch
 tt6628920,8,2026-01-28,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,6.2,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
 tt32321285,8,2026-01-28,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.1,114,2026,"Drama, Thriller, Crime",2026-01-23,Beth de Araújo
-tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,7.7,112,2026,"Action, Adventure, Sci-Fi",2026-01-26,Padraic McKinley
+tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,7.9,112,2026,"Action, Adventure, Sci-Fi",2026-01-26,Padraic McKinley
 tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,6.6,93,2026,Comedy,2026-01-25,David Wain
 tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,5.5,94,2026,Thriller,2026-01-24,Cathy Yan
-tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,7.6,94,2026,Drama,2026-01-23,Molly Manners
+tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,7.5,94,2026,Drama,2026-01-23,Molly Manners
 tt33296751,7,2026-01-24,Tuner,Tuner,https://www.imdb.com/title/tt33296751,Movie,7.3,109,2025,"Crime, Thriller, Drama, Music, Romance",2025-05-29,Daniel Roher
 tt36980182,5,2026-01-23,The Incomer,The Incomer,https://www.imdb.com/title/tt36980182,Movie,7.6,102,2026,Comedy,2026-01-22,Louis Paxton
 tt39150234,8,2026-01-23,The History of Concrete,The History of Concrete,https://www.imdb.com/title/tt39150234,Movie,7.1,100,2026,Documentary,2026-01-22,John Wilson
@@ -46,7 +48,7 @@ tt6019206,10,2025-12-05,Kill Bill: The Whole Bloody Affair,Kill Bill: The Whole 
 tt32536315,6,2025-12-04,Blue Moon,Blue Moon,https://www.imdb.com/title/tt32536315,Movie,6.9,100,2025,"Drama, Biography, Music, Comedy, Romance, History",2025-10-24,Richard Linklater
 tt32159989,6,2025-12-04,After the Hunt,After the Hunt,https://www.imdb.com/title/tt32159989,Movie,5.7,138,2025,"Drama, Thriller, Crime",2025-10-17,Luca Guadagnino
 tt31843054,6,2025-12-04,The Dinner Plan,The Dinner Plan,https://www.imdb.com/title/tt31843054,Short,7.3,34,2025,"Short, Comedy, Thriller",2025-11-26,Patrick Willems
-tt12300742,4,2025-11-30,Bugonia,Bugonia,https://www.imdb.com/title/tt12300742,Movie,7.4,118,2025,"Sci-Fi, Comedy, Crime",2025-10-31,Yorgos Lanthimos
+tt12300742,4,2025-11-30,Bugonia,Bugonia,https://www.imdb.com/title/tt12300742,Movie,7.4,118,2025,"Sci-Fi, Comedy, Crime, Thriller",2025-10-31,Yorgos Lanthimos
 tt19847976,6,2025-11-28,Wicked: For Good,Wicked: For Good,https://www.imdb.com/title/tt19847976,Movie,6.7,137,2025,"Musical, Family, Fantasy, Romance, Drama",2025-11-21,Jon M. Chu
 tt34621966,6,2025-11-22,Megadoc,MegaDoc,https://www.imdb.com/title/tt34621966,Movie,6.9,107,2025,Documentary,2025-11-21,Mike Figgis
 tt14107334,5,2025-11-21,The Running Man,The Running Man,https://www.imdb.com/title/tt14107334,Movie,6.4,133,2025,"Sci-Fi, Action, Thriller, Adventure",2025-11-14,Edgar Wright
