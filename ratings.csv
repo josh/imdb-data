@@ -1,4 +1,7 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt14905854,4,2026-02-10,Hamnet,Hamnet,https://www.imdb.com/title/tt14905854,Movie,8.0,125,2025,"Biography, Drama, History, Romance",2025-12-05,Chloé Zhao
+tt29713093,6,2026-02-10,We Bury the Dead,We Bury the Dead,https://www.imdb.com/title/tt29713093,Movie,5.7,94,2024,"Thriller, Horror",2026-01-02,Zak Hilditch
+tt35222590,6,2026-02-10,Exit 8,8-ban deguchi,https://www.imdb.com/title/tt35222590,Movie,6.4,95,2025,"Horror, Mystery, Thriller, Action, Adventure",2025-08-29,Genki Kawamura
 tt27847051,6,2026-02-09,The Secret Agent,O Agente Secreto,https://www.imdb.com/title/tt27847051,Movie,7.4,161,2025,"Drama, Thriller, Crime, Mystery",2025-11-06,Kleber Mendonça Filho
 tt30096221,6,2026-02-08,Ella McCay,Ella McCay,https://www.imdb.com/title/tt30096221,Movie,5.1,115,2025,"Comedy, Drama",2025-12-12,James L. Brooks
 tt0830361,9,2026-02-07,The Lost Room,The Lost Room,https://www.imdb.com/title/tt0830361,TV Mini Series,8.1,90,2006,"Sci-Fi, Action, Fantasy, Mystery",2006-12-11,
@@ -11,15 +14,15 @@ tt28144668,5,2026-01-30,Run Amok,Run Amok,https://www.imdb.com/title/tt28144668,
 tt39150111,4,2026-01-30,Zi,Zi,https://www.imdb.com/title/tt39150111,Movie,6.3,99,2026,Sci-Fi,2026-01-24,Kogonada
 tt37775809,4,2026-01-30,The Musical,The Musical,https://www.imdb.com/title/tt37775809,Movie,7.7,87,2026,Comedy,2026-01-25,Giselle Bonilla
 tt35504660,5,2026-01-30,Bedford Park,Bedford Park,https://www.imdb.com/title/tt35504660,Movie,7.1,117,2026,"Drama, Romance",2026-01-24,Stephanie Ahn
-tt38626943,5,2026-01-29,Carousel,Carousel,https://www.imdb.com/title/tt38626943,Movie,5.0,105,2026,"Drama, Romance, Comedy",2026-01-22,Rachel Lambert
-tt38579505,5,2026-01-29,Chasing Summer,Chasing Summer,https://www.imdb.com/title/tt38579505,Movie,6.6,91,2026,"Comedy, Drama",2026-01-26,Josephine Decker
+tt38626943,5,2026-01-29,Carousel,Carousel,https://www.imdb.com/title/tt38626943,Movie,4.9,105,2026,"Drama, Romance, Comedy",2026-01-22,Rachel Lambert
+tt38579505,5,2026-01-29,Chasing Summer,Chasing Summer,https://www.imdb.com/title/tt38579505,Movie,6.7,91,2026,"Comedy, Drama",2026-01-26,Josephine Decker
 tt39163244,4,2026-01-29,The Best Summer,The Best Summer,https://www.imdb.com/title/tt39163244,Movie,6.3,84,2026,"Documentary, Biography, Music",2026-01-24,Tamra Davis
-tt39150080,1,2026-01-29,Ghost in the Machine,Ghost in the Machine,https://www.imdb.com/title/tt39150080,Movie,5.4,110,2026,Documentary,2026-01-26,Valerie Veatch
-tt6628920,8,2026-01-28,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,6.1,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
+tt39150080,1,2026-01-29,Ghost in the Machine,Ghost in the Machine,https://www.imdb.com/title/tt39150080,Movie,5.7,110,2026,Documentary,2026-01-26,Valerie Veatch
+tt6628920,8,2026-01-28,The Shitheads,The Shitheads,https://www.imdb.com/title/tt6628920,Movie,6.0,98,2026,"Comedy, Sci-Fi",2026-01-23,Macon Blair
 tt32321285,8,2026-01-28,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.2,114,2026,"Drama, Thriller, Crime",2026-01-23,Beth de Araújo
 tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,7.8,112,2026,"Action, Adventure, Sci-Fi",2026-01-26,Padraic McKinley
 tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,6.4,93,2026,Comedy,2026-01-25,David Wain
-tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,5.5,94,2026,Thriller,2026-01-24,Cathy Yan
+tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,5.6,94,2026,Thriller,2026-01-24,Cathy Yan
 tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,7.0,94,2026,Drama,2026-01-23,Molly Manners
 tt33296751,7,2026-01-24,Tuner,Tuner,https://www.imdb.com/title/tt33296751,Movie,7.3,109,2025,"Crime, Thriller, Drama, Music, Romance",2025-05-29,Daniel Roher
 tt36980182,5,2026-01-23,The Incomer,The Incomer,https://www.imdb.com/title/tt36980182,Movie,7.5,102,2026,Comedy,2026-01-22,Louis Paxton
@@ -1162,7 +1165,7 @@ tt10895658,7,2021-08-01,Flipped,Flipped,https://www.imdb.com/title/tt10895658,TV
 tt10681780,6,2021-08-01,The Stranger,The Stranger,https://www.imdb.com/title/tt10681780,TV Series,6.2,8,2020,"Short, Thriller, Horror",2020-04-13,
 tt12759400,5,2021-08-01,High Score,High Score,https://www.imdb.com/title/tt12759400,TV Mini Series,7.4,45,2020,Documentary,2020-08-19,
 tt10623550,5,2021-08-01,The Fugitive,The Fugitive,https://www.imdb.com/title/tt10623550,TV Mini Series,5.8,8,2020,"Drama, Crime, Thriller, Action",2020-08-03,
-tt7808566,5,2021-08-01,Made for Love,Made for Love,https://www.imdb.com/title/tt7808566,TV Series,6.9,30,2021,"Drama, Comedy, Sci-Fi, Thriller",2021-04-01,
+tt7808566,5,2021-08-01,Made for Love,Made for Love,https://www.imdb.com/title/tt7808566,TV Series,6.9,30,2021,"Drama, Comedy, Sci-Fi, Thriller, Romance",2021-04-01,
 tt9223870,8,2021-08-01,Woke,Woke,https://www.imdb.com/title/tt9223870,TV Series,6.7,25,2020,Comedy,2020-09-09,
 tt6156584,7,2021-08-01,Snowpiercer,Snowpiercer,https://www.imdb.com/title/tt6156584,TV Series,6.9,60,2020,"Action, Drama, Sci-Fi, Thriller",2020-05-17,
 tt12027034,8,2021-08-01,Middleditch & Schwartz,Middleditch & Schwartz,https://www.imdb.com/title/tt12027034,TV Series,8.6,50,2020,Comedy,2020-04-21,
