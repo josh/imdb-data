@@ -22,7 +22,6 @@ classifiers = [
 ]
 dependencies = [
     "click>=8.2,<9",
-    "parsel>=1.7,<2",
     "requests>=2.32,<3",
 ]
 scripts.imdb-data = "imdb_data:main"
