@@ -8,11 +8,10 @@ from contextlib import contextmanager
 from datetime import datetime, timedelta
 from pathlib import Path
 from time import sleep
-from typing import Any, Literal, NewType, TypedDict, cast
+from typing import Any, Literal, NewType, TypedDict
 
 import click
 import requests
-from parsel import Selector
 
 _EPOCH: datetime = datetime(1970, 1, 1)
 
@@ -35,11 +34,6 @@ _IMDB_GRAPHQL_DEFAULT_HEADERS = {
     "x-imdb-user-language": "en-US",
 }
 
-_WATCHLIST_URL = "https://www.imdb.com/list/watchlist"
-_WATCHLIST_TEMPLATE_URL = "https://www.imdb.com/user/{user_id}/watchlist/"
-_RATINGS_URL = "https://www.imdb.com/list/ratings"
-_RATINGS_TEMPLATE_URL = "https://www.imdb.com/user/{user_id}/ratings/"
-_EXPORTS_URL = "https://www.imdb.com/exports/"
 
 UserID = NewType("UserID", str)
 ListID = NewType("ListID", str)
@@ -130,20 +124,6 @@ def _open_cookie_jar(
             logger.debug("No changes to cookies")
 
 
-def watchlist_url(user_id: UserID | None = None) -> str:
-    if user_id:
-        return _WATCHLIST_TEMPLATE_URL.format(user_id=user_id)
-    else:
-        return _WATCHLIST_URL
-
-
-def ratings_url(user_id: UserID | None = None) -> str:
-    if user_id:
-        return _RATINGS_TEMPLATE_URL.format(user_id=user_id)
-    else:
-        return _RATINGS_URL
-
-
 @click.group()
 @click.option(
     "-c",
@@ -170,13 +150,13 @@ def main(
     ctx.obj = ctx.with_resource(_open_cookie_jar(cookie_file))
 
 
-def _get_nextjs_data(response: requests.Response) -> dict[str, Any]:
-    selector = Selector(response.text)
-    for script_el in selector.css('script[id="__NEXT_DATA__"]::text'):
-        json_text = script_el.get()
-        data = json.loads(json_text)
-        return cast(dict[str, Any], data)
-    raise ValueError("Could not find __NEXT_DATA__")
+def _graphql_headers(
+    jar: requests.cookies.RequestsCookieJar,
+) -> dict[str, str]:
+    headers = _IMDB_GRAPHQL_DEFAULT_HEADERS.copy()
+    if session_id := jar.get("session-id"):
+        headers["x-amzn-sessionid"] = session_id
+    return headers
 
 
 @main.command()
@@ -200,16 +180,33 @@ def dump_cookies(jar: requests.cookies.RequestsCookieJar) -> None:
     print("; ".join(f"{cookie.name}={cookie.value}" for cookie in jar))
 
 
+_WATCHLIST_GRAPHQL_QUERY = """
+query Watchlist($userId: ID) {
+  predefinedList(classType: WATCH_LIST, userId: $userId) {
+    id
+    lastModifiedDate
+    author { userId }
+  }
+}
+"""
+
+
 def get_user_and_watchlist_id(
     jar: requests.cookies.RequestsCookieJar,
     user_id: UserID | None = None,
 ) -> tuple[str, str]:
-    url = watchlist_url(user_id=user_id)
-    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response = requests.post(
+        _IMDB_GRAPHQL_URL,
+        headers=_graphql_headers(jar),
+        cookies=jar,
+        json={
+            "query": _WATCHLIST_GRAPHQL_QUERY,
+            "variables": {"userId": user_id},
+        },
+    )
     response.raise_for_status()
-    next_data = _get_nextjs_data(response)
-    data = next_data["props"]["pageProps"]["aboveTheFoldData"]
-    return (data["authorId"], data["listId"])
+    data = response.json()["data"]["predefinedList"]
+    return (data["author"]["userId"], data["id"])
 
 
 @main.command()
@@ -338,12 +335,9 @@ _YOUR_EXPORTS_PARAMS = {
 def _get_export_nodes_graphql(
     jar: requests.cookies.RequestsCookieJar,
 ) -> list[_ExportDetail]:
-    headers = _IMDB_GRAPHQL_DEFAULT_HEADERS.copy()
-    if session_id := jar.get("session-id"):
-        headers["x-amzn-sessionid"] = session_id
     response = requests.get(
         _IMDB_GRAPHQL_URL,
-        headers=headers,
+        headers=_graphql_headers(jar),
         cookies=jar,
         params=_YOUR_EXPORTS_PARAMS,
         allow_redirects=False,
@@ -353,22 +347,12 @@ def _get_export_nodes_graphql(
     return [edge["node"] for edge in data["getExports"]["edges"]]
 
 
-def _get_export_nodes_html(
-    jar: requests.cookies.RequestsCookieJar,
-) -> list[_ExportDetail]:
-    response = requests.get(_EXPORTS_URL, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
-    response.raise_for_status()
-    next_data = _get_nextjs_data(response)
-    data = next_data["props"]["pageProps"]["mainColumnData"]
-    return [edge["node"] for edge in data["getExports"]["edges"]]
-
-
 def get_export_status(
     jar: requests.cookies.RequestsCookieJar,
     export_id: ExportID | None = None,
     started_after: datetime = _EPOCH,
 ) -> tuple[Status, str]:
-    nodes = _get_export_nodes_html(jar=jar)
+    nodes = _get_export_nodes_graphql(jar=jar)
     logger.debug("Found %d exports", len(nodes))
 
     if export_id is None:
@@ -561,14 +545,18 @@ def get_watchlist_last_modified(
     jar: requests.cookies.RequestsCookieJar,
     user_id: UserID | None = None,
 ) -> datetime:
-    url = watchlist_url(user_id=user_id)
-    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response = requests.post(
+        _IMDB_GRAPHQL_URL,
+        headers=_graphql_headers(jar),
+        cookies=jar,
+        json={
+            "query": _WATCHLIST_GRAPHQL_QUERY,
+            "variables": {"userId": user_id},
+        },
+    )
     response.raise_for_status()
-    next_data = _get_nextjs_data(response)
-    data = next_data["props"]["pageProps"]["mainColumnData"]
-    watchlist = data["predefinedList"]
-    last_modified = _parse_modified_date(watchlist["lastModifiedDate"])
-    return last_modified
+    data = response.json()["data"]["predefinedList"]
+    return _parse_modified_date(data["lastModifiedDate"])
 
 
 def _parse_modified_date(date_str: str) -> datetime:
@@ -579,21 +567,35 @@ def _parse_modified_date(date_str: str) -> datetime:
         return datetime.strptime(date_str, "%Y-%m-%dT%H:%MZ")
 
 
+_RECENT_RATINGS_GRAPHQL_QUERY = """
+query RecentRatings($userId: ID, $first: Int!) {
+  userRatings(userId: $userId, first: $first, sort: {by: MOST_RECENT, order: DESC}) {
+    edges {
+      node {
+        title { id }
+      }
+    }
+  }
+}
+"""
+
+
 def get_recently_rated_ids(
     jar: requests.cookies.RequestsCookieJar,
     user_id: UserID | None = None,
 ) -> list[str]:
-    url = ratings_url(user_id=user_id)
-    response = requests.get(url, headers=_IMDB_DEFAULT_HEADERS, cookies=jar)
+    response = requests.post(
+        _IMDB_GRAPHQL_URL,
+        headers=_graphql_headers(jar),
+        cookies=jar,
+        json={
+            "query": _RECENT_RATINGS_GRAPHQL_QUERY,
+            "variables": {"userId": user_id, "first": 50},
+        },
+    )
     response.raise_for_status()
-    next_data = _get_nextjs_data(response)
-    data = next_data["props"]["pageProps"]
-
-    recently_rated_title_ids: list[str] = [
-        edge["node"]["title"]["id"]
-        for edge in data["mainColumnData"]["advancedTitleSearch"]["edges"]
-    ]
-    return recently_rated_title_ids
+    data = response.json()["data"]
+    return [edge["node"]["title"]["id"] for edge in data["userRatings"]["edges"]]
 
 
 @main.command()
