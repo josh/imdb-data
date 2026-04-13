@@ -32,7 +32,7 @@ license-expression = "MIT"
 dev = [
     "mypy>=1,<2",
     "ruff>=0.5",
-    "types-requests>=2.32,<3",
+    "types-requests>=2.33.0.20260327,<3",
 ]
 
 [tool.hatch.build.targets.wheel.force-include]
