@@ -21,7 +21,7 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = [
-    "click>=8.4,<9",
+    "click>=8.2,<9",
     "requests>=2.32,<3",
 ]
 scripts.imdb-data = "imdb_data:main"
