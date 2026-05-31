@@ -41,7 +41,7 @@ ExportID = Literal["watchlist", "ratings"] | ListID
 Status = Literal["NOT_FOUND", "READY", "PROCESSING"]
 
 
-class ExportIDParam(click.ParamType):
+class ExportIDParam(click.ParamType[ExportID]):
     name = "export_id"
 
     def convert(
@@ -55,7 +55,7 @@ class ExportIDParam(click.ParamType):
         )
 
 
-class ListIDParam(click.ParamType):
+class ListIDParam(click.ParamType[ListID]):
     name = "list_id"
 
     def convert(
@@ -70,7 +70,7 @@ class ListIDParam(click.ParamType):
             return self.fail(f"Invalid list ID: {value}", param, ctx)
 
 
-class UserIDParam(click.ParamType):
+class UserIDParam(click.ParamType[UserID]):
     name = "user_id"
 
     def convert(
