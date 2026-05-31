@@ -30,7 +30,7 @@ license-expression = "MIT"
 
 [dependency-groups]
 dev = [
-    "mypy>=1,<2",
+    "mypy>=1.17,<2",
     "ruff>=0.5",
     "types-requests>=2.32,<3",
 ]
