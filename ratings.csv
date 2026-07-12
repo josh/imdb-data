@@ -1,4 +1,6 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt31195136,6,2026-07-12,Normal,Normal,https://www.imdb.com/title/tt31195136,Movie,6.3,91,2025,"Action, Crime, Thriller",2026-04-17,Ben Wheatley
+tt35309713,1,2026-07-12,Citizen Vigilante,Citizen Vigilante,https://www.imdb.com/title/tt35309713,Movie,6.1,89,2026,"Thriller, Action, Crime",2026-06-19,Uwe Boll
 tt36042156,6,2026-07-12,The Punisher: One Last Kill,The Punisher: One Last Kill,https://www.imdb.com/title/tt36042156,TV Special,7.0,48,2026,"Action, Crime, Drama, Thriller, Adventure",2026-05-12,Reinaldo Marcus Green
 tt7131622,10,2026-07-10,Once Upon a Time in... Hollywood,Once Upon a Time in... Hollywood,https://www.imdb.com/title/tt7131622,Movie,7.6,161,2019,"Drama, Comedy",2019-07-26,Quentin Tarantino
 tt34381258,5,2026-07-09,Heel,Good Boy,https://www.imdb.com/title/tt34381258,Movie,6.8,110,2025,"Thriller, Drama, Mystery, Crime, Horror",2026-03-06,Jan Komasa
@@ -55,7 +57,7 @@ tt0830361,9,2026-02-07,The Lost Room,The Lost Room,https://www.imdb.com/title/tt
 tt26443597,6,2026-01-31,Zootopia 2,Zootopia 2,https://www.imdb.com/title/tt26443597,Movie,7.3,108,2025,"Animation, Adventure, Comedy, Family, Mystery, Crime",2025-11-26,"Jared Bush,Byron Howard"
 tt37405791,6,2026-01-31,Hanging by a Wire,Hanging by a Wire,https://www.imdb.com/title/tt37405791,Movie,7.8,98,2026,"Documentary, Thriller, Action, Adventure, Crime",2026-01-22,Mohammed Ali Naqvi
 tt33999471,4,2026-01-30,Rock Springs,Rock Springs,https://www.imdb.com/title/tt33999471,Movie,5.9,96,2026,"Drama, Horror, Sci-Fi",2026-01-25,Vera Miao
-tt39149574,3,2026-01-30,All About the Money,All About the Money,https://www.imdb.com/title/tt39149574,Movie,5.9,90,2026,Documentary,2026-01-25,Sinéad O'Shea
+tt39149574,3,2026-01-30,All About the Money,All About the Money,https://www.imdb.com/title/tt39149574,Movie,6.0,90,2026,Documentary,2026-01-25,Sinéad O'Shea
 tt36981462,3,2026-01-30,Union County,Union County,https://www.imdb.com/title/tt36981462,Movie,6.5,97,2026,Drama,2026-08-14,Adam Meeks
 tt28144668,5,2026-01-30,Run Amok,Run Amok,https://www.imdb.com/title/tt28144668,Movie,6.3,96,2026,"Comedy, Drama",2026-01-26,NB Mager
 tt39150111,4,2026-01-30,Zi,Zi,https://www.imdb.com/title/tt39150111,Movie,5.8,99,2026,Sci-Fi,2026-01-24,Kogonada
@@ -68,7 +70,7 @@ tt39150080,1,2026-01-29,Ghost in the Machine,Ghost in the Machine,https://www.im
 tt6628920,8,2026-01-28,Idiots,Idiots,https://www.imdb.com/title/tt6628920,Movie,6.2,98,2026,"Comedy, Crime",2026-08-28,Macon Blair
 tt32321285,8,2026-01-28,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.0,114,2026,"Drama, Thriller, Crime",2027-01-22,Beth de Araújo
 tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,7.3,115,2026,"Action, Adventure, Thriller, Crime, Drama",2026-09-18,Padraic McKinley
-tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,6.7,93,2026,Comedy,2026-07-10,David Wain
+tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,6.8,93,2026,Comedy,2026-07-10,David Wain
 tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,4.4,94,2026,Thriller,2026-01-24,Cathy Yan
 tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,6.9,94,2026,Drama,2026-01-23,Molly Manners
 tt33296751,7,2026-01-24,Tuner,Tuner,https://www.imdb.com/title/tt33296751,Movie,7.2,107,2025,"Crime, Thriller, Drama, Music, Romance",2026-05-29,Daniel Roher
@@ -593,7 +595,7 @@ tt0396171,6,2023-11-28,Perfume: The Story of a Murderer,Perfume: The Story of a 
 tt10651850,5,2023-11-27,Nimic,Nimic,https://www.imdb.com/title/tt10651850,Short,6.5,12,2019,"Short, Drama, Fantasy",2020-11-27,Yorgos Lanthimos
 tt8002382,5,2023-11-27,The Marsh King's Daughter,The Marsh King's Daughter,https://www.imdb.com/title/tt8002382,Movie,5.9,109,2023,"Drama, Thriller, Crime, Mystery",2023-11-03,Neil Burger
 tt29633996,7,2023-11-26,Now and Then: The Last Beatles Song,Now and Then: The Last Beatles Song,https://www.imdb.com/title/tt29633996,Short,7.7,12,2023,"Documentary, Short, Biography, Music",2023-11-02,Oliver Murray
-tt14813150,4,2023-11-21,Manodrome,Manodrome,https://www.imdb.com/title/tt14813150,Movie,4.8,95,2023,"Drama, Thriller",2023-11-17,John Trengove
+tt14813150,4,2023-11-21,Manodrome,Manodrome,https://www.imdb.com/title/tt14813150,Movie,4.7,95,2023,"Drama, Thriller",2023-11-17,John Trengove
 tt22687790,6,2023-11-21,A Haunting in Venice,A Haunting in Venice,https://www.imdb.com/title/tt22687790,Movie,6.5,103,2023,"Thriller, Crime, Drama, Mystery, Horror",2023-09-15,Kenneth Branagh
 tt5302918,4,2023-11-16,Nyad,Nyad,https://www.imdb.com/title/tt5302918,Movie,7.1,121,2023,"Drama, Biography, Sport, History",2023-11-03,"Jimmy Chin,Elizabeth Chai Vasarhelyi"
 tt13957560,6,2023-11-09,Dumb Money,Dumb Money,https://www.imdb.com/title/tt13957560,Movie,6.8,105,2023,"Drama, Biography, Comedy",2023-09-29,Craig Gillespie
@@ -2585,7 +2587,7 @@ tt0978764,4,2014-05-04,Sucker Punch,Sucker Punch,https://www.imdb.com/title/tt09
 tt1212419,4,2014-05-04,Hereafter,Hereafter,https://www.imdb.com/title/tt1212419,Movie,6.5,129,2010,"Drama, Fantasy, Romance",2010-10-22,Clint Eastwood
 tt1216487,8,2014-05-04,The Girl Who Played with Fire,Flickan som lekte med elden,https://www.imdb.com/title/tt1216487,Movie,7.1,129,2009,"Thriller, Mystery, Crime, Drama, Action",2010-08-27,Daniel Alfredson
 tt1424381,4,2014-05-04,Predators,Predators,https://www.imdb.com/title/tt1424381,Movie,6.4,107,2010,"Adventure, Sci-Fi, Thriller, Action",2010-07-09,Nimród Antal
-tt0817177,6,2014-05-04,Flipped,Flipped,https://www.imdb.com/title/tt0817177,Movie,7.7,90,2010,"Comedy, Drama, Romance",2010-09-10,Rob Reiner
+tt0817177,6,2014-05-04,Flipped,Flipped,https://www.imdb.com/title/tt0817177,Movie,7.6,90,2010,"Comedy, Drama, Romance",2010-09-10,Rob Reiner
 tt1143896,4,2014-05-04,Holy Rollers,Holy Rollers,https://www.imdb.com/title/tt1143896,Movie,5.9,89,2010,"Drama, Crime, Biography, History",2010-12-23,Kevin Asch
 tt1559549,4,2014-05-04,Restrepo,Restrepo,https://www.imdb.com/title/tt1559549,Movie,7.4,93,2010,"Documentary, War, Biography, History",2010-08-06,"Tim Hetherington,Sebastian Junger"
 tt0104815,6,2014-05-04,El Mariachi,El mariachi,https://www.imdb.com/title/tt0104815,Movie,6.8,81,1992,"Crime, Thriller, Action",1993-02-26,Robert Rodriguez
