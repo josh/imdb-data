@@ -5,7 +5,7 @@ import logging
 import pickle
 from collections.abc import Generator, Iterable
 from contextlib import contextmanager
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from time import sleep
 from typing import Any, Literal, NewType, TypedDict
@@ -13,7 +13,7 @@ from typing import Any, Literal, NewType, TypedDict
 import click
 import requests
 
-_EPOCH: datetime = datetime(1970, 1, 1)
+_EPOCH: datetime = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 _IMDB_DEFAULT_HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
@@ -258,7 +258,7 @@ def get_export_url(
     started_after: datetime = _EPOCH,
     max_time: timedelta = timedelta(minutes=5),
 ) -> str:
-    started_at = datetime.now()
+    started_at = datetime.now(timezone.utc)
     status, url = get_export_status(
         jar=jar,
         export_id=export_id,
@@ -278,7 +278,7 @@ def get_export_url(
         )
     elif status == "PROCESSING":
         wait = 1
-        while datetime.now() - started_at < max_time:
+        while datetime.now(timezone.utc) - started_at < max_time:
             logger.warning("Export is in progress, waiting %d seconds...", wait)
             sleep(wait)
             status, url = get_export_status(
@@ -347,6 +347,14 @@ def _get_export_nodes_graphql(
     return [edge["node"] for edge in data["getExports"]["edges"]]
 
 
+def _parse_started_on(date_str: str) -> datetime:
+    # The trailing "Z" is a literal in the format string, so the parsed value is
+    # naive UTC and needs to be tagged as such before comparing.
+    return datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%S.%fZ").replace(
+        tzinfo=timezone.utc
+    )
+
+
 def get_export_status(
     jar: requests.cookies.RequestsCookieJar,
     export_id: ExportID | None = None,
@@ -377,9 +385,7 @@ def get_export_status(
         raise ValueError(f"Unknown export ID: {export_id}")
 
     nodes = [
-        node
-        for node in nodes
-        if datetime.strptime(node["startedOn"], "%Y-%m-%dT%H:%M:%S.%fZ") > started_after
+        node for node in nodes if _parse_started_on(node["startedOn"]) > started_after
     ]
     logger.debug("Found %d matching exports", len(nodes))
 
@@ -482,8 +488,6 @@ def queue_export(
         logger.error(r.text)
         raise ValueError("export operation failed")
 
-    return None
-
 
 @main.command()
 @click.argument(
@@ -520,7 +524,7 @@ def download_export(
     since: int,
     drop_columns: list[str],
 ) -> int:
-    started_after = datetime.now() - timedelta(seconds=since)
+    started_after = datetime.now(timezone.utc) - timedelta(seconds=since)
 
     if export_text := get_export_text(
         export_id=export_id,
@@ -560,11 +564,17 @@ def get_watchlist_last_modified(
 
 
 def _parse_modified_date(date_str: str) -> datetime:
+    # The trailing "Z" is a literal in the format strings, so the parsed value is
+    # naive UTC and needs to be tagged as such before comparing.
     try:
-        return datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ")
+        return datetime.strptime(date_str, "%Y-%m-%dT%H:%M:%SZ").replace(
+            tzinfo=timezone.utc
+        )
     except ValueError:
         # Sometimes seeing dates like "2024-08-15T02:26Z"
-        return datetime.strptime(date_str, "%Y-%m-%dT%H:%MZ")
+        return datetime.strptime(date_str, "%Y-%m-%dT%H:%MZ").replace(
+            tzinfo=timezone.utc
+        )
 
 
 _RECENT_RATINGS_GRAPHQL_QUERY = """
@@ -616,7 +626,9 @@ def check_watchlist(
     csv_path: Path,
     user_id: UserID | None,
 ) -> None:
-    csv_mtime: datetime = datetime.fromtimestamp(csv_path.stat().st_mtime)
+    csv_mtime: datetime = datetime.fromtimestamp(
+        csv_path.stat().st_mtime, tz=timezone.utc
+    )
     imdb_last_modified = get_watchlist_last_modified(jar=jar, user_id=user_id)
     if csv_mtime <= imdb_last_modified:
         click.echo("outdated=true")
@@ -642,9 +654,9 @@ def check_ratings(
     csv_path: Path,
     user_id: UserID | None,
 ) -> None:
-    csv_title_ids: set[str] = set(
+    csv_title_ids: set[str] = {
         row["Const"] for row in csv.DictReader(csv_path.open("r"))
-    )
+    }
 
     recently_rated_ids = get_recently_rated_ids(jar=jar, user_id=user_id)
     for title_id in recently_rated_ids:
