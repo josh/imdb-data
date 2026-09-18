@@ -1,7 +1,8 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt2012616,6,2026-09-17,Motor City,Motor City,https://www.imdb.com/title/tt2012616,Movie,5.7,103,2025,"Action, Crime, Drama, Mystery, Thriller",2026-07-24,Potsy Ponciroli
 tt27165187,6,2026-09-17,The End of Oak Street,The End of Oak Street,https://www.imdb.com/title/tt27165187,Movie,6.4,99,2026,"Mystery, Thriller, Action, Adventure, Sci-Fi",2026-08-14,David Robert Mitchell
 tt33095251,6,2026-09-17,Tony,Tony,https://www.imdb.com/title/tt33095251,Movie,7.5,106,2026,"Drama, Biography, Comedy",2026-08-21,Matt Johnson
-tt37853455,6,2026-09-12,One Night Only,One Night Only,https://www.imdb.com/title/tt37853455,Movie,6.1,102,2026,"Drama, Romance, Comedy",2026-08-07,Will Gluck
+tt37853455,6,2026-09-12,One Night Only,One Night Only,https://www.imdb.com/title/tt37853455,Movie,6.1,102,2026,"Romance, Comedy",2026-08-07,Will Gluck
 tt34379307,5,2026-08-19,Is God Is,Is God Is,https://www.imdb.com/title/tt34379307,Movie,6.5,100,2026,"Drama, Mystery, Western, Thriller",2026-05-15,Aleshea Harris
 tt32273171,5,2026-08-19,The Death of Robin Hood,The Death of Robin Hood,https://www.imdb.com/title/tt32273171,Movie,6.0,122,2026,"Drama, Adventure, Action",2026-06-19,Michael Sarnoski
 tt33499146,5,2026-08-17,The Dink,The Dink,https://www.imdb.com/title/tt33499146,Movie,6.1,102,2026,"Comedy, Sport, Romance",2026-07-24,Josh Greenbaum
@@ -13,7 +14,7 @@ tt34966562,6,2026-08-10,The Christophers,The Christophers,https://www.imdb.com/t
 tt33311069,6,2026-08-03,The Furious,Huo zhe yan,https://www.imdb.com/title/tt33311069,Movie,7.2,113,2025,"Action, Crime, Thriller",2026-06-12,Kenji Tanigaki
 tt0427340,5,2026-08-01,Masters of the Universe,Masters of the Universe,https://www.imdb.com/title/tt0427340,Movie,6.4,140,2026,"Action, Adventure, Fantasy, Sci-Fi",2026-06-05,Travis Knight
 tt22084616,6,2026-07-31,Spider-Man: Brand New Day,Spider-Man: Brand New Day,https://www.imdb.com/title/tt22084616,Movie,8.0,145,2026,"Adventure, Sci-Fi, Action",2026-07-31,Destin Daniel Cretton
-tt15047880,5,2026-07-29,Disclosure Day,Disclosure Day,https://www.imdb.com/title/tt15047880,Movie,6.4,145,2026,"Sci-Fi, Thriller, Drama, Mystery, Action",2026-06-12,Steven Spielberg
+tt15047880,5,2026-07-29,Disclosure Day,Disclosure Day,https://www.imdb.com/title/tt15047880,Movie,6.4,145,2026,"Sci-Fi, Thriller, Mystery, Action",2026-06-12,Steven Spielberg
 tt1333644,6,2026-07-25,In the Hand of Dante,In the Hand of Dante,https://www.imdb.com/title/tt1333644,Movie,4.9,150,2025,"Drama, Crime, Mystery, Thriller",2026-06-24,Julian Schnabel
 tt6723592,10,2026-07-24,Tenet,Tenet,https://www.imdb.com/title/tt6723592,Movie,7.3,150,2020,"Action, Sci-Fi, Thriller",2020-09-03,Christopher Nolan
 tt33764258,8,2026-07-23,The Odyssey,The Odyssey,https://www.imdb.com/title/tt33764258,Movie,8.4,172,2026,"Adventure, Fantasy, Action",2026-07-17,Christopher Nolan
@@ -33,7 +34,7 @@ tt31189814,7,2026-06-22,Fuze,Fuze,https://www.imdb.com/title/tt31189814,Movie,6.
 tt29355505,7,2026-06-22,Toy Story 5,Toy Story 5,https://www.imdb.com/title/tt29355505,Movie,7.4,102,2026,"Animation, Adventure, Comedy, Family, Fantasy, Drama",2026-06-19,"Andrew Stanton,McKenna Harris"
 tt16431404,7,2026-06-01,Apex,Apex,https://www.imdb.com/title/tt16431404,Movie,6.1,95,2026,"Action, Thriller",2026-04-24,Baltasar Kormákur
 tt27613895,5,2026-05-25,GOAT,Goat,https://www.imdb.com/title/tt27613895,Movie,6.6,100,2026,"Animation, Sport, Action, Comedy, Family",2026-02-13,"Tyree Dillihay,Adam Rosette"
-tt27681354,6,2026-05-20,In the Grey,In the Grey,https://www.imdb.com/title/tt27681354,Movie,6.3,98,2026,"Action, Drama, Thriller, Crime",2026-05-15,Guy Ritchie
+tt27681354,6,2026-05-20,In the Grey,In the Grey,https://www.imdb.com/title/tt27681354,Movie,6.3,98,2026,"Action, Thriller, Crime",2026-05-15,Guy Ritchie
 tt33978029,7,2026-05-17,Ready or Not 2: Here I Come,Ready or Not: Here I Come,https://www.imdb.com/title/tt33978029,Movie,6.5,108,2026,"Horror, Comedy, Thriller",2026-03-20,"Matt Bettinelli-Olpin,Tyler Gillett"
 tt33071426,7,2026-05-10,The Drama,The Drama,https://www.imdb.com/title/tt33071426,Movie,7.1,105,2026,"Romance, Comedy, Drama",2026-04-03,Kristoffer Borgli
 tt32565993,6,2026-05-09,The Sheep Detectives,The Sheep Detectives,https://www.imdb.com/title/tt32565993,Movie,7.4,109,2026,"Comedy, Mystery, Family",2026-05-08,Kyle Balda
@@ -49,7 +50,7 @@ tt21867434,8,2026-03-29,BlackBerry,BlackBerry,https://www.imdb.com/title/tt21867
 tt35522483,9,2026-03-29,Nirvanna the Band the Show the Movie,Nirvanna the Band the Show the Movie,https://www.imdb.com/title/tt35522483,Movie,7.7,100,2025,"Comedy, Sci-Fi, Adventure",2025-11-17,Matt Johnson
 tt8879928,4,2026-03-27,Cold Storage,Cold Storage,https://www.imdb.com/title/tt8879928,Movie,6.0,99,2026,"Comedy, Sci-Fi, Horror",2026-02-13,Jonny Campbell
 tt8036976,6,2026-03-27,Send Help,Send Help,https://www.imdb.com/title/tt8036976,Movie,6.7,113,2026,"Horror, Thriller, Adventure",2026-01-30,Sam Raimi
-tt12042730,7,2026-03-22,Project Hail Mary,Project Hail Mary,https://www.imdb.com/title/tt12042730,Movie,8.2,156,2026,"Sci-Fi, Adventure, Comedy, Drama",2026-03-20,"Phil Lord,Christopher Miller"
+tt12042730,7,2026-03-22,Project Hail Mary,Project Hail Mary,https://www.imdb.com/title/tt12042730,Movie,8.2,156,2026,"Sci-Fi, Adventure, Comedy",2026-03-20,"Phil Lord,Christopher Miller"
 tt15940132,4,2026-03-21,War Machine,War Machine,https://www.imdb.com/title/tt15940132,Movie,6.3,106,2026,"Action, Sci-Fi, Thriller",2026-03-06,Patrick Hughes
 tt1341338,6,2026-03-19,"Good Luck, Have Fun, Don't Die","Good Luck, Have Fun, Don't Die",https://www.imdb.com/title/tt1341338,Movie,7.0,134,2025,"Action, Adventure, Sci-Fi, Comedy",2026-02-13,Gore Verbinski
 tt29002950,5,2026-03-18,Resurrection,Kuang ye shi dai,https://www.imdb.com/title/tt29002950,Movie,7.2,160,2025,"Drama, Sci-Fi",2025-11-22,Bi Gan
@@ -595,7 +596,7 @@ tt25289836,4,2023-12-28,Good Burger 2,Good Burger 2,https://www.imdb.com/title/t
 tt15744298,4,2023-12-27,Freelance,Freelance,https://www.imdb.com/title/tt15744298,Movie,5.6,108,2023,"Action, Comedy",2023-10-27,Pierre Morel
 tt26350277,5,2023-12-27,Ballerina,Ballerina,https://www.imdb.com/title/tt26350277,Movie,6.3,92,2023,"Action, Thriller",2023-10-06,Chung-Hyun Lee
 tt16431870,4,2023-12-26,The Family Plan,The Family Plan,https://www.imdb.com/title/tt16431870,Movie,6.3,118,2023,"Action, Comedy",2023-12-15,Simon Cellan Jones
-tt10545296,5,2023-12-24,The Hunger Games: The Ballad of Songbirds & Snakes,The Hunger Games: The Ballad of Songbirds & Snakes,https://www.imdb.com/title/tt10545296,Movie,6.6,157,2023,"Action, Adventure, Sci-Fi, Drama, Thriller, War",2023-11-17,Francis Lawrence
+tt10545296,5,2023-12-24,The Hunger Games: The Ballad of Songbirds & Snakes,The Hunger Games: The Ballad of Songbirds & Snakes,https://www.imdb.com/title/tt10545296,Movie,6.6,157,2023,"Action, Adventure, Sci-Fi",2023-11-17,Francis Lawrence
 tt21064584,7,2023-12-22,The Iron Claw,The Iron Claw,https://www.imdb.com/title/tt21064584,Movie,7.5,132,2023,"Drama, Biography, Sport",2023-12-22,Sean Durkin
 tt14773478,4,2023-12-20,Medusa Deluxe,Medusa Deluxe,https://www.imdb.com/title/tt14773478,Movie,6.1,101,2022,"Drama, Mystery",2023-08-11,Thomas Hardiman
 tt10245106,5,2023-12-19,Dreamin' Wild,Dreamin' Wild,https://www.imdb.com/title/tt10245106,Movie,6.3,111,2022,"Biography, Drama, Music",2024-06-06,Bill Pohlad
@@ -733,7 +734,7 @@ tt2235759,8,2023-05-14,The Great,The Great,https://www.imdb.com/title/tt2235759,
 tt11041332,7,2023-05-14,Yellowjackets,Yellowjackets,https://www.imdb.com/title/tt11041332,TV Series,7.7,60,2021,"Drama, Mystery, Thriller, Horror",2021-11-14,
 tt5348176,7,2023-05-14,Barry,Barry,https://www.imdb.com/title/tt5348176,TV Series,8.3,30,2018,"Comedy, Crime, Drama, Action",2018-03-25,
 tt7660850,9,2023-05-14,Succession,Succession,https://www.imdb.com/title/tt7660850,TV Series,8.8,60,2018,"Drama, Comedy",2018-06-03,
-tt10986410,7,2023-05-14,Ted Lasso,Ted Lasso,https://www.imdb.com/title/tt10986410,TV Series,8.7,30,2020,"Comedy, Drama, Sport",2020-08-14,
+tt10986410,7,2023-05-14,Ted Lasso,Ted Lasso,https://www.imdb.com/title/tt10986410,TV Series,8.7,30,2020,"Comedy, Sport",2020-08-14,
 tt18071972,4,2023-05-14,Organ Trail,Organ Trail,https://www.imdb.com/title/tt18071972,Movie,5.1,112,2023,"Western, Drama, Thriller, Horror",2023-05-12,Michael Patrick Jann
 tt13130024,4,2023-05-14,Simulant,Simulant,https://www.imdb.com/title/tt13130024,Movie,5.3,95,2023,"Sci-Fi, Thriller, Crime, Drama, Action",2023-06-02,April Mullen
 tt20859464,7,2023-05-14,The Artifice Girl,The Artifice Girl,https://www.imdb.com/title/tt20859464,Movie,6.6,93,2022,"Sci-Fi, Mystery, Thriller",2023-04-27,Franklin Ritch
@@ -991,7 +992,7 @@ tt9419884,8,2022-05-11,Doctor Strange in the Multiverse of Madness,Doctor Strang
 tt0185906,10,2022-05-11,Band of Brothers,Band of Brothers,https://www.imdb.com/title/tt0185906,TV Mini Series,9.4,60,2001,"History, Action, Drama, War",2001-09-09,
 tt13320622,7,2022-05-11,The Lost City,The Lost City,https://www.imdb.com/title/tt13320622,Movie,6.1,112,2022,"Action, Comedy, Romance, Adventure",2022-03-25,"Aaron Nee,Adam Nee"
 tt12412888,4,2022-05-05,Sonic the Hedgehog 2,Sonic the Hedgehog 2,https://www.imdb.com/title/tt12412888,Movie,6.5,122,2022,"Action, Adventure, Comedy, Sci-Fi, Family, Fantasy",2022-04-08,Jeff Fowler
-tt1877830,9,2022-05-01,The Batman,The Batman,https://www.imdb.com/title/tt1877830,Movie,7.8,176,2022,"Crime, Mystery, Action, Drama",2022-03-04,Matt Reeves
+tt1877830,9,2022-05-01,The Batman,The Batman,https://www.imdb.com/title/tt1877830,Movie,7.8,176,2022,"Crime, Mystery, Action",2022-03-04,Matt Reeves
 tt0106364,7,2022-04-26,Batman: Mask of the Phantasm,Batman: Mask of the Phantasm,https://www.imdb.com/title/tt0106364,Movie,7.8,76,1993,"Animation, Adventure, Sci-Fi, Mystery, Crime, Family, Action",1993-12-25,"Kevin Altieri,Boyd Kirkland,Frank Paur,Dan Riba,Eric Radomski,Bruce Timm"
 tt12028614,5,2022-04-26,Vinyl Nation,Vinyl Nation,https://www.imdb.com/title/tt12028614,Movie,6.5,92,2020,Documentary,2022-04-19,"Christopher Boone,Kevin Smokler"
 tt0376136,7,2022-04-23,The Rum Diary,The Rum Diary,https://www.imdb.com/title/tt0376136,Movie,6.1,119,2011,"Drama, Comedy, Romance",2011-10-28,Bruce Robinson
@@ -1436,7 +1437,7 @@ tt10050772,7,2021-07-22,I Think You Should Leave with Tim Robinson,I Think You S
 tt12708542,5,2021-07-22,Star Wars: The Bad Batch,Star Wars: The Bad Batch,https://www.imdb.com/title/tt12708542,TV Series,7.8,30,2021,"Animation, Sci-Fi, Action, Adventure, Drama, Fantasy",2021-05-04,
 tt11828492,7,2021-07-22,Physical,Physical,https://www.imdb.com/title/tt11828492,TV Series,7.3,30,2021,"Comedy, Drama",2021-06-18,
 tt8111088,8,2021-07-22,The Mandalorian,The Mandalorian,https://www.imdb.com/title/tt8111088,TV Series,8.6,40,2019,"Sci-Fi, Adventure, Fantasy, Action",2019-11-12,
-tt1190634,8,2021-07-22,The Boys,The Boys,https://www.imdb.com/title/tt1190634,TV Series,8.5,60,2019,"Action, Sci-Fi, Crime, Comedy, Drama",2019-07-26,
+tt1190634,8,2021-07-22,The Boys,The Boys,https://www.imdb.com/title/tt1190634,TV Series,8.5,60,2019,"Action, Sci-Fi, Crime, Comedy",2019-07-26,
 tt0903747,8,2021-07-22,Breaking Bad,Breaking Bad,https://www.imdb.com/title/tt0903747,TV Series,9.5,48,2008,"Drama, Crime, Thriller",2008-01-20,
 tt0141842,8,2021-07-22,The Sopranos,The Sopranos,https://www.imdb.com/title/tt0141842,TV Series,9.2,55,1999,"Crime, Drama",1999-01-10,
 tt5834204,6,2021-07-22,The Handmaid's Tale,The Handmaid's Tale,https://www.imdb.com/title/tt5834204,TV Series,8.3,60,2017,"Drama, Thriller, Sci-Fi",2017-04-26,
@@ -1496,7 +1497,7 @@ tt11655202,7,2021-05-24,Riders of Justice,Retfærdighedens ryttere,https://www.i
 tt0993840,4,2021-05-22,Army of the Dead,Army of the Dead,https://www.imdb.com/title/tt0993840,Movie,5.8,148,2021,"Action, Horror, Sci-Fi, Thriller, Crime, Drama, War, Adventure",2021-05-21,Zack Snyder
 tt6111574,5,2021-05-20,The Woman in the Window,The Woman in the Window,https://www.imdb.com/title/tt6111574,Movie,5.7,100,2021,"Drama, Thriller, Crime, Mystery",2021-05-14,Joe Wright
 tt6060444,7,2021-05-17,The Paper Tigers,The Paper Tigers,https://www.imdb.com/title/tt6060444,Movie,6.3,108,2020,"Action, Comedy",2021-05-07,Quoc Bao Tran
-tt3215824,7,2021-05-17,Those Who Wish Me Dead,Those Who Wish Me Dead,https://www.imdb.com/title/tt3215824,Movie,6.0,100,2021,"Thriller, Action, Drama",2021-05-14,Taylor Sheridan
+tt3215824,7,2021-05-17,Those Who Wish Me Dead,Those Who Wish Me Dead,https://www.imdb.com/title/tt3215824,Movie,6.0,100,2021,"Thriller, Action",2021-05-14,Taylor Sheridan
 tt4136456,3,2021-05-16,The Virtuoso,The Virtuoso,https://www.imdb.com/title/tt4136456,Movie,5.0,110,2021,"Thriller, Action, Drama",2021-04-30,Nick Stagliano
 tt10279362,4,2021-05-14,French Exit,French Exit,https://www.imdb.com/title/tt10279362,Movie,5.9,113,2020,"Comedy, Drama",2021-02-12,Azazel Jacobs
 tt9224288,4,2021-05-13,Mainstream,Mainstream,https://www.imdb.com/title/tt9224288,Movie,5.1,94,2020,"Drama, Comedy",2021-05-07,Gia Coppola
@@ -1555,7 +1556,7 @@ tt6857376,6,2021-02-09,Palmer,Palmer,https://www.imdb.com/title/tt6857376,Movie,
 tt10334148,3,2021-02-08,Blithe Spirit,Blithe Spirit,https://www.imdb.com/title/tt10334148,Movie,5.5,99,2020,"Comedy, Fantasy, Romance",2021-02-19,Edward Hall
 tt12676326,7,2021-02-08,Malcolm & Marie,Malcolm & Marie,https://www.imdb.com/title/tt12676326,Movie,6.6,106,2021,"Drama, Romance",2021-02-05,Sam Levinson
 tt6571548,6,2021-02-06,The White Tiger,The White Tiger,https://www.imdb.com/title/tt6571548,Movie,7.1,125,2021,"Drama, Crime",2021-01-22,Ramin Bahrani
-tt10016180,6,2021-02-05,The Little Things,The Little Things,https://www.imdb.com/title/tt10016180,Movie,6.3,128,2021,"Thriller, Crime, Drama, Mystery",2021-01-29,John Lee Hancock
+tt10016180,6,2021-02-05,The Little Things,The Little Things,https://www.imdb.com/title/tt10016180,Movie,6.3,128,2021,"Thriller, Crime, Mystery",2021-01-29,John Lee Hancock
 tt11271800,5,2021-02-03,Mayday,Mayday,https://www.imdb.com/title/tt11271800,Movie,4.5,100,2021,"Drama, Fantasy, Mystery",2021-10-01,Karen Cinorre
 tt13622074,3,2021-02-03,"All Light, Everywhere","All Light, Everywhere",https://www.imdb.com/title/tt13622074,Movie,6.8,105,2021,Documentary,2021-06-04,Theo Anthony
 tt6372694,4,2021-02-03,Prisoners of the Ghostland,Prisoners of the Ghostland,https://www.imdb.com/title/tt6372694,Movie,4.2,103,2021,"Thriller, Fantasy, Horror, Western",2021-09-17,Sion Sono
@@ -1569,7 +1570,7 @@ tt10265034,5,2021-01-31,Land,Land,https://www.imdb.com/title/tt10265034,Movie,6.
 tt11285280,7,2021-01-31,Together Together,Together Together,https://www.imdb.com/title/tt11285280,Movie,6.4,90,2021,"Comedy, Drama",2021-04-23,Nikole Beckwith
 tt13648228,7,2021-01-31,How It Ends,How It Ends,https://www.imdb.com/title/tt13648228,Movie,5.4,82,2021,"Comedy, Drama",2021-07-20,"Zoe Lister-Jones,Daryl Wein"
 tt9847360,4,2021-01-31,A Glitch in the Matrix,A Glitch in the Matrix,https://www.imdb.com/title/tt9847360,Movie,5.2,108,2021,Documentary,2021-02-05,Rodney Ascher
-tt2085910,4,2021-01-31,Room 237,Room 237,https://www.imdb.com/title/tt2085910,Movie,6.1,102,2012,Documentary,2012-10-26,Rodney Ascher
+tt2085910,4,2021-01-31,Room 237,Room 237,https://www.imdb.com/title/tt2085910,Movie,6.2,102,2012,Documentary,2012-10-26,Rodney Ascher
 tt12373414,4,2021-01-31,Superior,Superior,https://www.imdb.com/title/tt12373414,Movie,5.4,99,2021,"Drama, Thriller",2022-10-05,Erin Vassilopoulos
 tt13648160,7,2021-01-30,Try Harder!,Try Harder!,https://www.imdb.com/title/tt13648160,Movie,7.3,85,2021,Documentary,2023-03-20,Debbie Lum
 tt13648230,7,2021-01-30,In the Same Breath,In the Same Breath,https://www.imdb.com/title/tt13648230,Movie,7.5,95,2021,Documentary,2021-08-18,Nanfu Wang
