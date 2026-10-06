@@ -1,4 +1,5 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt34385689,7,2026-10-06,Paper Tiger,Paper Tiger,https://www.imdb.com/title/tt34385689,Movie,7.0,115,2026,"Crime, Drama, Thriller",2026-11-20,James Gray
 tt1756855,7,2026-10-05,Coyote vs. Acme,Coyote vs. Acme,https://www.imdb.com/title/tt1756855,Movie,7.4,103,2026,"Animation, Comedy, Family, Adventure, Fantasy",2026-08-28,Dave Green
 tt31450459,7,2026-10-02,Digger,Digger,https://www.imdb.com/title/tt31450459,Movie,7.3,129,2026,"Comedy, Drama",2026-10-02,Alejandro G. Iñárritu
 tt35538033,8,2026-09-27,Resident Evil,Resident Evil,https://www.imdb.com/title/tt35538033,Movie,7.6,94,2026,Horror,2026-09-18,Zach Cregger
@@ -90,7 +91,7 @@ tt27847051,6,2026-02-09,The Secret Agent,O Agente Secreto,https://www.imdb.com/t
 tt30096221,6,2026-02-08,Ella McCay,Ella McCay,https://www.imdb.com/title/tt30096221,Movie,5.2,115,2025,"Comedy, Drama",2025-12-12,James L. Brooks
 tt0830361,9,2026-02-07,The Lost Room,The Lost Room,https://www.imdb.com/title/tt0830361,TV Mini Series,8.1,90,2006,"Sci-Fi, Action, Fantasy, Mystery",2006-12-11,
 tt26443597,6,2026-01-31,Zootopia 2,Zootopia 2,https://www.imdb.com/title/tt26443597,Movie,7.3,108,2025,"Animation, Adventure, Comedy, Family, Mystery, Crime",2025-11-26,"Jared Bush,Byron Howard"
-tt37405791,6,2026-01-31,Hanging by a Wire,Hanging by a Wire,https://www.imdb.com/title/tt37405791,Movie,7.6,98,2026,"Documentary, Thriller, Action, Adventure, Crime",2026,Mohammed Ali Naqvi
+tt37405791,6,2026-01-31,Hanging by a Wire,Hanging by a Wire,https://www.imdb.com/title/tt37405791,Movie,7.7,98,2026,"Documentary, Thriller, Action, Adventure, Crime",2026,Mohammed Ali Naqvi
 tt33999471,4,2026-01-30,Rock Springs,Rock Springs,https://www.imdb.com/title/tt33999471,Movie,5.8,96,2026,"Drama, Horror, Sci-Fi",2026-01-25,Vera Miao
 tt39149574,3,2026-01-30,All About the Money,All About the Money,https://www.imdb.com/title/tt39149574,Movie,6.2,90,2026,Documentary,2026-10-30,Sinéad O'Shea
 tt36981462,3,2026-01-30,Union County,Union County,https://www.imdb.com/title/tt36981462,Movie,6.5,97,2026,Drama,2026-08-14,Adam Meeks
@@ -104,10 +105,10 @@ tt39163244,4,2026-01-29,The Best Summer,The Best Summer,https://www.imdb.com/tit
 tt39150080,1,2026-01-29,Ghost in the Machine,Ghost in the Machine,https://www.imdb.com/title/tt39150080,Movie,6.5,110,2026,Documentary,2026-01-26,Valerie Veatch
 tt6628920,8,2026-01-28,Idiots,Idiots,https://www.imdb.com/title/tt6628920,Movie,5.6,100,2026,"Comedy, Crime",2026-08-28,Macon Blair
 tt32321285,8,2026-01-28,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.0,114,2026,"Drama, Thriller, Crime",2026-12-04,Beth de Araújo
-tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,6.9,113,2026,"Action, Adventure, Thriller, Crime, Drama",2026-09-18,Padraic McKinley
+tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,6.9,113,2026,"Action, Adventure, Thriller, Crime, Drama, Western",2026-09-18,Padraic McKinley
 tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,6.1,94,2026,Comedy,2026-07-10,David Wain
 tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,4.6,94,2026,"Thriller, Comedy, Crime",2026-12-04,Cathy Yan
-tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,7.0,94,2026,"Drama, Comedy",2026-10-02,Molly Manners
+tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,6.9,94,2026,"Drama, Comedy",2026-10-02,Molly Manners
 tt33296751,7,2026-01-24,Tuner,Tuner,https://www.imdb.com/title/tt33296751,Movie,7.2,107,2025,"Crime, Thriller, Drama, Music",2026-05-29,Daniel Roher
 tt36980182,5,2026-01-23,The Incomer,The Incomer,https://www.imdb.com/title/tt36980182,Movie,7.5,102,2026,"Comedy, Drama, Fantasy",2026-09-25,Louis Paxton
 tt39150234,8,2026-01-23,The History of Concrete,The History of Concrete,https://www.imdb.com/title/tt39150234,Movie,7.7,101,2026,"Documentary, Comedy, History",2026-01-22,John Wilson
@@ -1250,7 +1251,7 @@ tt7808566,5,2021-08-01,Made for Love,Made for Love,https://www.imdb.com/title/tt
 tt9223870,8,2021-08-01,Woke,Woke,https://www.imdb.com/title/tt9223870,TV Series,6.7,25,2020,Comedy,2020-09-09,
 tt6156584,7,2021-08-01,Snowpiercer,Snowpiercer,https://www.imdb.com/title/tt6156584,TV Series,6.9,60,2020,"Action, Drama, Sci-Fi, Thriller",2020-05-17,
 tt12027034,8,2021-08-01,Middleditch & Schwartz,Middleditch & Schwartz,https://www.imdb.com/title/tt12027034,TV Series,8.5,50,2020,Comedy,2020-04-21,
-tt11921386,6,2021-08-01,Run This City,Run This City,https://www.imdb.com/title/tt11921386,TV Series,6.0,,2020,Short,2020-04-06,
+tt11921386,6,2021-08-01,Run This City,Run This City,https://www.imdb.com/title/tt11921386,TV Series,5.9,,2020,Short,2020-04-06,
 tt11823076,8,2021-08-01,Tiger King,Tiger King,https://www.imdb.com/title/tt11823076,TV Series,7.5,45,2020,"Documentary, Crime, Biography",2020-03-20,
 tt7157248,6,2021-08-01,The New Pope,The New Pope,https://www.imdb.com/title/tt7157248,TV Mini Series,8.0,60,2020,Drama,2020-01-13,
 tt8772296,8,2021-08-01,Euphoria,Euphoria,https://www.imdb.com/title/tt8772296,TV Series,8.1,60,2019,Drama,2019-06-16,
@@ -1459,7 +1460,7 @@ tt9288692,6,2021-07-21,Werewolves Within,Werewolves Within,https://www.imdb.com/
 tt9257258,7,2021-07-21,Kevin Can F**k Himself,Kevin Can F**k Himself,https://www.imdb.com/title/tt9257258,TV Series,7.2,45,2021,"Comedy, Drama",2021-06-13,
 tt9140560,7,2021-07-21,WandaVision,WandaVision,https://www.imdb.com/title/tt9140560,TV Mini Series,7.9,40,2021,"Action, Sci-Fi, Fantasy, Comedy, Mystery, Drama, Romance",2021-01-15,
 tt0460649,7,2021-07-21,How I Met Your Mother,How I Met Your Mother,https://www.imdb.com/title/tt0460649,TV Series,8.3,22,2005,"Comedy, Romance, Drama",2005-09-19,
-tt11815682,8,2021-07-21,Hacks,Hacks,https://www.imdb.com/title/tt11815682,TV Series,8.2,30,2021,"Comedy, Drama",2021-05-13,
+tt11815682,8,2021-07-21,Hacks,Hacks,https://www.imdb.com/title/tt11815682,TV Series,8.3,30,2021,"Comedy, Drama",2021-05-13,
 tt0306414,8,2021-07-21,The Wire,The Wire,https://www.imdb.com/title/tt0306414,TV Series,9.3,60,2002,"Thriller, Crime, Drama",2002-06-02,
 tt5071412,7,2021-07-21,Ozark,Ozark,https://www.imdb.com/title/tt5071412,TV Series,8.4,60,2017,"Drama, Crime, Thriller",2017-07-21,
 tt2085059,8,2021-07-21,Black Mirror,Black Mirror,https://www.imdb.com/title/tt2085059,TV Series,8.7,60,2011,"Drama, Thriller, Sci-Fi, Mystery, Crime",2011-12-04,
@@ -1582,7 +1583,7 @@ tt13429362,5,2021-02-01,In the Earth,In the Earth,https://www.imdb.com/title/tt1
 tt10265034,5,2021-01-31,Land,Land,https://www.imdb.com/title/tt10265034,Movie,6.7,89,2021,"Drama, Adventure",2021-02-12,Robin Wright
 tt11285280,7,2021-01-31,Together Together,Together Together,https://www.imdb.com/title/tt11285280,Movie,6.4,90,2021,"Comedy, Drama",2021-04-23,Nikole Beckwith
 tt13648228,7,2021-01-31,How It Ends,How It Ends,https://www.imdb.com/title/tt13648228,Movie,5.4,82,2021,"Comedy, Drama",2021-07-20,"Zoe Lister-Jones,Daryl Wein"
-tt9847360,4,2021-01-31,A Glitch in the Matrix,A Glitch in the Matrix,https://www.imdb.com/title/tt9847360,Movie,5.2,108,2021,Documentary,2021-02-05,Rodney Ascher
+tt9847360,4,2021-01-31,A Glitch in the Matrix,A Glitch in the Matrix,https://www.imdb.com/title/tt9847360,Movie,5.3,108,2021,Documentary,2021-02-05,Rodney Ascher
 tt2085910,4,2021-01-31,Room 237,Room 237,https://www.imdb.com/title/tt2085910,Movie,6.2,102,2012,Documentary,2012-10-26,Rodney Ascher
 tt12373414,4,2021-01-31,Superior,Superior,https://www.imdb.com/title/tt12373414,Movie,5.4,99,2021,"Drama, Thriller",2022-10-05,Erin Vassilopoulos
 tt13648160,7,2021-01-30,Try Harder!,Try Harder!,https://www.imdb.com/title/tt13648160,Movie,7.3,85,2021,Documentary,2023-03-20,Debbie Lum
@@ -4356,7 +4357,7 @@ tt0266308,8,2014-04-12,Battle Royale,Batoru rowaiaru,https://www.imdb.com/title/
 tt0264464,10,2014-04-12,Catch Me If You Can,Catch Me If You Can,https://www.imdb.com/title/tt0264464,Movie,8.1,141,2002,"Drama, Biography, Crime",2002-12-25,Steven Spielberg
 tt0258470,4,2014-04-12,Bubble Boy,Bubble Boy,https://www.imdb.com/title/tt0258470,Movie,5.7,84,2001,"Adventure, Romance, Sci-Fi, Comedy",2001-08-24,Blair Hayes
 tt0258463,10,2014-04-12,The Bourne Identity,The Bourne Identity,https://www.imdb.com/title/tt0258463,Movie,7.8,119,2002,"Mystery, Thriller, Action",2002-06-14,Doug Liman
-tt0257360,8,2014-04-12,About Schmidt,About Schmidt,https://www.imdb.com/title/tt0257360,Movie,7.2,125,2002,Drama,2003-01-03,Alexander Payne
+tt0257360,8,2014-04-12,About Schmidt,About Schmidt,https://www.imdb.com/title/tt0257360,Movie,7.2,125,2002,"Comedy, Drama",2003-01-03,Alexander Payne
 tt0245674,4,2014-04-12,Thir13en Ghosts,Thir13en Ghosts,https://www.imdb.com/title/tt0245674,Movie,5.7,91,2001,"Fantasy, Horror",2001-10-26,Steve Beck
 tt0243736,6,2014-04-12,40 Days and 40 Nights,40 Days and 40 Nights,https://www.imdb.com/title/tt0243736,Movie,5.6,96,2002,"Romance, Comedy",2002-03-01,Michael Lehmann
 tt0243155,2,2014-04-12,Bridget Jones's Diary,Bridget Jones's Diary,https://www.imdb.com/title/tt0243155,Movie,6.8,97,2001,"Drama, Romance, Comedy",2001-04-13,Sharon Maguire
