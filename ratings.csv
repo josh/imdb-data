@@ -1,4 +1,6 @@
 Const,Your Rating,Date Rated,Title,Original Title,URL,Title Type,IMDb Rating,Runtime (mins),Year,Genres,Release Date,Directors
+tt11561116,4,2026-10-25,The Whisper Man,The Whisper Man,https://www.imdb.com/title/tt11561116,Movie,6.2,111,2026,"Thriller, Crime, Drama",2026-08-28,James Ashcroft
+tt31049299,6,2026-10-25,Animals,Animals,https://www.imdb.com/title/tt31049299,Movie,5.7,106,2026,"Thriller, Action, Crime, Drama",2026-10-09,Ben Affleck
 tt34384900,5,2026-10-24,Love of Your Life,Love of Your Life,https://www.imdb.com/title/tt34384900,Movie,6.5,109,2026,"Drama, Romance",2026-10-14,Rachel Morrison
 tt0107286,5,2026-10-21,Judgment Night,Judgment Night,https://www.imdb.com/title/tt0107286,Movie,6.6,110,1993,"Drama, Crime, Thriller, Action",1993-10-15,Stephen Hopkins
 tt27369017,6,2026-10-14,Hope,Hopeu,https://www.imdb.com/title/tt27369017,Movie,6.6,157,2026,"Action, Horror, Sci-Fi, Thriller",2026-09-09,Na Hong-jin
@@ -98,9 +100,9 @@ tt37405791,6,2026-01-31,Hanging by a Wire,Hanging by a Wire,https://www.imdb.com
 tt33999471,4,2026-01-30,Rock Springs,Rock Springs,https://www.imdb.com/title/tt33999471,Movie,5.8,96,2026,"Drama, Horror, Sci-Fi",2026-01-25,Vera Miao
 tt39149574,3,2026-01-30,All About the Money,All About the Money,https://www.imdb.com/title/tt39149574,Movie,6.4,90,2026,Documentary,2026-10-30,Sinéad O'Shea
 tt36981462,3,2026-01-30,Union County,Union County,https://www.imdb.com/title/tt36981462,Movie,6.4,97,2026,Drama,2026-08-14,Adam Meeks
-tt28144668,5,2026-01-30,Run Amok,Run Amok,https://www.imdb.com/title/tt28144668,Movie,5.6,96,2026,"Musical, Comedy, Drama",2027,NB Mager
+tt28144668,5,2026-01-30,Run Amok,Run Amok,https://www.imdb.com/title/tt28144668,Movie,5.7,96,2026,"Musical, Comedy, Drama",2027,NB Mager
 tt39150111,4,2026-01-30,Zi,Zi,https://www.imdb.com/title/tt39150111,Movie,5.8,99,2026,Sci-Fi,2026-01-24,Kogonada
-tt37775809,4,2026-01-30,The Musical,The Musical,https://www.imdb.com/title/tt37775809,Movie,6.4,86,2026,Comedy,2026-01-25,Giselle Bonilla
+tt37775809,4,2026-01-30,The Musical,The Musical,https://www.imdb.com/title/tt37775809,Movie,6.3,86,2026,Comedy,2026-01-25,Giselle Bonilla
 tt35504660,5,2026-01-30,Bedford Park,Bedford Park,https://www.imdb.com/title/tt35504660,Movie,6.5,117,2026,"Drama, Romance",2027,Stephanie Ahn
 tt38626943,5,2026-01-29,Carousel,Carousel,https://www.imdb.com/title/tt38626943,Movie,5.4,105,2026,"Drama, Romance, Comedy",2026-01-22,Rachel Lambert
 tt38579505,5,2026-01-29,Chasing Summer,Chasing Summer,https://www.imdb.com/title/tt38579505,Movie,6.2,91,2026,"Comedy, Drama, Romance",2026-01-26,Josephine Decker
@@ -108,7 +110,7 @@ tt39163244,4,2026-01-29,The Best Summer,The Best Summer,https://www.imdb.com/tit
 tt39150080,1,2026-01-29,Ghost in the Machine,Ghost in the Machine,https://www.imdb.com/title/tt39150080,Movie,6.6,110,2026,Documentary,2026-01-26,Valerie Veatch
 tt6628920,8,2026-01-28,Idiots,Idiots,https://www.imdb.com/title/tt6628920,Movie,5.5,100,2026,"Comedy, Crime",2026-08-28,Macon Blair
 tt32321285,8,2026-01-28,Josephine,Josephine,https://www.imdb.com/title/tt32321285,Movie,8.0,121,2026,"Drama, Thriller, Crime",2026-12-04,Beth de Araújo
-tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,6.8,113,2026,"Action, Adventure, Thriller, Crime, Drama, Western",2026-09-18,Padraic McKinley
+tt10794054,8,2026-01-28,The Weight,The Weight,https://www.imdb.com/title/tt10794054,Movie,6.7,113,2026,"Action, Adventure, Thriller, Crime, Drama, Western",2026-09-18,Padraic McKinley
 tt36834010,7,2026-01-26,Gail Daughtry and the Celebrity Sex Pass,Gail Daughtry and the Celebrity Sex Pass,https://www.imdb.com/title/tt36834010,Movie,6.0,94,2026,Comedy,2026-07-10,David Wain
 tt34382912,7,2026-01-25,The Gallerist,The Gallerist,https://www.imdb.com/title/tt34382912,Movie,4.6,94,2026,"Thriller, Comedy, Crime",2026-12-04,Cathy Yan
 tt34798706,4,2026-01-24,Extra Geography,Extra Geography,https://www.imdb.com/title/tt34798706,Movie,7.0,94,2026,"Drama, Comedy",2026-10-02,Molly Manners
@@ -1011,7 +1013,7 @@ tt13320622,7,2022-05-11,The Lost City,The Lost City,https://www.imdb.com/title/t
 tt12412888,4,2022-05-05,Sonic the Hedgehog 2,Sonic the Hedgehog 2,https://www.imdb.com/title/tt12412888,Movie,6.5,122,2022,"Action, Adventure, Comedy, Sci-Fi, Family, Fantasy",2022-04-08,Jeff Fowler
 tt1877830,9,2022-05-01,The Batman,The Batman,https://www.imdb.com/title/tt1877830,Movie,7.8,176,2022,"Crime, Mystery, Action",2022-03-04,Matt Reeves
 tt0106364,7,2022-04-26,Batman: Mask of the Phantasm,Batman: Mask of the Phantasm,https://www.imdb.com/title/tt0106364,Movie,7.8,76,1993,"Animation, Adventure, Sci-Fi, Mystery, Crime, Family, Action",1993-12-25,"Kevin Altieri,Boyd Kirkland,Frank Paur,Dan Riba,Eric Radomski,Bruce Timm"
-tt12028614,5,2022-04-26,Vinyl Nation,Vinyl Nation,https://www.imdb.com/title/tt12028614,Movie,6.4,92,2020,Documentary,2022-04-19,"Christopher Boone,Kevin Smokler"
+tt12028614,5,2022-04-26,Vinyl Nation,Vinyl Nation,https://www.imdb.com/title/tt12028614,Movie,6.5,92,2020,Documentary,2022-04-19,"Christopher Boone,Kevin Smokler"
 tt0376136,7,2022-04-23,The Rum Diary,The Rum Diary,https://www.imdb.com/title/tt0376136,Movie,6.1,119,2011,"Drama, Comedy, Romance",2011-10-28,Bruce Robinson
 tt6710474,10,2022-04-23,Everything Everywhere All at Once,Everything Everywhere All at Once,https://www.imdb.com/title/tt6710474,Movie,7.7,139,2022,"Sci-Fi, Adventure, Comedy, Fantasy, Action, Drama",2022-04-08,"Daniel Kwan,Daniel Scheinert"
 tt18271228,7,2022-04-22,Bill Maher: #Adulting,Bill Maher: #Adulting,https://www.imdb.com/title/tt18271228,TV Special,6.0,67,2022,Comedy,2022-04-15,Ryan Polito
